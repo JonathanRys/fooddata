@@ -21,7 +21,6 @@
 'and paprika'
 'and paprika]'
 'and paprika}'
-'yodated salt'
 'and turmeric and paprika and paprika for color and spice'
 'annato and paprika extracts'
 'annatto and oleoresin paprika color if colored'
@@ -575,3 +574,20 @@
 'with paprika'
 'yeast extract caramel color and paprika'
 'YEAST PAPRIKA OLEORESIN FOR COLOR'
+'yodated salt'
+anise
+basil
+caraway
+chamomile
+cilantro
+coriander
+dill
+fennel
+lavender
+lemon Grass
+marjoram
+oregano
+parsley
+rosemary
+sage
+thyme

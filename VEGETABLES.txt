@@ -1,4 +1,3 @@
-
 "'beet"
 "'celery"
 "'green leaf lettuce"
@@ -2676,7 +2675,6 @@
 'cloves chili pepper'
 'cloves ginger and spices'
 'cloves of garlic'
-'Clupea harengus'
 'cnickpeas'
 'coarse black pepper'
 'Coarse ground black pepper'
@@ -11030,7 +11028,6 @@
 'Specially processed degerminated white corn grits'
 'Specially processes degerminated white corn grits'
 'Specially selected italian whole peeled tomatoes in tomato juice'
-'species: coregonus clupeaformis'
 'speckled kidney bean'
 'speckled lima beans'
 'speing onion'
@@ -12678,7 +12675,6 @@
 'Whole corn'
 'whole corn'
 'Whole corn*'
-'Whole cornish hen'
 'whole garlic cloves'
 'whole garlic'
 'Whole grain blue corn'

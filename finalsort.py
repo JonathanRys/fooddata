@@ -4,7 +4,7 @@ import nltk
 
 from nltk.stem import PorterStemmer
 
-FILE_NAME = "roots_FRUITS.txt"
+FILE_NAME = "roots_VEGETABLES.txt"
 
 ps = PorterStemmer()
 

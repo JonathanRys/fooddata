@@ -1491,6 +1491,7 @@
 'white turkeym turkey broth'
 'Whole chicken'
 'Whole corn-fed freedom food British chicken'
+'Whole cornish hen'
 'whole pasteurized eggs. filling: chicken'
 'Whole turkey containing up to 20% of a solution of water'
 'Whole young chicken'

@@ -19,6 +19,29 @@
 ' cottonseed and/or soybean'
 ' fermented soybeans'
 ' naturally fermented from wheat and soybeans'
+legumes
+alfalfa sprouts
+azuki beans (or adzuki)
+bean sprouts
+black beans
+black-eyed peas
+borlotti bean
+broad beans
+chickpeas, garbanzos, or ceci beans
+green beans
+kidney beans
+lentils
+lima beans or Butter bean
+mung beans
+navy beans
+pinto beans
+runner beans
+split peas
+soy beans
+peas
+mangetout
+snap
+peas
 ' peanuts'
 ' roasted in canola and/or soybean oil'
 ' soy lecithin'
@@ -1766,6 +1789,7 @@
 'ground tofurky gluten-free sausage: water'
 'Ground whole soybeans'
 'guar gum. spread ingredients: interesterified soybean oil'
+'haricot'
 'hazelnuts peanut oil'
 'heavy fudge [peanut oil'
 'hickory char oil [partially hydrogenated soybean oil'
