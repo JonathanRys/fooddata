@@ -1,0 +1,11 @@
+Remove all non-word chars
+Tokenize the list - word boundries(define)
+lower case the text - unless there are cases
+Run a stemmer - remove conjunctions, etc. (Porter stemmer)
+Detect similar word via:
+  investigate "Levenshtein distance" to detect number of edits between words
+  Subset analysis  
+Digrams
+
+Use Naive Bayes on the result
+
