@@ -1,0 +1,336 @@
+cap
+borchii
+button
+portabellini
+crimini
+pico
+aereu
+vitt
+nameko
+cordycep
+maitak
+wood
+pleurotu
+mushrrom
+aestivum
+mushroom_
+japanes
+buna
+morchella
+pewel
+enokidak
+mushrooms_
+flat
+reish
+mane
+white
+eduli
+chaga
+shi
+portabl
+boletu
+miso
+king
+wild
+bianchetti
+black
+portabello
+psalliota
+bella
+earthi
+cremini
+porcini
+miatak
+magnatum
+mushroom
+shiitak
+marsala
+shitak
+bisporu
+shimeji
+olyst
+ostreatu
+pelurotu
+lion
+portabella
+morel
+bolet
+portobello
+fungu
+magatum
+corthellu
+shtake
+bispora
+reishi
+reism
+ear
+truffl
+biend
+agaricu
+mushr
+ostretu
+cepe
+lentinu
+albidum
+enoki
+shittak
+woodear
+conica
+straw
+chines
+kikurag
+chanterel
+mushro
+clecurotu
+portobella
+champignon
+portbello
+oyster
+musroom
+Boletus edulis
+edible Boletus
+Fungo Porcino
+porcini
+Pig mushroom
+Steinpilz
+Stone mushroom
+Wolf mushroom
+cèpe
+Penny Bun
+king bolete
+Cantharellus cibarius
+The chanterelle
+Cantharellus tubaeformis
+tube chanterelle
+yellow-leg
+Clitocybe nuda
+Blewit
+Blewitt
+Cortinarius caperatus
+Gypsy mushroom
+Craterellus cornucopioides
+Trompette de la Mort
+Horn of Plenty
+Grifola frondosa
+maitake
+hen of the woods
+sheep’s head
+Gyromitra esculenta
+see below).
+Hericium erinaceus
+lion's mane
+Hydnum repandum
+Sweet tooth fungus
+Hedgehog mushroom
+Hedgehog Fungus
+urchin of the woods
+Lactarius deliciosus
+Morchella species
+morel
+Morchella conica var. deliciosa
+Morchella esculenta var. rotunda
+Pleurotus ostreatus
+Oyster Mushroom
+Tricholoma matsutake
+Matsutake
+truffle
+Tuber borchii
+Tuber brumale
+Tuber indicum
+Chinese black truffle
+Tuber macrosporum
+Smooth black truffle
+Tuber mesentericum
+The Bagnoli truffle
+Tuber aestivum
+Black summer truffle
+Amanita caesarea
+Caesar's Mushroom)
+Armillaria mellea
+Agaricus arvensis
+Horse Mushroom
+Agaricus silvaticus
+Pinewood Mushroom
+Boletus badius
+Bay Bolete
+Chroogomphus rutilus
+pine-spikes
+spike-caps
+Calvatia gigantea
+Giant Puffball
+Calvatia utriformis
+Lycoperdon caelatum
+Calocybe gambosa
+St George's mushroom
+Clavariaceae species
+coral fungus family
+Clavulinaceae species
+coral fungus family
+Coprinus comatus
+Shaggy mane
+Shaggy Inkcap
+Lawyer's Wig
+Corn smut
+Cyttaria espinosae
+Cortinarius variicolor
+Fistulina hepatica
+beefsteak polypore
+ox tongue
+Flammulina velutipes
+Velvet Shank or Winter Fungus
+Hygrophorus chrysodon
+Auricularia auricula-judae
+Lactarius deterrimus
+Orange Milkcap
+Lactarius salmonicolor
+Lactarius salmonicolor
+Lactarius subdulcis
+mild milkcap
+Lactarius volemus
+Laetiporus sulphureus
+Sulphur shelf
+chicken mushroom
+chicken fungus
+Leccinum aurantiacum
+Red-capped scaber stalk
+Leccinum scabrum
+Birch bolete
+Leccinum versipelle
+Orange Birch Bolete
+Boletus testaceoscaber
+Macrolepiota procera
+Parasol Mushroom
+Marasmius oreades
+Fairy Ring Champignon
+Polyporus squamosus
+Dryad's saddle
+Pheasant's back mushroom
+Polyporus mylittae
+Ramariaceae species
+coral fungus family
+Rhizopogon luteolus
+Russula
+Sparassis crispa
+cauliflower mushroom
+Suillus bovinus
+Suillus granulatus
+Suillus luteus
+Suillus tomentosus
+Tricholoma terreum
+Boletusedulis
+edibleBoletus
+FungoPorcino
+Pigmushroom
+Stonemushroom
+Wolfmushroom
+PennyBun
+kingbolete
+Cantharelluscibarius
+Thechanterelle
+Cantharellustubaeformis
+tubechanterelle
+Clitocybenuda
+Cortinariuscaperatus
+Gypsymushroom
+Craterelluscornucopioides
+TrompettedelaMort
+HornofPlenty
+Grifolafrondosa
+henofthewoods
+sheep’shead
+Gyromitraesculenta
+seebelow).
+Hericiumerinaceus
+lion'smane
+Hydnumrepandum
+Sweettoothfungus
+Hedgehogmushroom
+HedgehogFungus
+urchinofthewoods
+Lactariusdeliciosus
+Morchellaspecies
+Morchellaconicavar.deliciosa
+Morchellaesculentavar.rotunda
+Pleurotusostreatus
+OysterMushroom
+Tricholomamatsutake
+Tuberborchii
+Tuberbrumale
+Tuberindicum
+Chineseblacktruffle
+Tubermacrosporum
+Smoothblacktruffle
+Tubermesentericum
+TheBagnolitruffle
+Tuberaestivum
+Blacksummertruffle
+Amanitacaesarea
+Caesar'sMushroom)
+Armillariamellea
+Agaricusarvensis
+HorseMushroom
+Agaricussilvaticus
+PinewoodMushroom
+Boletusbadius
+BayBolete
+Chroogomphusrutilus
+Calvatiagigantea
+GiantPuffball
+Calvatiautriformis
+Lycoperdoncaelatum
+Calocybegambosa
+StGeorge'smushroom
+Clavariaceaespecies
+coralfungusfamily
+Clavulinaceaespecies
+coralfungusfamily
+Coprinuscomatus
+Shaggymane
+ShaggyInkcap
+Lawyer'sWig
+Cornsmut
+Cyttariaespinosae
+Cortinariusvariicolor
+Fistulinahepatica
+beefsteakpolypore
+oxtongue
+Flammulinavelutipes
+VelvetShankorWinterFungus
+Hygrophoruschrysodon
+Auriculariaauricula-judae
+Lactariusdeterrimus
+OrangeMilkcap
+Lactariussalmonicolor
+Lactariussalmonicolor
+Lactariussubdulcis
+mildmilkcap
+Lactariusvolemus
+Laetiporussulphureus
+Sulphurshelf
+chickenmushroom
+chickenfungus
+Leccinumaurantiacum
+Red-cappedscaberstalk
+Leccinumscabrum
+Birchbolete
+Leccinumversipelle
+OrangeBirchBolete
+Boletustestaceoscaber
+Macrolepiotaprocera
+ParasolMushroom
+Marasmiusoreades
+FairyRingChampignon
+Polyporussquamosus
+Dryad'ssaddle
+Pheasant'sbackmushroom
+Polyporusmylittae
+Ramariaceaespecies
+coralfungusfamily
+Rhizopogonluteolus
+Sparassiscrispa
+cauliflowermushroom
+Suillusbovinus
+Suillusgranulatus
+Suillusluteus
+Suillustomentosus
+Tricholomaterreum

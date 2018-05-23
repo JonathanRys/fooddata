@@ -1,0 +1,193 @@
+
+Albariño
+alchohol
+alchool
+alcoho
+alcohol
+alconol
+alcool
+ale
+aligot
+Aligoté
+amaretto
+Amarone
+Arneis
+Asti Spumante
+AstiSpumante
+Auslese
+Banylus
+Barbaresco
+Bardolino
+barolo
+Barolo
+barrel
+Beaujolais
+beer
+blanc
+Blanc de Blancs
+Blanc de Noirs
+BlancdeBlancs
+BlancdeNoirs
+Blush
+Boal
+bock
+bourbon
+brandi
+brew
+Brunello
+Bual
+burgundi
+burgunqi
+butler
+cabernet
+Cabernet Franc
+Cabernet Sauvignon
+CabernetFranc
+CabernetSauvignon
+Carignan
+Carmenere
+Cava
+chabl
+chabli
+champagn
+Champagne
+Charbono
+chardonnay
+Chardonnay
+Chenin Blanc
+CheninBlanc
+chianti
+Chianti
+Chianti Classico
+ChiantiClassico
+Châteauneuf-du-Pape
+Claret
+cognac
+Colombard
+Colombard
+Constantia
+Cortese
+distll
+Dolcetto
+dom
+Eiswein
+ethyl
+ferment
+Frascati
+Fumé Blanc
+FuméBlanc
+Gamay
+Gamay Beaujolais
+GamayBeaujolais
+Gattinara
+Gewürztraminer
+gin
+grain
+Grappa
+gregorio
+grenach
+Grenache
+grigio
+Gris
+hard
+ipa
+jackdaniel
+jimbeam
+Johannisberg Riesling
+JohannisbergRiesling
+kentucki
+Kir
+kirsch
+kolsch
+Lambrusco
+Liebfraumilch
+limoncello
+liqueur
+liquor
+madeira
+Madeira
+Malbec
+malibu
+malt
+Marc
+marsala
+Marsala
+Marsanne
+martin
+mckenzi
+Mead
+Meritage
+merlot
+Merlot
+mirin
+monastrel
+Montepulciano
+moonshin
+moscato
+Moscato
+Mourvedre
+Muscat
+Müller-Thurgau
+napa
+Nebbiolo
+noir
+oltrepo
+pale
+perignon
+Petit Verdot
+Petite Sirah
+PetiteSirah
+PetitVerdot
+pinot
+Pinot Blanc
+Pinot Grigio
+Pinot Meunier
+Pinot Noir
+Pinotage
+PinotBlanc
+PinotGrigio
+PinotMeunier
+PinotNoir
+port
+Port
+porter
+prosecco
+red
+Retsina
+rhum
+Rosé
+Roussanne
+rum
+sake
+Sangiovese
+sautern
+Sauterns
+sauvignon
+Sauvignon Blanc
+SauvignonBlanc
+scotch
+sherri
+Sherry
+shiraz
+sloe
+Soave
+stout
+syrah
+Sémillon
+tennesse
+thramin
+Tokay
+Traminer
+Trebbiano
+Ugni Blanc
+UgniBlanc
+valley
+Valpolicella
+Verdicchio
+Viognier
+vodka
+volum
+whiskey
+whitewin
+wine
+Zinfandel

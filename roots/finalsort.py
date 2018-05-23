@@ -3,9 +3,8 @@ import operator
 import nltk
 
 from nltk.stem import PorterStemmer
-from nltk.tokenize import sent_tokenize, word_tokenize
 
-FILE_NAME = "VEGETABLES.txt"
+FILE_NAME = "roots_MUSHROOMS.txt"
 
 ps = PorterStemmer()
 
@@ -31,34 +30,13 @@ def main():
     # print(lowercase_words)
     print("processed lowercase_words")
 
-    tagged_words = nltk.pos_tag(all_words)
-    # print(tagged_words)
-    print("processed tagged_words")
-    
-    significant_words = [x for x in tagged_words if not x[1] in ["CC", "CD", "DT", "IN"]]
-    significant_words = [x[0] for x in significant_words]
-    # print(significant_words)
-    print("processed significant_words")
-
-    stemmed_words = stem(significant_words)
+    stemmed_words = stem(lowercase_words)
     # print(stemmed_words)
     print("processed stemmed_words")
 
-    counted_words = count_instances(stemmed_words)
-
-    f = open("counts_" + FILE_NAME, "w")
-    
-    for word in counted_words:
-        f.write(word[0])
-        f.write(": ")
-        f.write(str(word[1]))
-        f.write("\n")
-
-    f.close()
-    
     unique_words = set(stemmed_words)
 
-    f = open("unique_" + FILE_NAME, "w")
+    f = open("final_" + FILE_NAME, "w")
     
     for word in unique_words:
         f.write(word + "\n")
