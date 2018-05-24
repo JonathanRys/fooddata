@@ -4,7 +4,7 @@ import nltk
 
 from nltk.stem import PorterStemmer
 
-FILE_NAME = "roots_MUSHROOMS.txt"
+FILE_NAME = "roots_SHELLFISH_PRODUCTS.txt"
 
 ps = PorterStemmer()
 
