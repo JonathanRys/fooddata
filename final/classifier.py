@@ -1,6 +1,8 @@
 #!flask/bin/python
 from flask import Flask, jsonify, make_response
+from nltk.stem import PorterStemmer
 
+ps = PorterStemmer()
 app = Flask(__name__)
 
 # Define the tags and their associated stem files
@@ -37,19 +39,34 @@ def index():
 def tags():
     return "Please provide this API with a comma separated list."
 
-@app.route('/fooddata/api/v1.0/tags/<string:ingr_list>', methods=['GET'])
+@app.route('/fooddata/api/v1.0/tags/<string:ingredient_list>', methods=['GET'])
 def get_tags(ingredient_list):
     iterable_list = [x.strip() for x in ingredient_list.split(",")]
     # Iterate through this list and find matching tags
 
+    tags = {}
+    for x in iterable_list:
+        for y in roots:
+            # split on whitespace and find % matches in each item:
+            # use levenstein distance to find the best match in each group and it's distance
+            # return a single match per ingredient unless otherwise dictated
+            # How to find a best match but still deal with multiple categories?
+            # 
+        
+            if ps.stem(x) in roots[y]:
+                if y in tags:
+                    tags[y].append(x)
+                else:
+                    tags[y] = [x]
+    print(tags)
     # Return the response
-    return jsonify({'ingredients': iterable_list})
+    return jsonify({'tags': tags})
 
 
 # POST methods
 # Accept a JSON array of items via POST
 @app.route('/fooddata/api/v1.0/tags/', methods=['POST'])
-def post_tags(ingr_list):
+def post_tags():
     if not request.json or not 'ingredients' in request.json:
         abort(400)
 
