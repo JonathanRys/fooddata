@@ -6,7 +6,6 @@ barbaresco
 alcool
 cabernetsauvignon
 brew
-mã¼ller
 tokay
 grappa
 liqueur
@@ -44,7 +43,6 @@ valley
 dolcetto
 whiskey
 thurgau
-sã
 bock
 stout
 eiswein
@@ -54,8 +52,7 @@ petit
 teauneuf
 sautern
 sirah
-fumã
-gewã¼rztramin
+gewrztramin
 jackdaniel
 beaujolai
 valpolicella
@@ -103,7 +100,7 @@ cortes
 cabernetfranc
 blancdeblanc
 scotch
-albariã
+albari
 ferment
 chabli
 amaretto
@@ -122,12 +119,10 @@ hard
 chabl
 kir
 malt
-chã
 zinfandel
 mead
 bual
-rosã
-aligotã
+aligot
 ugni
 blanc
 blush
@@ -159,7 +154,6 @@ pinotag
 moonshin
 tenness
 ale
-du
 sloe
 marc
 spumant
@@ -170,7 +164,6 @@ amaron
 ipa
 liebfraumilch
 oltrepo
-de
 chianti
 port
 johannisberg

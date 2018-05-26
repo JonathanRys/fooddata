@@ -25,7 +25,6 @@ basmati
 bean
 beancurd
 beansprout
-beansâ
 beet
 beetgreen
 beetroot
@@ -102,7 +101,6 @@ datterino
 delicata
 dill
 edamam
-eduli
 eggplant
 endiv
 escallion
@@ -137,7 +135,7 @@ hyacinth
 iceberg
 jalapeno
 jalapenopepp
-jalapeño
+jalapeÃ±o
 jerusalem
 jerusalemartichok
 jicama
