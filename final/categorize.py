@@ -1,7 +1,10 @@
 from nltk.stem import PorterStemmer
+from nltk import word_tokenize
+from nltk.corpus import stopwords
 
 ps = PorterStemmer()
 distance_threshhold = 4
+stop_words = set(stopwords.words('english'))
 
 # Define the tags and their associated stem files
 stems_by_category = {
@@ -108,18 +111,24 @@ def closest_match(ingredient, root, roots):
 # Function to categorize a list of ingredients
 def categorize(ingredient_list):
     # Move all of this into it's own function once it works so that it can be used by POST  
-    # Remove whitespace
-    iterable_list = [x.strip() for x in ingredient_list.split(",")]
-    # iterable_list = word_tokenize(ingredient_list)
 
+    # iterable_list = [x.strip() for x in ingredient_list.split(",")]
+    tokens = word_tokenize(ingredient_list)
+
+    # Lower case the words and remove punctuation
+    words = [word.lower() for word in tokens if word.isalpha()]
+
+    # Sort unique words
+    iterable_list = sorted(set(words))
 
     # Iterate through this list and find matching tags
     tags = {}
-    nearest = [(distance_threshhold, "", "")]
+    
 
     # Filter the ingredient to make sure it's just the most significant term
     for ingredient in iterable_list:
         ingredient_stem = ps.stem(ingredient)
+        nearest = [(distance_threshhold, "", "")]
 
         # Iterate through the categories
         for root in roots:
@@ -137,14 +146,25 @@ def categorize(ingredient_list):
                     tags[root].append(ingredient)
                 else:
                     tags[root] = [ingredient]
+                nearest = []
+                break
             else:
                 closest = closest_match(ingredient_stem, root, roots[root])
-                print("Nearest:", closest)
+
+                print("Closest:", closest)
+
                 if closest[0][0] < nearest[0][0]:
-                    for tag in closest:
-                        if tag in tags:
-                            tags[root].append(tag[1])
-                        else:
-                            tags[root] = [tag[1]]
+                    nearest = closest
+                elif closest[0][0] == nearest[0][0]:
+                    nearest.append(closest[0])
+
+                print("Nearest:", nearest)
+                    
+        for tag in nearest:
+            if tag[2] in tags:
+                if not tag[1] in tags[tag[2]]:
+                    tags[tag[2]].append(tag[1])
+            else:
+                tags[tag[2]] = [tag[1]]
 
     return tags

@@ -9,3 +9,33 @@ Digrams
 
 Use Naive Bayes on the result
 
+
+
+I have created "refined lists" of data manually
+Take raw data and categorize a given list of ingredients based on this refined lists:
+
+General Processing steps:
+  Preprocess ingredients
+    split on commas
+    split on semicolons
+    remove non-alpha characters
+    lowercase
+    remove whitespace
+    remove duplicates
+
+  Process the stripped list  
+    tokenize words
+    stem words
+    remove stop words
+    POS process words
+    remove useless tags and POS
+  
+
+To process the "refined lists" into "derived results":
+  Follow General processing steps (above)
+  Manually remove irrelevent or disuasive terms to make the lists better
+
+To process ingredients for a particular product:
+  Follow General processing steps (above)
+  Compare results to previously "derived results"
+
