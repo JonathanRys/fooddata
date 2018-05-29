@@ -9,7 +9,7 @@ if f.mode == "r":
     
 f.close()
 
-unique_sorted_ingredients = sorted(set(raw_ingredients))
+unique_sorted_ingredients = sorted(set(raw_ingredients.strip()))
 
 f = open(OUTPUT_FILE_NAME, "w", encoding='utf-8')
 
