@@ -16,11 +16,11 @@ Take raw data and categorize a given list of ingredients based on this refined l
 
 General Processing steps:
   Preprocess ingredients
-    split on commas
-    split on semicolons
-    remove non-alpha characters
-    lowercase
-    remove whitespace
+    Itemize the list - split on commas, semicolons, and/or, and slashes
+    translate non-english characters from target languages to english equivelents
+    remove all other non-alpha characters
+    trim whitespaces
+    convert to lowercase
     remove duplicates
 
   Process the stripped list  
@@ -37,5 +37,6 @@ To process the "refined lists" into "derived results":
 
 To process ingredients for a particular product:
   Follow General processing steps (above)
+  
   Compare results to previously "derived results"
 
