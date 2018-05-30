@@ -30,24 +30,7 @@ for x in stems_by_category:
         
     f.close()
 
-
-
-# Function to calculate the Levenshtein distance between two words
-##def get_lev_distance(word_one, word_two):
-##    if word_one == "":
-##        return len(word_two)
-##    if word_two == "":
-##        return len(word_one)
-##    if word_one[-1] == word_two[-1]:
-##        cost = 0
-##    else:
-##        cost = 1
-##       
-##    distance = min([get_lev_distance(word_one[:-1], word_two)+1,
-##               get_lev_distance(word_one, word_two[:-1])+1, 
-##               get_lev_distance(word_one[:-1], word_two[:-1]) + cost])
-##    return distance
-
+# 
 def get_lev_distance(s, t):
     """ 
         iterative_levenshtein(s, t) -> ldist
@@ -62,7 +45,7 @@ def get_lev_distance(s, t):
     cols = len(t)+1
     col = 0
     
-    alphabet = "abcdefghijklmnopqrstuvwxyz1234567890_-èñãâï¿"
+    alphabet = "abcdefghijklmnopqrstuvwxyz1234567890_-"
     w = dict( (x, (1, 1, 1)) for x in alphabet + alphabet.upper())
     
     dist = [[0 for x in range(cols)] for x in range(rows)]
@@ -139,7 +122,7 @@ def categorize(ingredient_list):
             # Split on whitespace then semicolons and find % match(es) in each item:
             # Use Levenshtein distance to find the best match in each group
             #    based on it's distance
-            # return a single match per ingredient unless otherwise dictated
+            # Return a single match per ingredient unless otherwise specified
             # How to find a best match but still deal with multiple categories?
 
 

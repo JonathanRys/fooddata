@@ -49,9 +49,6 @@ special_chars = {
     "Ï": "I",
     "Ü": "U",
     "Œ": "OE"
-  },
-  "special": {
-    u"\u0166": None
   }
 }
 
