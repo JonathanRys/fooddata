@@ -1,6 +1,9 @@
 from nltk.stem import PorterStemmer
 from nltk import word_tokenize
 from nltk.corpus import stopwords
+import os
+
+dirname = os.path.dirname(__file__)
 
 ps = PorterStemmer()
 distance_threshhold = 4
@@ -8,13 +11,13 @@ stop_words = set(stopwords.words('english'))
 
 # Define the tags and their associated stem files
 stems_by_category = {
-    ('alcohol', "final_roots_ALCOHOL.txt"),
-    ('carcinogen', "final_roots_CARCINOGENS.txt"),
-    ('fruit', "final_roots_FRUITS.txt"),
-    ('mushroom', "final_roots_MUSHROOMS.txt"),
-    ('rennet', "final_roots_RENNET.txt"),
-    ('shellfish', "final_roots_SHELLFISH.txt"),
-    ('vegetable', "final_roots_VEGETABLES.txt")
+    ('alcohol', os.path.join(dirname, "../../../final/final_roots_ALCOHOL.txt")),
+    ('carcinogen', os.path.join(dirname, "../../../final/final_roots_CARCINOGENS.txt")),
+    ('fruit', os.path.join(dirname, "../../../final/final_roots_FRUITS.txt")),
+    ('mushroom', os.path.join(dirname, "../../../final/final_roots_MUSHROOMS.txt")),
+    ('rennet', os.path.join(dirname, "../../../final/final_roots_RENNET.txt")),
+    ('shellfish', os.path.join(dirname, "../../../final/final_roots_SHELLFISH.txt")),
+    ('vegetable', os.path.join(dirname, "../../../final/final_roots_VEGETABLES.txt"))
 }
 
 # Preload the data into memory

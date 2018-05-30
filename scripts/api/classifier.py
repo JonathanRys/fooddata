@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify, make_response
-from categorize import categorize
+from catagorize.categorize import categorize
 
 app = Flask(__name__)
 
