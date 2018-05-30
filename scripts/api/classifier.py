@@ -50,3 +50,5 @@ if __name__ == '__main__':
 
 # return JSON response
 
+# Update the data source via their API when a mispelling is found and send alerts when items are unknown to manually update it
+# What to do when a product/item is not found?
