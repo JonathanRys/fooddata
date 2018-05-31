@@ -34,6 +34,7 @@ General Processing steps:
 
 To process the "refined lists" into "derived results":
   Follow General processing steps (above)
+  Use terms in other lists to filter/amend each of the other lists - report the results
   Manually remove irrelevent or disuasive terms to make the lists better
 
 To process ingredients for a particular product:
