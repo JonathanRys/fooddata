@@ -19,11 +19,12 @@ General Processing steps:
     Itemize the list - split on commas, semicolons, and/or, and slashes
     translate non-english characters from target languages to english equivelents
     remove all other non-alpha characters
+    ??? Might not need to do the rest of this ???
     trim whitespaces
     convert to lowercase
     remove duplicates
 
-  Process the stripped list  
+  Process the stripped list
     tokenize words
     stem words
     remove stop words

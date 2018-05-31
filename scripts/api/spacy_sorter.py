@@ -1,4 +1,5 @@
 import en_core_web_sm
+from list_tokenize import list_tokenize
 
 en_nlp = en_core_web_sm.load()
 
@@ -9,11 +10,12 @@ FILE_NAME = "ARTIFICIAL_PRODUCTS.txt"
 f = open(FILE_NAME, "r", encoding='utf-8')
 
 if f.mode == "r":
-    ingredients = f.read().split("\n")
+    ingredients = f.read()
     
 f.close()
 
-
+ingredients = list_tokenize.list_tokenize(ingredients)
+ingredients = list_tokenize.translate_to_en_chars(ingredients)
 
 ## Process the data to remove irellevant and useless terms
 print("Processing...")
@@ -58,6 +60,5 @@ for word in sorted_significant_items:
     f.write(word + "\n")
 
 f.close()
-
 
 print("Done.")
