@@ -1,5 +1,6 @@
 import en_core_web_sm
 from list_tokenize import list_tokenize
+from stop_words import stop_words
 
 en_nlp = en_core_web_sm.load()
 
@@ -43,8 +44,8 @@ pos_filtered = [x for x in no_stop if x.pos_ in pos_to_keep]
 # Remove items with irrelevant tags
 tag_filtered = [x for x in pos_filtered if x.tag_ in tags_to_keep]
 
-# Extract the stem
-lemmas_only = [x.lemma_ for x in tag_filtered]
+# Extract the stem?  Do I need a different stemmer?
+lemmas_only = [x.lemma_ for x in tag_filtered if x.lemma_ not in stop_words]
 
 # Remove duplicates and sort
 sorted_significant_items = sorted(set(lemmas_only))

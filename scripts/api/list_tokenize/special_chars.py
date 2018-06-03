@@ -59,7 +59,7 @@ patterns = {
   "alpha_lower": r"[a-z]",
   "numeric": r"[0-9]",
   "punctuation": r"[’'()[\]{}<>:,‒–—―…!.«»\-‐?‘’“”;/⁄␠·&@*\\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※]",
-  "list_boundries": r"or|and|[\/\n,;]+",
+  "list_boundries": r"concentrate|or|and|[\/\n,;&.\\]+",
   "whitespace": r"[ \t\b\n]+"
 }
 

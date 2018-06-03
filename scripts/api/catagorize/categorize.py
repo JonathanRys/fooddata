@@ -45,7 +45,7 @@ def get_lev_distance(s, t):
     cols = len(t)+1
     col = 0
     
-    alphabet = "abcdefghijklmnopqrstuvwxyz1234567890_-"
+    alphabet = "abcdefghijklmnopqrstuvwxyz1234567890_-èñãâï¿"
     w = dict( (x, (1, 1, 1)) for x in alphabet + alphabet.upper())
     
     dist = [[0 for x in range(cols)] for x in range(rows)]
