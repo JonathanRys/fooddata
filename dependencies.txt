@@ -1,0 +1,47 @@
+#Spell Checker
+
+spell_correct
+  rm_special_from_file
+    spelling_scraper
+
+
+
+#API
+
+classifier
+  catagorize
+    sorter
+    list_tokenize -> special_chars
+    spell_correct
+
+
+
+#Catagory Data
+
+manual seperation**
+  sorter
+  list_tokenize -> special_chars
+  spell_correct
+    foodfacts
+      get en.openfoodfacts.org.products.csv manually**
+
+
+
+#File Structure
+
+classify
+/classifier
+  catagorize
+  /catagorizer
+    spacy_sorter
+    list_tokenize
+    /list_tokenizer
+      special_chars
+    spelling_correct
+    /spelling_data
+      foodfacts
+      /raw_data
+        csv**
+      /spelling_scraper
+        spelling_scraper
+        rm_special_from_file
