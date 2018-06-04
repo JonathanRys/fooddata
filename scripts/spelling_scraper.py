@@ -23,7 +23,11 @@ f = open("foods.txt", "w", encoding="utf-8")
 
 for food_list in list_urls:
     soup = BeautifulSoup(get_data(food_list), "html.parser")
-    for string in soup.stripped_strings:
-        f.write(string + "\n")
+    content = soup.find(id = "bodyContent")
+    data = content.find_all('td')
+    
+    for cell in data:
+        for string in cell.stripped_strings:
+            f.write(string + "\n")
         
 f.close()

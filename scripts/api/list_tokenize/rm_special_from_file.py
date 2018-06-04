@@ -1,27 +1,21 @@
 import re
-from list_tokenize import translate_to_en_chars, strip_special_chars
+from list_tokenize import list_tokenize, translate_to_en_chars, strip_special_chars, trim_whitespace
 
 def remove_special(file):
-    f = open(file, "r", encoding="utf-8")
-    data = f.read()
-    f.close()
-    
-    print(len(data))
-    
-    data = translate_to_en_chars._no_list(data, "fr")
-    print(len(data))
-    data = translate_to_en_chars._no_list(data, "es")
-    print(len(data))
-    data = strip_special_chars._no_list(data)
-    print(len(data))
-   
+    input_file = open(file, "r", encoding="utf-8")
+    data = input_file.read()
+    input_file.close()
 
+    data = list_tokenize(data)
+    data = translate_to_en_chars(data, "fr")
+    data = translate_to_en_chars(data, "es")
+    data = strip_special_chars(data)
+    data = trim_whitespace(data)
 
-
-    f = open("output_" + file, "w", encoding="utf-8")
-    f.write(data)
-    f.close()
-
+    output_file = open("output_" + file, "w", encoding="utf-8")
+    for item in data:
+        output_file.write(item + " ")
+    output_file.close()
 
 
 remove_special("foods.txt")

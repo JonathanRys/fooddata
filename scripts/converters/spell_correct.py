@@ -3,7 +3,7 @@ from collections import Counter
 
 def words(text): return re.findall(r'\w+', text.lower())
 
-WORDS = Counter(words(open('foods.txt').read()))
+WORDS = Counter(words(open('output_foods.txt').read()))
 
 def P(word, N=sum(WORDS.values())): 
     "Probability of `word`."
@@ -35,4 +35,4 @@ def edits2(word):
     "All edits that are two edits away from `word`."
     return (e2 for e1 in edits1(word) for e2 in edits1(e1))
 
-print(correction("terst"))
+print(correction("cinnabon"))

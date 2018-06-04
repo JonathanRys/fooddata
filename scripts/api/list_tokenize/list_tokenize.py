@@ -34,7 +34,7 @@ def translate_to_en_chars(string, lang = "es"):
 
 @use_list
 def strip_special_chars(string):
-    return re.sub(special_chars.re_pattern("non_alpha_numeric"), "", string)
+    return re.sub(special_chars.re_pattern("non_alpha_numeric"), " ", string)
 
 @use_list
 def trim_whitespace(string):
