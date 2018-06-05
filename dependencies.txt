@@ -1,3 +1,7 @@
+===============
+=== PROGRAM ===
+===============
+
 #Spell Checker
 
 spell_correct
@@ -33,6 +37,7 @@ classify
 /classifier
   catagorize
   /catagorizer
+    rm_special_from_file
     spacy_sorter
     list_tokenize
     /list_tokenizer
@@ -44,4 +49,24 @@ classify
         csv**
       /spelling_scraper
         spelling_scraper
-        rm_special_from_file
+
+
+
+
+==============
+==== DATA ====
+==============
+
+raw_food_data <- foodfacts
+  en_ca_uk_ingredients.csv
+
+en_ca_uk_ingredients.csv <- spelling_correct <- list_tokenize <- spacy_sorter <- manual sort**
+  
+  
+wiki_food_data <- spelling_scraper <- rm_special_from_file <- list_tokenize
+  spelling_reference_data (output_foods) <- spelling_correct
+
+API input <- spelling_correct <- list_tokenize <- spacy_sorter <- catagorizer
+  RESPONSE
+
+
