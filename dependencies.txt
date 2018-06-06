@@ -71,3 +71,14 @@ API input <- spelling_correct <- list_tokenize <- spacy_sorter <- catagorizer
 
 
 # Model Training
+
+Spell Checker
+  Scrape wiki page data
+  Remove special chars and such
+  Train on refined data
+  Test on unrefined ingredients lists
+
+Catagorizer
+  Train on refined/sorted ingredients lists
+  Test on unrefined ingredients lists
+
