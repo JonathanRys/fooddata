@@ -2,7 +2,7 @@
 === PROGRAM ===
 ===============
 
-#Spell Checker
+# Spell Checker
 
 spell_correct
   rm_special_from_file
@@ -10,7 +10,7 @@ spell_correct
 
 
 
-#API
+# API
 
 classifier
   catagorize
@@ -20,7 +20,7 @@ classifier
 
 
 
-#Catagory Data
+# Catagory Data
 
 manual seperation**
   sorter
@@ -70,3 +70,4 @@ API input <- spelling_correct <- list_tokenize <- spacy_sorter <- catagorizer
   RESPONSE
 
 
+# Model Training

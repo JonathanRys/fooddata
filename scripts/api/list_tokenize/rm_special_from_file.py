@@ -6,11 +6,12 @@ def remove_special(file):
     data = input_file.read()
     input_file.close()
 
-    data = list_tokenize(data)
-    data = translate_to_en_chars(data, "fr")
-    data = translate_to_en_chars(data, "es")
+    # data = list_tokenize(data) # This is already done for me by the previous process
+    data = data.split("\n")
+    data = translate_to_en_chars(data, "all")
     data = strip_special_chars(data)
     data = trim_whitespace(data)
+    data = [x for x in data if len(x) > 1]
 
     output_file = open("output_" + file, "w", encoding="utf-8")
     for item in data:

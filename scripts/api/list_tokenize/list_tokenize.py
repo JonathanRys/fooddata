@@ -45,6 +45,9 @@ def trim_whitespace(string):
 def lower_case(string):
     return string.lower()
 
+@use_list
+def strip_scraped_extras(string):
+    return re.sub(special_chars.re_pattern("scraper_extras"), " ", string)
 
 
 # Tests
