@@ -1,8 +1,12 @@
 import csv
+import requests
+import os
 
 csv.field_size_limit(2147483647)
 
 possible_ingredients = set()
+
+BASE_URL = "https://world.openfoodfacts.org"
 
 INPUT_FILE = 'en.openfoodfacts.org.products.csv'
 OUTPUT_FILE = 'all_ingredients.csv'
@@ -56,25 +60,45 @@ def cleanData(data):
     if data.count("(") == 1 and data.count(")") == 0:
         data = data.split("(")[1]
     return data
-    
-# GET this url instead of reading from file: https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
-with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
-    # iterate through the rows in the CSV file
-    filereader = csv.DictReader(csvfile, delimiter='\t', quoting=csv.QUOTE_NONE)
-    for product in filereader:
-        # get the list of ingredients from the product row
-        ingredients_text = product['ingredients_text']
-        country = product['countries_en']
-        
-        if ingredients_text is not None and country in COUNTRIES:
-            # split the list into seperate ingredients
-            ingredients = ingredients_text.split(',')
-            for ingredient in ingredients:
-                possible_ingredients.add(cleanData(ingredient))
-    csvfile.close()
 
-with open(OUTPUT_FILE, 'wt', encoding="utf-8") as outputfile:
-    print(possible_ingredients, file=outputfile)
-    outputfile.close()
+def get_data(url):
+    print("get_data called")
+    return requests.get(BASE_URL + url, stream=True)
 
-print("done - output written to", OUTPUT_FILE)
+off_data = get_data("/data/en.openfoodfacts.org.products.csv")
+
+print("response:", off_data)
+
+counter = 0
+f = open(INPUT_FILE, 'wb')
+print(INPUT_FILE, "opened")
+for data in off_data.iter_content(chunk_size=None):
+    f.write(data)
+    f.flush()
+f.close()
+
+print("done - output written to", INPUT_FILE)
+
+### GET this url instead of reading from file: https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
+##with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
+### iterate through the rows in the CSV file
+##
+##    for product in filereader:
+##        # get the list of ingredients from the product row
+##        ingredients_text = product['ingredients_text']
+##        country = product['countries_en']
+##        
+##        if ingredients_text is not None and country in COUNTRIES:
+##            # split the list into seperate ingredients
+##            ingredients = ingredients_text.split(',')
+##            for ingredient in ingredients:
+##                possible_ingredients.add(cleanData(ingredient))
+##    csvfile.close()
+##
+##with open(OUTPUT_FILE, 'wt', encoding="utf-8") as outputfile:
+##    print(possible_ingredients, file=outputfile)
+##    outputfile.close()
+##
+##os.remove(INPUT_FILE)
+##
+##print("done - output written to", OUTPUT_FILE)
