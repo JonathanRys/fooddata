@@ -61,44 +61,38 @@ def cleanData(data):
         data = data.split("(")[1]
     return data
 
-def get_data(url):
-    print("get_data called")
+def get_data_stream(url):
     return requests.get(BASE_URL + url, stream=True)
 
-off_data = get_data("/data/en.openfoodfacts.org.products.csv")
-
-print("response:", off_data)
+off_data = get_data_stream("/data/en.openfoodfacts.org.products.csv")
 
 counter = 0
 f = open(INPUT_FILE, 'wb')
-print(INPUT_FILE, "opened")
 for data in off_data.iter_content(chunk_size=None):
     f.write(data)
     f.flush()
 f.close()
 
-print("done - output written to", INPUT_FILE)
+####### GET this url instead of reading from file: https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
+with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
+####### iterate through the rows in the CSV file
 
-### GET this url instead of reading from file: https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
-##with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
-### iterate through the rows in the CSV file
-##
-##    for product in filereader:
-##        # get the list of ingredients from the product row
-##        ingredients_text = product['ingredients_text']
-##        country = product['countries_en']
-##        
-##        if ingredients_text is not None and country in COUNTRIES:
-##            # split the list into seperate ingredients
-##            ingredients = ingredients_text.split(',')
-##            for ingredient in ingredients:
-##                possible_ingredients.add(cleanData(ingredient))
-##    csvfile.close()
-##
-##with open(OUTPUT_FILE, 'wt', encoding="utf-8") as outputfile:
-##    print(possible_ingredients, file=outputfile)
-##    outputfile.close()
-##
-##os.remove(INPUT_FILE)
-##
-##print("done - output written to", OUTPUT_FILE)
+    for product in filereader:
+        # get the list of ingredients from the product row
+        ingredients_text = product['ingredients_text']
+        country = product['countries_en']
+        
+        if ingredients_text is not None and country in COUNTRIES:
+            # split the list into seperate ingredients
+            ingredients = ingredients_text.split(',')
+            for ingredient in ingredients:
+                possible_ingredients.add(cleanData(ingredient))
+    csvfile.close()
+
+with open(OUTPUT_FILE, 'wt', encoding="utf-8") as outputfile:
+    print(possible_ingredients, file=outputfile)
+    outputfile.close()
+
+os.remove(INPUT_FILE)
+
+print("done - output written to", OUTPUT_FILE)
