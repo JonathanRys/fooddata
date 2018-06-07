@@ -1,10 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 
-base_url = "https://en.wikipedia.org"
+BASE_URL = "https://en.wikipedia.org"
+OUTPUT_FILE = "foods.txt"
 
 def get_data(url):
-    return requests.get(base_url + url).text
+    return requests.get(BASE_URL + url).text
     
 def get_links(start_url):
     soup = BeautifulSoup(get_data(start_url), "html.parser")
@@ -19,7 +20,7 @@ for link in links:
     if link.get_text()[:7] == "List of":
         list_urls.append(link.get("href"))
 
-f = open("foods.txt", "w", encoding="utf-8")
+f = open(OUTPUT_FILE, "w", encoding="utf-8")
 
 for food_list in list_urls:
     soup = BeautifulSoup(get_data(food_list), "html.parser")
