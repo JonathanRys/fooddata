@@ -7,6 +7,8 @@ app = Flask(__name__)
 # Define the endpoints and their respective handlers
 
 # Default method
+
+
 @app.route('/')
 def index():
     return "Please use the endpoint: /fooddata/api/v1.0/tags/ for all requests"
@@ -16,6 +18,7 @@ def index():
 @app.route('/fooddata/api/v1.0/tags/', methods=['GET'])
 def tags():
     return "Please provide this API with a comma separated list."
+
 
 @app.route('/fooddata/api/v1.0/tags/<string:ingredient_list>', methods=['GET'])
 def get_tags(ingredient_list):
@@ -28,11 +31,12 @@ def get_tags(ingredient_list):
 # Accept a JSON array of items via POST
 @app.route('/fooddata/api/v1.0/tags/', methods=['POST'])
 def post_tags():
-    if not request.json or not 'ingredients' in request.json:
-        abort(400)
+    # if not request.json or not 'ingredients' in request.json:
+    #     abort(400)
+
+    # Error handling
 
 
-# Error handling
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)

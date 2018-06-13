@@ -1,5 +1,6 @@
 import re
-from list_tokenize import translate_to_en_chars, strip_special_chars, trim_whitespace
+from tokenizer import translate_to_en_chars, strip_special_chars, trim_whitespace
+
 
 def remove_special(file):
     input_file = open(file, "r", encoding="utf-8")
@@ -18,5 +19,6 @@ def remove_special(file):
         output_file.write(item + " ")
     output_file.close()
 
+
 if __name__ == '__main__':
-    remove_special("foods.txt")
+    remove_special("converters/foods.txt")

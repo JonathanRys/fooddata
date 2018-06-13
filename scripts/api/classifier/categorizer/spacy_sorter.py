@@ -12,13 +12,13 @@ f = open(FILE_NAME, "r", encoding='utf-8')
 
 if f.mode == "r":
     ingredients = f.read()
-    
+
 f.close()
 
 ingredients = list_tokenize.list_tokenize(ingredients)
 ingredients = list_tokenize.translate_to_en_chars(ingredients)
 
-## Process the data to remove irellevant and useless terms
+# Process the data to remove irellevant and useless terms
 print("Processing...")
 
 pos_to_keep = ["NOUN", "PROPN"]
@@ -30,10 +30,11 @@ tokenized_ingredients = {}
 for ingredient in ingredients:
     token_list = en_nlp(ingredient)
     for token in token_list:
-      tokenized_ingredients[token.lemma_] = token
+        tokenized_ingredients[token.lemma_] = token
 
 # Remove non-alpha characters
-alpha_only = [tokenized_ingredients[x] for x in tokenized_ingredients if tokenized_ingredients[x].is_alpha]
+alpha_only = [tokenized_ingredients[x]
+              for x in tokenized_ingredients if tokenized_ingredients[x].is_alpha]
 
 # Remove stop words
 no_stop = [x for x in alpha_only if not x.is_stop]
@@ -52,7 +53,7 @@ sorted_significant_items = sorted(set(lemmas_only))
 
 print("Finished processing.")
 
-## Finish outputing the result
+# Finish outputing the result
 print("Writing to file...")
 
 # Output to file
