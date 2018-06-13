@@ -1,5 +1,5 @@
 import re
-from data.special_chars import special_chars
+from data.special_chars import special_chars, patterns, re_pattern
 
 # Decorator
 
@@ -26,27 +26,28 @@ def use_list(func):
 
 
 def list_tokenize(list_to_split):
-    return [x.strip() for x in re.split(special_chars.patterns["list_boundries"], list_to_split)]
+    return [x.strip() for x in re.split(patterns["list_boundries"], list_to_split)]
 
 
 @use_list
 def translate_to_en_chars(string, lang="es"):
-    if not lang in special_chars.special_chars:
+    if not lang in special_chars:
         raise KeyError("No pattern found for mapping \"" +
                        lang + "\" -> \"en\".")
-    char_map = str.maketrans(special_chars.special_chars[lang])
+    char_map = str.maketrans(special_chars[lang])
     return string.translate(char_map)
 
 
 @use_list
 def strip_special_chars(string):
-    return re.sub(special_chars.re_pattern("non_alpha_numeric"), " ", string)
+    # fix this
+    return re.sub(re_pattern("non_alpha_numeric"), " ", string)
 
 
 @use_list
 def trim_whitespace(string):
     # Removes all leading, trailing or duplicated whitespace and converts all whitespace to spaces
-    return re.sub(special_chars.re_pattern("whitespace"), " ", string).strip()
+    return re.sub(re_pattern("whitespace"), " ", string).strip()
 
 
 @use_list
@@ -56,7 +57,7 @@ def lower_case(string):
 
 @use_list
 def strip_scraped_extras(string):
-    return re.sub(special_chars.re_pattern("scraper_extras"), " ", string)
+    return re.sub(re_pattern("scraper_extras"), " ", string)
 
 
 # Tests
@@ -91,7 +92,8 @@ def test():
     assert result_list[27] == "OE"
 
     # Test strip_special_chars
-    result_list = strip_special_chars(punctuation)
+    result_list = strip_special_chars._no_list(punctuation)
+    print(result_list)
     assert len(result_list) == 2
     assert result_list[0] == "-"
     assert result_list[1] == "_"

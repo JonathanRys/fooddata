@@ -1,15 +1,24 @@
 import re
+import os
+
+INPUT_FILE = 'raw_ingredients.txt'
+OUTPUT_FILE = 'all_ingredients.txt'
 
 
 def itemize():
-    with open('raw_ingredients.txt', "rt", encoding="utf-8") as f:
+    if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+        return False
+    
+    with open(INPUT_FILE, "rt", encoding="utf-8") as f:
         data = f.read()
 
     data = re.split(r"[\"\']\, [\'\"]", data)
 
-    with open('all_ingredients.txt', "wt", encoding="utf-8") as f:
+    with open(OUTPUT_FILE, "wt", encoding="utf-8") as f:
         for item in data:
             f.write(item)
+
+    return True
 
 
 if __name__ == '__main__':

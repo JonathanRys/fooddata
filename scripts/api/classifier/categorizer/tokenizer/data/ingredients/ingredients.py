@@ -34,6 +34,9 @@ def get_source_data():
     print("done.\n")
     print("Processing data...")
 
+    if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+        return False
+
     with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
         # Iterate through the rows in the CSV file
         filereader = csv.DictReader(
@@ -58,6 +61,7 @@ def get_source_data():
     os.remove(INPUT_FILE)
 
     print("done - output written to", OUTPUT_FILE, "\n")
+    return True
 
 # return stats # [(# of ingredients, # of products, # words removed), ...]
 
