@@ -7,9 +7,8 @@ def remove_special(file):
     if not os.path.exists(file) or not os.path.isfile(file):
         return False
 
-    input_file = open(file, "rt", encoding="utf-8")
-    data = input_file.read()
-    input_file.close()
+    with open(file, "rt", encoding="utf-8") as f:
+        data = f.read()
 
     # data = list_tokenize(data) # This is now done by the previous process
     data = data.split("\n")

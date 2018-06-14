@@ -4,16 +4,12 @@ from tokenizer.data.stop_words import stop_words
 
 en_nlp = en_core_web_sm.load()
 
-FILE_NAME = "ARTIFICIAL_PRODUCTS.txt"
+FILE_NAME = "tokenizer/data/categories/ARTIFICIAL_PRODUCTS.txt"
 # FILE_NAME = "ALCOHOL_PRODUCTS.txt"
 
 # Ingest ingredients
-f = open(FILE_NAME, "r", encoding='utf-8')
-
-if f.mode == "r":
+with open(FILE_NAME, "rt", encoding='utf-8') as f:
     ingredients = f.read()
-
-f.close()
 
 ingredients = list_tokenize.list_tokenize(ingredients)
 ingredients = list_tokenize.translate_to_en_chars(ingredients)
@@ -57,7 +53,7 @@ print("Finished processing.")
 print("Writing to file...")
 
 # Output to file
-f = open("spacy_sort_" + FILE_NAME, "w", encoding='utf-8')
+f = open(FILE_NAME, "wt", encoding='utf-8')
 for word in sorted_significant_items:
     f.write(word + "\n")
 
