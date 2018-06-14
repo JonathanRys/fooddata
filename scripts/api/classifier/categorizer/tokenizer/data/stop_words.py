@@ -25,6 +25,7 @@ stop_words = {
     "compound",
     "consumption",
     "contai",
+    "AaPPil",
     "container",
     "content",
     "degree",
