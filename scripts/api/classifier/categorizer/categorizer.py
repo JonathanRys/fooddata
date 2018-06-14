@@ -11,21 +11,21 @@ stop_words = set(stopwords.words('english'))
 
 # Define the tags and their associated stem files
 stems_by_category = {
-    ('alcohol', os.path.join(dirname, "./tokenizer/categories/ALCOHOL.txt")),
-    ('carcinogen', os.path.join(dirname, "./tokenizer/categories/CARCINOGENS.txt")),
-    ('fruit', os.path.join(dirname, "./tokenizer/categories/FRUITS.txt")),
-    ('mushroom', os.path.join(dirname, "./tokenizer/categories/MUSHROOMS.txt")),
-    ('rennet', os.path.join(dirname, "./tokenizer/categories/RENNET.txt")),
-    ('shellfish', os.path.join(dirname, "./tokenizer/categories/SHELLFISH.txt")),
-    ('vegetable', os.path.join(dirname, "./tokenizer/categories/VEGETABLES.txt"))
+    ('alcohol', os.path.join(dirname, "./tokenizer/data/categories/ALCOHOL.txt")),
+    ('carcinogen', os.path.join(dirname, "./tokenizer/data/categories/CARCINOGENS.txt")),
+    ('fruit', os.path.join(dirname, "./tokenizer/data/categories/FRUITS.txt")),
+    ('mushroom', os.path.join(dirname, "./tokenizer/data/categories/MUSHROOMS.txt")),
+    ('rennet', os.path.join(dirname, "./tokenizer/data/categories/RENNET.txt")),
+    ('shellfish', os.path.join(dirname, "./tokenizer/data/categories/SHELLFISH.txt")),
+    ('vegetable', os.path.join(dirname, "./tokenizer/data/categories/VEGETABLES.txt"))
 }
 
 # Preload the data into memory
 roots = {}
 for x in stems_by_category:
-    f = open(x[1], "r", encoding='utf-8')
+    f = open(x[1], "rt", encoding='utf-8')
 
-    if f.mode == "r":
+    if f.mode == "rt":
         roots[x[0]] = f.read().split("\n")
 
     f.close()
