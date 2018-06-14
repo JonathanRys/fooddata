@@ -6,6 +6,7 @@
   "configurations": [
     {
       "name": "Python: Current File",
+      "pythonPath": "${file}",
       "type": "python",
       "request": "launch",
       "program": "${file}"
