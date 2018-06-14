@@ -1,5 +1,6 @@
 import re
 from data.special_chars import special_chars, patterns, re_pattern
+from spell_correct import correction
 
 # Decorator
 
@@ -28,6 +29,11 @@ def use_list(func):
 def list_tokenize(list_to_split):
     return [x.strip() for x in re.split(patterns["list_boundries"], list_to_split)]
 
+@use_list
+def strip_special_chars(string):
+    # fix this
+    return re.sub(re_pattern("non_alpha_numeric"), "", string)
+
 
 @use_list
 def translate_to_en_chars(string, lang="es"):
@@ -36,12 +42,6 @@ def translate_to_en_chars(string, lang="es"):
                        lang + "\" -> \"en\".")
     char_map = str.maketrans(special_chars[lang])
     return string.translate(char_map)
-
-
-@use_list
-def strip_special_chars(string):
-    # fix this
-    return re.sub(re_pattern("non_alpha_numeric"), " ", string)
 
 
 @use_list
@@ -64,7 +64,8 @@ def strip_scraped_extras(string):
 def test():
 
     alphabet = [x for x in "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-"]
-    punctuation = "’'()[]{}<>:,‒–—―…!.«»-‐?‘’“”;/⁄␠·&@*\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※"
+    punctuation = ["’", "'", "\\", "\"", "(", ")", "[", "]", "{", "}", "<", ">", ":", ",", "‒", "–", "—", "―", "…", "!", ".", "«", "»", "-", "‐", "?", "‘", "’", "“", "”", ";", "/", "⁄", "␠", "·", "&", "@", "*", "•", "^", "¤", "¢", "$", "€", "£", "¥", "₩", "₪", "†", "‡", "°", "¡", "¿", "¬", "#", "№", "%", "‰", "‱", "¶", "′", "§", "~", "¨", "_|", "¦", "⁂", "☞", "∴", "‽", "※"]
+    #punctuation = "’'()[]{}<>:,‒–—―…!.«»-‐?‘’“”;/⁄␠·&@*\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※"
     itemized_list = "Here is one, this is a\nother; try  this and that or how    about these/those"
     es_chars = ["á", "é", "í", "ó", "ú", "ü", "ñ",
                 "Á", "É", "Í", "Ó", "Ú", "Ü", "Ñ", "¿", "¡"]
@@ -92,8 +93,7 @@ def test():
     assert result_list[27] == "OE"
 
     # Test strip_special_chars
-    result_list = strip_special_chars._no_list(punctuation)
-    print(result_list)
+    result_list = strip_special_chars(punctuation)
     assert len(result_list) == 2
     assert result_list[0] == "-"
     assert result_list[1] == "_"
