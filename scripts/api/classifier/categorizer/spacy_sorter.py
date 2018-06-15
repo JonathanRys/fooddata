@@ -16,9 +16,7 @@ OUTPUT_FILE = os.path.join(dirname, "srtd_ingredients.txt")
 
 if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
     from tokenizer.data.ingredients.itemize import itemize
-    print("File not found: ", INPUT_FILE)
-    exit(0)
-    #itemize()
+    itemize()
 
 print("Input OK. Reading data...")
 
@@ -56,12 +54,13 @@ for ingredient in tokenized_ingredients:
     nlp_indredient = en_nlp(ingredient)
     for term in nlp_indredient:
         nlp_ingredients[term.lemma_] = term
-    
+
 tokenized_ingredients = {}
 
 print("Applying the NLP tokenizer...")
 # Remove non-alpha characters
-nlp_ingredients = [nlp_ingredients[x] for x in nlp_ingredients if nlp_ingredients[x].is_alpha]
+nlp_ingredients = [nlp_ingredients[x]
+                   for x in nlp_ingredients if nlp_ingredients[x].is_alpha]
 
 print("Removing stop words...")
 # Remove stop words
@@ -79,7 +78,8 @@ nlp_ingredients = [x for x in nlp_ingredients if x.tag_ in tags_to_keep]
 
 print("Stemming...")
 # Extract the stem?  Do I need a different stemmer?
-nlp_ingredients = [x.lemma_ for x in nlp_ingredients if x.lemma_ not in stop_words.stop_words]
+nlp_ingredients = [
+    x.lemma_ for x in nlp_ingredients if x.lemma_ not in stop_words.stop_words]
 
 print("Removing duplicates...")
 # Remove duplicates and sort

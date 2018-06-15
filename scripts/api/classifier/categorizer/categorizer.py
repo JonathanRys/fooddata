@@ -30,7 +30,7 @@ for x in stems_by_category:
 
     f.close()
 
-#
+# This is the categorizer for the API to match against the model
 
 
 def get_lev_distance(s, t):

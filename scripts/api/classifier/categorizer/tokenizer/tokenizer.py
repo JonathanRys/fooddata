@@ -1,6 +1,6 @@
 import re
 from .data import special_chars
-from .spell_correct import *
+#from .spell_correct import *
 
 # Decorator
 
@@ -64,8 +64,9 @@ def strip_scraper_extras(string):
 def test():
 
     alphabet = [x for x in "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-"]
-    punctuation = ["’", "'", "\\", "\"", "(", ")", "[", "]", "{", "}", "<", ">", ":", ",", "‒", "–", "—", "―", "…", "!", ".", "«", "»", "-", "‐", "?", "‘", "’", "“", "”", ";", "/", "⁄", "␠", "·", "&", "@", "*", "•", "^", "¤", "¢", "$", "€", "£", "¥", "₩", "₪", "†", "‡", "°", "¡", "¿", "¬", "#", "№", "%", "‰", "‱", "¶", "′", "§", "~", "¨", "_|", "¦", "⁂", "☞", "∴", "‽", "※"]
-    #punctuation = "’'()[]{}<>:,‒–—―…!.«»-‐?‘’“”;/⁄␠·&@*\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※"
+    punctuation = ["’", "'", "\\", "\"", "(", ")", "[", "]", "{", "}", "<", ">", ":", ",", "‒", "–", "—", "―", "…", "!", ".", "«", "»", "-", "‐", "?", "‘", "’", "“", "”", ";", "/", "⁄", "␠",
+                   "·", "&", "@", "*", "•", "^", "¤", "¢", "$", "€", "£", "¥", "₩", "₪", "†", "‡", "°", "¡", "¿", "¬", "#", "№", "%", "‰", "‱", "¶", "′", "§", "~", "¨", "_|", "¦", "⁂", "☞", "∴", "‽", "※"]
+    # punctuation = "’'()[]{}<>:,‒–—―…!.«»-‐?‘’“”;/⁄␠·&@*\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※"
     itemized_list = "Here is one, this is a\nother; try  this and that or how    about these/those"
     es_chars = ["á", "é", "í", "ó", "ú", "ü", "ñ",
                 "Á", "É", "Í", "Ó", "Ú", "Ü", "Ñ", "¿", "¡"]
@@ -75,7 +76,7 @@ def test():
                             "   know", " \the\t\tmuffi\n", "ma\n?   "]
 
     # Test list_tokenize
-    result_list = list_tokenize(itemized_list)
+    result_list = tokenizer(itemized_list)
     assert len(result_list) == 7
     assert result_list[0] == "Here is one"
     assert result_list[6] == "those"
