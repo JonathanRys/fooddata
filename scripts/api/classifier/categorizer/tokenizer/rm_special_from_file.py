@@ -1,6 +1,6 @@
 import re
 import os
-from tokenizer import translate_to_en_chars, strip_special_chars, trim_whitespace
+import tokenizer
 
 
 def remove_special(file):
@@ -12,9 +12,9 @@ def remove_special(file):
 
     # data = list_tokenize(data) # This is now done by the previous process
     data = data.split("\n")
-    data = translate_to_en_chars(data, "all")
-    data = strip_special_chars(data)
-    data = trim_whitespace(data)
+    data = tokenizer.translate_to_en_chars(data, "all")
+    data = tokenizer.strip_special_chars(data)
+    data = tokenizer.trim_whitespace(data)
     data = [x for x in data if len(x) > 1]
 
     output_file = open(file, "wt", encoding="utf-8")

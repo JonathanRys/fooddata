@@ -7,8 +7,11 @@ OUTPUT_FILE = 'all_ingredients.txt'
 
 def itemize():
     if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+        from .ingredients import get_source_data
+        print("File not found")
         return False
-    
+        get_source_data()
+
     with open(INPUT_FILE, "rt", encoding="utf-8") as f:
         data = f.read()
 

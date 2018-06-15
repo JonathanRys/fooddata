@@ -1,6 +1,6 @@
 import re
-from data.special_chars import special_chars, patterns, re_pattern
-from spell_correct import correction
+from .data import special_chars
+from .spell_correct import *
 
 # Decorator
 
@@ -15,7 +15,7 @@ def use_list(func):
             else:
                 result = func(item)
 
-            # Remove empty items
+            # Omit empty items
             if len(result):
                 output_list.append(result)
 
@@ -26,28 +26,28 @@ def use_list(func):
 # Utilities
 
 
-def list_tokenize(list_to_split):
-    return [x.strip() for x in re.split(patterns["list_boundries"], list_to_split)]
+def tokenizer(list_to_split):
+    return [x.strip() for x in re.split(special_chars.patterns["list_boundries"], list_to_split)]
+
 
 @use_list
 def strip_special_chars(string):
-    # fix this
-    return re.sub(re_pattern("non_alpha_numeric"), "", string)
+    return re.sub(special_chars.re_pattern("non_alpha_numeric"), "", string)
 
 
 @use_list
 def translate_to_en_chars(string, lang="es"):
-    if not lang in special_chars:
+    if not lang in special_chars.special_chars:
         raise KeyError("No pattern found for mapping \"" +
                        lang + "\" -> \"en\".")
-    char_map = str.maketrans(special_chars[lang])
+    char_map = str.maketrans(special_chars.special_chars[lang])
     return string.translate(char_map)
 
 
 @use_list
 def trim_whitespace(string):
     # Removes all leading, trailing or duplicated whitespace and converts all whitespace to spaces
-    return re.sub(re_pattern("whitespace"), " ", string).strip()
+    return re.sub(special_chars.re_pattern("whitespace"), " ", string).strip()
 
 
 @use_list
@@ -56,8 +56,8 @@ def lower_case(string):
 
 
 @use_list
-def strip_scraped_extras(string):
-    return re.sub(re_pattern("scraper_extras"), " ", string)
+def strip_scraper_extras(string):
+    return re.sub(special_chars.re_pattern("scraper_extras"), " ", string)
 
 
 # Tests

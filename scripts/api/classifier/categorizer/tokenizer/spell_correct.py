@@ -1,7 +1,10 @@
 import re
-from collections import Counter
+import os
+import collections
 
-INPUT_FILE = 'data/spelling_scraper/foods.txt'
+dirname = os.path.dirname(__file__)
+
+INPUT_FILE = os.path.join(dirname, 'data/spelling_scraper/foods.txt')
 
 ### INIT CODE ###
 
@@ -11,7 +14,7 @@ def words(text): return re.findall(r'\w+', text.lower())
 
 def init():
     with open(INPUT_FILE) as f:
-        all_words = Counter(words(f.read()))
+        all_words = collections.Counter(words(f.read()))
 
     return all_words
 

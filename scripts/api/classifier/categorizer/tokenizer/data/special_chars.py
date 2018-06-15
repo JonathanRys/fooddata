@@ -283,7 +283,8 @@ patterns = {
     "numeric": r"[0-9]",
     "punctuation": r"[’'()[\]{}<>:,‒–—―…!.«»\-‐?‘’“”;/⁄␠·&@*\\•^¤¢$€£¥₩₪†‡°¡¿¬#№%‰‱¶′§~¨_|¦⁂☞∴‽※]",
     "list_boundries": r"concentrate| or | and |[\/\n,;&.\\]+",
-    "whitespace": r"[ \t\b\n]+"
+    "whitespace": r"[ \t\b\n]+",
+    "scraper_extras": r"\[[0-9]\]|^,|^n [0-9]"
 }
 
 
