@@ -19,8 +19,5 @@ def itemize():
         for item in data:
             f.write(item)
 
-    return True
-
-
 if __name__ == '__main__':
     itemize()
