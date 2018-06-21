@@ -19,7 +19,7 @@ def amalgamate():
         print("Ingesting",  file)
         
         with open(file, "rt", encoding="utf-8") as f:
-            mega_corpus = f.read()
+            mega_corpus += f.read()
             
     mega_corpus = strip_special_chars(mega_corpus)
     mega_corpus = mega_corpus.replace(" ", "\n")
@@ -32,8 +32,8 @@ def amalgamate():
         stripped_word = word.strip(r"[\'\" \*\(\{\[\]\}\)\.\:\;\-\_\\\/]")
 
         each_word.add(stripped_word)
-        each_word.add(stripped_word.lower())
-        each_word.add(stripped_word.capitalize())
+        #each_word.add(stripped_word.lower())
+        #each_word.add(stripped_word.capitalize())
 
 
     with open("spelling.dict", "wt", encoding="utf-8") as f:

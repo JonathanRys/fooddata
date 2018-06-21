@@ -12,7 +12,7 @@
 "natural flavor). Thompson raisins (contains palm and/or sunflower oil). confectioner's glaze (shellac). coconut oil"
 "Organic honey. that's it"
 "Raw honey. that's it"
-"Waitrose Oats & Honey Bars 5 x 30q (150q) Inqrédients : Flocons d'avoine complet (29%"
+"Waitrose Oats & Honey Bars 5 x 30q (150q)
 '#honey powder'
 '& honey'
 '(apple juice infused) honey'
@@ -383,7 +383,6 @@
 'Honey roasted pumpkin seeds [pumpkin seeds'
 'honey roasted sesame chips'
 'honey roasted sesame seeds'
-'honey roasted sesame st'
 'honey roasted sesame sticks (unbleached wheat flour (contains malted barley flour as a natural enzyme additive'
 'Honey roasted sesame sticks (unbleached wheat flour (contains malted barley flour as a natural enzyme additive'
 'honey roasted sesame sticks (unbleached wheat flour (contains malted barley flour as a natural enzymes additive'
@@ -728,7 +727,7 @@
 'vinegar. honey'
 'virginia honey'
 'vital wheat gluten. 100% domestic honey'
-'Waitrose Nuts & Honey Bars 5 x 30q (150q) Inqrédients : Amandes (20%'
+'Waitrose Nuts & Honey Bars 5 x 30q (150q)
 'walnuts honey'
 'walnuts. honey'
 'Water honey apple vinegar'

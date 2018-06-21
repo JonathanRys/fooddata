@@ -1,12 +1,9 @@
 "canola oil and yeast. that's it"
 "cottonseed oil and or sunflower oil and/or safflower oil"
-"D'HUILE VÉGETALE"
 "GOMME DE GUAR. RISSOLEES DANS DE L'HUILE DE CANOLA"
-"INGRÉDIENTS: FARINE DE BLÉ EMRICHIE. SUCRE. SHORTENING D'HUILE PALME ET/OU SHORTENING D'HUILE  VÉGÉTALE. MÉLASSE DE FANTAISIE"
 "margarines d'huile de palme et de canola"
 "pure peppermint oil"
 "pure spearmint and peppermint oils"
-"shortening d'huile de canola et de palme modifié et de palmiste modifié"
 "SHORTENING D'HUILE DE PALME"
 "SHORTENNING  D'HUILE DE PALME"
 "virgin sunflower oil"
@@ -1499,8 +1496,6 @@
 'high oleic safflower oil expeller pressed'
 'High oleic safflower oil'
 'high oleic safflower oil'
-'high oleic safflower oil; less than 2% of the following: tapioca star'
-'high oleic safflower oil; less than 2% of the following: tapioca starc'
 'high oleic safflower or sunflower oil'
 'high oleic safflower or sunflower oil. flavoring: sea salt'
 'high oleic sun flower oil'
@@ -1659,7 +1654,6 @@
 'less than 2%: extra virgin olive oil'
 'less than 25 of canola oil'
 'less than one percent of hydrogenated oil'
-'LEVURE ET HUILE D’OLIVE EXTRA VIERGE PRESSÉE À FROID'
 'Light olive oil'
 'light olive oil'
 'lime and lemon oils'
@@ -1861,7 +1855,6 @@
 'NON-HYDROGENATED VEGETABLE OILS'
 'non-hydrogenated vegetable palmolein oil'
 'not more than 2% sunflower oil added as a processing aid'
-'nucleic staerin hardened palm oil'
 'nutmeg oil'
 'oat flour. canola oil'
 'of cottonseed oil'

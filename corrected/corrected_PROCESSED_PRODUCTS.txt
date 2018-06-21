@@ -2871,7 +2871,6 @@
 'contains less than 1% mustard flour'
 'contains less than 1% of caramel color'
 'contains less than 1% of inulin'
-'contains less than 1% of modified con starch'
 'contains less than 1% of modified food starch'
 'contains less than 1% of modified tapioca starch'
 'contains less than 1% of mustard flour'
