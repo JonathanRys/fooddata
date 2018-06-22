@@ -3,6 +3,18 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 import os
 
+from .tokenizer.spell_correct import correct
+from sympound import sympound
+
+import platform
+dam_lev_distance = None
+if platform.system() != "Windows":
+    from pyxdameraulevenshtein import damerau_levenshtein_distance
+    dam_lev_distance = damerau_levenshtein_distance
+else:
+    from jellyfish import levenshtein_distance
+    dam_lev_distance = levenshtein_distance
+
 dirname = os.path.dirname(__file__)
 
 ps = PorterStemmer()
@@ -11,13 +23,13 @@ stop_words = set(stopwords.words('english'))
 
 # Define the tags and their associated stem files
 stems_by_category = {
-    ('alcohol', os.path.join(dirname, "./tokenizer/data/categories/ALCOHOL.txt")),
-    ('carcinogen', os.path.join(dirname, "./tokenizer/data/categories/CARCINOGENS.txt")),
-    ('fruit', os.path.join(dirname, "./tokenizer/data/categories/FRUITS.txt")),
-    ('mushroom', os.path.join(dirname, "./tokenizer/data/categories/MUSHROOMS.txt")),
-    ('rennet', os.path.join(dirname, "./tokenizer/data/categories/RENNET.txt")),
-    ('shellfish', os.path.join(dirname, "./tokenizer/data/categories/SHELLFISH.txt")),
-    ('vegetable', os.path.join(dirname, "./tokenizer/data/categories/VEGETABLES.txt"))
+    ('alcohol', os.path.join(dirname, "./tokenizer/data/categories/alcohol.txt")),
+    ('carcinogen', os.path.join(dirname, "./tokenizer/data/categories/carcinogens.txt")),
+    ('fruit', os.path.join(dirname, "./tokenizer/data/categories/fruits.txt")),
+    ('mushroom', os.path.join(dirname, "./tokenizer/data/categories/mushrooms.txt")),
+    ('rennet', os.path.join(dirname, "./tokenizer/data/categories/rennet.txt")),
+    ('shellfish', os.path.join(dirname, "./tokenizer/data/categories/shellfish.txt")),
+    ('vegetable', os.path.join(dirname, "./tokenizer/data/categories/vegetables.txt"))
 }
 
 # Preload the data into memory
@@ -83,7 +95,8 @@ def closest_match(ingredient, root, roots):
 
     for root_stem in roots:
         # Calculate distance
-        lev_distance = get_lev_distance(ingredient_stem, root_stem)
+        # lev_distance = get_lev_distance(ingredient_stem, root_stem)
+        lev_distance = dam_lev_distance(ingredient_stem, root_stem)
 
         if (lev_distance == 0):
             return (lev_distance, ingredient, root)
@@ -110,7 +123,7 @@ def categorize(ingredient_list):
     iterable_list = sorted(set(words))
 
     # Iterate through this list and find matching tags
-    tags = {}
+    classified_products = {}
 
     # Filter the ingredient to make sure it's just the most significant term
     for ingredient in iterable_list:
@@ -128,29 +141,32 @@ def categorize(ingredient_list):
 
             # This is the simplest logic
             if ingredient_stem in roots[root]:
-                if root in tags:
-                    tags[root].append(ingredient)
+                if root in classified_products:
+                    classified_products[root].append(ingredient)
                 else:
-                    tags[root] = [ingredient]
+                    classified_products[root] = [ingredient]
                 nearest = []
                 break
             else:
                 closest = closest_match(ingredient_stem, root, roots[root])
 
-                print("Closest:", closest)
+                #print("Closest:", closest)
 
                 if closest[0][0] < nearest[0][0]:
                     nearest = closest
                 elif closest[0][0] == nearest[0][0]:
                     nearest.append(closest[0])
 
-                print("Nearest:", nearest)
+                #print("Nearest:", nearest)
 
         for tag in nearest:
-            if tag[2] in tags:
-                if not tag[1] in tags[tag[2]]:
-                    tags[tag[2]].append(tag[1])
+            print(tag)
+            category = tag[2]
+            product = tag[1]
+            if category in classified_products:
+                if not correct(product) in classified_products[category]:
+                    classified_products[category].append(correct(product))
             else:
-                tags[tag[2]] = [tag[1]]
+                classified_products[category] = [correct(product)]
 
-    return tags
+    return classified_products

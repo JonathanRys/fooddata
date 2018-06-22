@@ -9,90 +9,128 @@ en_nlp = en_core_web_sm.load()
 dirname = os.path.dirname(__file__)
 dirname = os.path.join(dirname, "tokenizer/data/ingredients")
 
-# Check if this exists
+# Define constants
 INPUT_FILE = os.path.join(dirname, "all_ingredients.txt")
 TOKEN_FILE = os.path.join(dirname, "tkn_ingredients.txt")
 OUTPUT_FILE = os.path.join(dirname, "srtd_ingredients.txt")
 
-if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
-    from tokenizer.data.ingredients.itemize import itemize
-    itemize()
+#Define functions
+def sentence_tokenize(ingredients):
+    print(" Tokenizing sentences...")
+    tokenized_ingredients = set()
 
-print("Input OK. Reading data...")
+    tokens = tokenizer(ingredients)
+    for token in tokens:
+        tokenized_ingredients.add(token)
 
-# Ingest ingredients
-with open(INPUT_FILE, "rt", encoding='utf-8') as f:
-    ingredients = f.read()
+    return tokenized_ingredients
 
-print("Tokenizing ingredients...")
-tokenized_ingredients = set()
 
-tokens = tokenizer(ingredients)
-for token in tokens:
-    tokenized_ingredients.add(token)
+def translate(ingredients):
+    print(" Translating characters...")
+    return translate_to_en_chars(ingredients)
 
-# Free this memory up
-ingredients = ""
 
-print("Translating characters...")
-# Reassign the result to conserve memory
-tokenized_ingredients = translate_to_en_chars(tokenized_ingredients)
+def word_tokenize(ingredients):
+    print(" Applying the spaCy NLP word tokenizer...")
+    nlp_ingredients = {}
 
-# Write tokenized_ingredients to file for testing models on
-with open(TOKEN_FILE, "wt", encoding='utf-8') as f:
-    for ingredient in tokenized_ingredients:
-        f.write(ingredient + "\n")
+    # Tokenize the ingredient list
+    for ingredient in ingredients:
+        nlp_indredient = en_nlp(ingredient)
+        for term in nlp_indredient:
+            nlp_ingredients[term.lemma_] = term
 
-#tokenized_ingredients = {}
-nlp_ingredients = {}
+    return nlp_ingredients
 
-# Process the data to remove irellevant and/or useless terms
-print("Processing...")
 
-# Tokenize the ingredient list
-for ingredient in tokenized_ingredients:
-    nlp_indredient = en_nlp(ingredient)
-    for term in nlp_indredient:
-        nlp_ingredients[term.lemma_] = term
+# Remove non-alpha words
+def alpha_only(ingredients):
+    print(" Removing non-alpha words e.g. 1-1/2, **, ->, 74, etc.")
+    return [ingredients[x] for x in ingredients if ingredients[x].is_alpha]
 
-tokenized_ingredients = {}
 
-print("Applying the NLP tokenizer...")
-# Remove non-alpha characters
-nlp_ingredients = [nlp_ingredients[x]
-                   for x in nlp_ingredients if nlp_ingredients[x].is_alpha]
-
-print("Removing stop words...")
 # Remove stop words
-nlp_ingredients = [x for x in nlp_ingredients if not x.is_stop]
+def remove_stop_words(ingredients):
+    print(" Removing stop words...")
+    return[x for x in ingredients if not x.is_stop]
 
-print("Filtering based on part of speech...")
+
 # Remove irrelevant parts of speach
-pos_to_keep = ["NOUN", "PROPN"]
-nlp_ingredients = [x for x in nlp_ingredients if x.pos_ in pos_to_keep]
+def pos_filter(ingredients):
+    print(" Filtering based on part of speech...")
+    pos_to_keep = ["NOUN", "PROPN"]
+    return [x for x in ingredients if x.pos_ in pos_to_keep]
 
-print("Filtering based on tag...")
+
 # Remove items with irrelevant tags
-tags_to_keep = ["JJ", "NN", "NNP"]
-nlp_ingredients = [x for x in nlp_ingredients if x.tag_ in tags_to_keep]
+def tag_filter(ingredients):
+    print(" Filtering based on tag...")
+    tags_to_keep = ["JJ", "NN", "NNP"]
+    return [x for x in ingredients if x.tag_ in tags_to_keep]
 
-print("Stemming...")
+
 # Extract the stem?  Do I need a different stemmer?
-nlp_ingredients = [
-    x.lemma_ for x in nlp_ingredients if x.lemma_ not in stop_words.stop_words]
+def stem(ingredients):
+    print(" Stemming...")
+    return [
+        x.lemma_ for x in ingredients if x.lemma_ not in stop_words.stop_words]
 
-print("Removing duplicates...")
+
 # Remove duplicates and sort
-nlp_ingredients = sorted(set(nlp_ingredients))
+def sorted_set(ingredients):
+    print(" Removing duplicates...")
+    return sorted(set(ingredients))
 
-print("Finished processing.")
-
-# Finish outputing the result
-print("Writing to file...")
 
 # Output to file
-with open(OUTPUT_FILE, "wt", encoding='utf-8') as f:
-    for word in nlp_ingredients:
-        f.write(word + "\n")
+def write_data(file, data):
+    print("Writing to " + file + "...")
+    with open(file, "wt", encoding='utf-8') as f:
+        for item in data:
+            f.write(item + "\n")
 
-print("Done.")
+
+def process_data():
+    # Check if the required input exists, otherwise create it
+    if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+        from tokenizer.data.ingredients.itemize import itemize
+        try:
+            itemize()
+        except:
+            print("Could not find or create input file", INPUT_FILE)
+            exit(0)
+
+    print("Input OK. Reading data...")
+    # Ingest the data
+    with open(INPUT_FILE, "rt", encoding='utf-8') as f:
+        ingredients = f.read()
+    
+    # Process the data
+    print("Processing...")
+
+    ingredients = sentence_tokenize(ingredients)
+    ingredients = translate(ingredients)
+    write_data(TOKEN_FILE, ingredients)
+
+    ingredients = word_tokenize(ingredients)
+    ingredients = alpha_only(ingredients)
+    ingredients = remove_stop_words(ingredients)
+    ingredients = pos_filter(ingredients)
+    ingredients = tag_filter(ingredients)
+    ingredients = stem(ingredients)
+    ingredients = sorted_set(ingredients)
+
+    print("Finished processing.")
+
+    # Output the result
+    write_data(OUTPUT_FILE, ingredients)
+
+    print("Done.")
+
+
+if __name__ == '__main__':
+    import time
+    start_time = time.time()
+    process_data()
+    print("--- %s seconds ---" % (time.time() - start_time))

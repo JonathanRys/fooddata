@@ -7,7 +7,7 @@ csv.field_size_limit(2147483647)
 possible_ingredients = set()
 
 BASE_URL = "https://world.openfoodfacts.org"
-INPUT_FILE = 'en.openfoodfacts.org.products.txt'
+INPUT_FILE = 'en.openfoodfacts.org.products.csv'
 OUTPUT_FILE = 'raw_ingredients.txt'
 COUNTRIES = ['United Kingdom',
              'United States',
@@ -21,7 +21,7 @@ def get_data_stream(url):
 
 
 def get_source_data():
-    print("Downloading data...")
+    print(" >> Downloading data...")
     off_data = get_data_stream("/data/en.openfoodfacts.org.products.csv")
 
     f = open(INPUT_FILE, 'wb')
@@ -31,12 +31,14 @@ def get_source_data():
         f.flush()
     f.close()
 
-    print("done.\n")
-    print("Processing data...")
+    print(" >> done.\n")
+    print(" >> Processing data...")
 
     if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+        # Raise an exception here instead
         return False
 
+    # Read CSV file
     with open(INPUT_FILE, 'rt', encoding="utf-8") as csvfile:
         # Iterate through the rows in the CSV file
         filereader = csv.DictReader(
@@ -47,23 +49,20 @@ def get_source_data():
             country = product['countries_en']
 
             if ingredients_text is not None and country in COUNTRIES:
-                # split the list into seperate ingredients
-                #ingredients = ingredients_text.split(',')
                 # for ingredient in ingredients:
                 possible_ingredients.add(ingredients_text)
-        csvfile.close()
+
 
     with open(OUTPUT_FILE, 'wt', encoding="utf-8") as outputfile:
         for ingredient in possible_ingredients:
             outputfile.write(ingredient + "\n")
-        outputfile.close()
 
     os.remove(INPUT_FILE)
 
-    print("done - output written to", OUTPUT_FILE, "\n")
+    print(" >> Writing to", OUTPUT_FILE, "\n")
     return True
 
-# return stats # [(# of ingredients, # of products, # words removed), ...]
+# print or return stats? # [(# of ingredients, # of products, # words removed), ...]
 
 
 if __name__ == '__main__':

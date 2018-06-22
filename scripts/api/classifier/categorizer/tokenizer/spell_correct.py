@@ -5,6 +5,8 @@ import collections
 dirname = os.path.dirname(__file__)
 
 INPUT_FILE = os.path.join(dirname, 'data/spelling_scraper/foods.txt')
+#INPUT_FILE = os.path.join(dirname, 'data/words_alpha.txt')
+
 
 ### INIT CODE ###
 
@@ -12,14 +14,15 @@ INPUT_FILE = os.path.join(dirname, 'data/spelling_scraper/foods.txt')
 def words(text): return re.findall(r'\w+', text.lower())
 
 
-def init():
-    with open(INPUT_FILE) as f:
+def init(file):
+    with open(file) as f:
         all_words = collections.Counter(words(f.read()))
 
     return all_words
 
 
-WORDS = init()
+WORDS = init(INPUT_FILE)
+
 
 ### END INIT CODE ###
 
@@ -29,10 +32,9 @@ def P(word, N=sum(WORDS.values())):
     return WORDS[word] / N
 
 
-def correction(word):
+def correct(word):
     "Most probable spelling correction for word."
     return max(candidates(word), key=P)
-
 
 def candidates(word):
     "Generate possible spelling corrections for word."
@@ -61,4 +63,6 @@ def edits2(word):
 
 
 if __name__ == '__main__':
-    print(correction("portabella"))
+    print(correct("portabella"))
+    print(correct("Appil"))
+    

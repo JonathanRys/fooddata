@@ -4,7 +4,7 @@ import re
 dirname = os.path.dirname(__file__)
 
 def strip_special_chars(string):
-    return re.sub(r"[^A-z^0-9^ ^\-^_]|\\|\^|\]|\[", " ", string)
+    return re.sub(r"[^A-z^0-9^ ^\-^_^é^ñ]|\\|\^|\]|\[", " ", string)
 
 def amalgamate():
     files = []
@@ -39,7 +39,7 @@ def amalgamate():
     with open("spelling.dict", "wt", encoding="utf-8") as f:
         for word in sorted(each_word):
             if len(word) > 1:
-                f.write(word + "\n")
+                f.write(word + " ")
 
 if __name__ == '__main__':
     amalgamate()

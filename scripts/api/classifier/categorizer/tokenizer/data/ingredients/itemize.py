@@ -6,6 +6,7 @@ OUTPUT_FILE = 'all_ingredients.txt'
 
 
 def itemize():
+    print(" > Itemizing ingredients...")
     if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
         from .ingredients import get_source_data
         get_source_data()
