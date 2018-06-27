@@ -401,7 +401,7 @@ if __name__ == "__main__":
     print("---------------")
     
     while True:
-        word_in = raw_input('Enter your input (or enter to exit): ')
+        word_in = input('Enter your input (or enter to exit): ')
         if len(word_in)==0:
             print("goodbye")
             break

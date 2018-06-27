@@ -7,14 +7,16 @@ from tokenizer.tokenizer import tokenizer, translate_to_en_chars, strip_special_
 en_nlp = en_core_web_sm.load()
 
 dirname = os.path.dirname(__file__)
-dirname = os.path.join(dirname, "tokenizer/data/ingredients")
+data_dir = os.path.join(dirname, "tokenizer/data/ingredients")
 
 # Define constants
-INPUT_FILE = os.path.join(dirname, "all_ingredients.txt")
-TOKEN_FILE = os.path.join(dirname, "tkn_ingredients.txt")
-OUTPUT_FILE = os.path.join(dirname, "srtd_ingredients.txt")
+INPUT_FILE = os.path.join(data_dir, "all_ingredients.txt")
+TOKEN_FILE = os.path.join(data_dir, "tkn_ingredients.txt")
+OUTPUT_FILE = os.path.join(data_dir, "srtd_ingredients.txt")
 
-#Define functions
+# Define functions
+
+
 def sentence_tokenize(ingredients):
     print(" Tokenizing sentences...")
     tokenized_ingredients = set()
@@ -44,10 +46,16 @@ def word_tokenize(ingredients):
     return nlp_ingredients
 
 
+# Get the values of a list as an array
+def make_list(obj):
+    return [obj[x] for x in obj]
+
+
 # Remove non-alpha words
 def alpha_only(ingredients):
+    # This function works on
     print(" Removing non-alpha words e.g. 1-1/2, **, ->, 74, etc.")
-    return [ingredients[x] for x in ingredients if ingredients[x].is_alpha]
+    return [x for x in ingredients if x.is_alpha]
 
 
 # Remove stop words
@@ -75,6 +83,14 @@ def stem(ingredients):
     print(" Stemming...")
     return [
         x.lemma_ for x in ingredients if x.lemma_ not in stop_words.stop_words]
+
+
+# Return the word
+def get_word(ingredients):
+    print(" Getting words...")
+    for x in ingredients:
+        print("x:", x, ingredients[x])
+        exit(0)
 
 
 # Remove duplicates and sort
@@ -105,7 +121,7 @@ def process_data():
     # Ingest the data
     with open(INPUT_FILE, "rt", encoding='utf-8') as f:
         ingredients = f.read()
-    
+
     # Process the data
     print("Processing...")
 
@@ -114,17 +130,19 @@ def process_data():
     write_data(TOKEN_FILE, ingredients)
 
     ingredients = word_tokenize(ingredients)
-    ingredients = alpha_only(ingredients)
-    ingredients = remove_stop_words(ingredients)
-    ingredients = pos_filter(ingredients)
-    ingredients = tag_filter(ingredients)
-    ingredients = stem(ingredients)
-    ingredients = sorted_set(ingredients)
+    ingredients_list = make_list(ingredients)
+    ingredients_list = alpha_only(ingredients_list)
+    ingredients_list = remove_stop_words(ingredients_list)
+    ingredients_list = pos_filter(ingredients_list)
+    ingredients_list = tag_filter(ingredients_list)
+    get_word(ingredients_list)
+    ingredients_list = stem(ingredients_list)
+    ingredients_list = sorted_set(ingredients_list)
 
     print("Finished processing.")
 
     # Output the result
-    write_data(OUTPUT_FILE, ingredients)
+    write_data(OUTPUT_FILE, ingredients_list)
 
     print("Done.")
 
@@ -132,5 +150,7 @@ def process_data():
 if __name__ == '__main__':
     import time
     start_time = time.time()
+    print("Sorter started.")
+    print("Checking input...")
     process_data()
     print("--- %s seconds ---" % (time.time() - start_time))

@@ -23,6 +23,7 @@
 'black forest mushroom extract'
 'black fungus'
 'Black fungus'
+cantharellus
 'black mushroom'
 'black mushrooms'
 'black summer truffle (tuber aestivum vitt.)'

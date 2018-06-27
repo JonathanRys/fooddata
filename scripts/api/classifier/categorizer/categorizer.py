@@ -3,11 +3,14 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 import os
 
-from .tokenizer.spell_correct import correct
 from sympound import sympound
+from tokenizer.spell_checker import SpellChecker
+from tokenizer.data.whitelists import whitelists
 
 import platform
+
 dam_lev_distance = None
+
 if platform.system() != "Windows":
     from pyxdameraulevenshtein import damerau_levenshtein_distance
     dam_lev_distance = damerau_levenshtein_distance
@@ -16,34 +19,33 @@ else:
     dam_lev_distance = levenshtein_distance
 
 dirname = os.path.dirname(__file__)
-
 ps = PorterStemmer()
 distance_threshhold = 4
 stop_words = set(stopwords.words('english'))
+stems_by_category = whitelists["categories"]
 
-# Define the tags and their associated stem files
-stems_by_category = {
-    ('alcohol', os.path.join(dirname, "./tokenizer/data/categories/alcohol.txt")),
-    ('carcinogen', os.path.join(dirname, "./tokenizer/data/categories/carcinogens.txt")),
-    ('fruit', os.path.join(dirname, "./tokenizer/data/categories/fruits.txt")),
-    ('mushroom', os.path.join(dirname, "./tokenizer/data/categories/mushrooms.txt")),
-    ('rennet', os.path.join(dirname, "./tokenizer/data/categories/rennet.txt")),
-    ('shellfish', os.path.join(dirname, "./tokenizer/data/categories/shellfish.txt")),
-    ('vegetable', os.path.join(dirname, "./tokenizer/data/categories/vegetables.txt"))
-}
-
-# Preload the data into memory
+# Preload the category data into memory
 roots = {}
+
 for x in stems_by_category:
-    f = open(x[1], "rt", encoding='utf-8')
+    file_name = stems_by_category[x]
+    
+    if not os.path.exists(file_name) or not os.path.isfile(file_name):
+        print("Unable to load file", file_name)
+        continue
+    
+    with open(file_name, "rt", encoding='utf-8') as f:
+        roots[x] = f.read().split("\n")
 
-    if f.mode == "rt":
-        roots[x[0]] = f.read().split("\n")
 
-    f.close()
+# Preload the spell checkers
+spell_checkers = {}
 
-# This is the categorizer for the API to match against the model
+for x in whitelists["spelling"]:
+    print("Loading", whitelists["spelling"][x])
+    spell_checkers[x] = SpellChecker(whitelists["spelling"][x])
 
+print("spell checkers", spell_checkers)
 
 def get_lev_distance(s, t):
     """ 
@@ -94,6 +96,9 @@ def closest_match(ingredient, root, roots):
     best_match = [(distance_threshhold, "", "")]
 
     for root_stem in roots:
+        if ingredient_stem == None or root_stem == None:
+            continue
+
         # Calculate distance
         # lev_distance = get_lev_distance(ingredient_stem, root_stem)
         lev_distance = dam_lev_distance(ingredient_stem, root_stem)
@@ -160,13 +165,21 @@ def categorize(ingredient_list):
                 #print("Nearest:", nearest)
 
         for tag in nearest:
-            print(tag)
             category = tag[2]
             product = tag[1]
+            corrected_product = spell_checkers[category].correct(product)
             if category in classified_products:
-                if not correct(product) in classified_products[category]:
-                    classified_products[category].append(correct(product))
+                if not ps.stem(corrected_product) in classified_products[category]:
+                    classified_products[category].append(corrected_product)
             else:
-                classified_products[category] = [correct(product)]
+                classified_products[category] = [corrected_product]
 
     return classified_products
+
+
+def test():
+    result = categorize("apples, celery, banana, fried clams")
+    print("Result:", result)
+
+if __name__ == '__main__':
+    test()

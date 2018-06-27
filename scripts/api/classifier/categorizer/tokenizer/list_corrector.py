@@ -1,9 +1,16 @@
 import os
 from spell_correct import correct
+
 from multiprocessing import Process
-from symspell_python import best_word
+from symspell_python import best_word, create_dictionary
 
 import time
+
+from spell_checker import SpellChecker
+spell_checker = SpellChecker('data/dictionaries/spelling.dict')
+
+symspell_dict = create_dictionary('data/dictionaries/spelling.dict')
+
 
 dirname = os.path.dirname(__file__)
 
@@ -37,18 +44,13 @@ def check_list(filename):
 
     print("Checking the spelling of words...")
     for ingredient in ingredients:
-        best = best_word(ingredient)
-
-        
-
+        #best = best_word(ingredient)
+        best = spell_checker.correct(ingredient)
         
         if best == None:
-            print("None:", ingredient, best)
             misspelled.append(ingredient)
 
         elif ingredient == best:
-            print("Match:", ingredient, best)
-
             matched.append(ingredient)
         else:
             found.append(ingredient)

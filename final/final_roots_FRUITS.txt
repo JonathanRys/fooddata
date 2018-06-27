@@ -81,7 +81,6 @@ dragonfruit
 durian
 elder
 elderberri
-extra
 feijoa
 fig
 frui

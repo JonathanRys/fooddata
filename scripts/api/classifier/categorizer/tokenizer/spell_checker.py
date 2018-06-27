@@ -1,38 +1,10 @@
+import re
 import os
 import collections
-import re
+
+from .data.whitelists import whitelists
 
 dirname = os.path.dirname(__file__)
-
-whitelist = {
-    "spelling":{
-        "alcohol": os.path.join(dirname, 'data/dictionaries/spelling_alcohol.txt'),
-        "artificial": os.path.join(dirname, 'data/dictionaries/spelling_artificial.txt'),
-        "carcinogens": os.path.join(dirname, 'data/dictionaries/spelling_carcinogens.txt'),
-        "dairy": os.path.join(dirname, 'data/dictionaries/spelling_dairy.txt'),
-        "eggs": os.path.join(dirname, 'data/dictionaries/spelling_eggs.txt'),
-        "fish": os.path.join(dirname, 'data/dictionaries/spelling_fish.txt'),
-        "fruits": os.path.join(dirname, 'data/dictionaries/spelling_fruits.txt'),
-        "grains": os.path.join(dirname, 'data/dictionaries/spelling_grains.txt'),
-        "insects": os.path.join(dirname, 'data/dictionaries/spelling_insects.txt'),
-        "legumes": os.path.join(dirname, 'data/dictionaries/spelling_legumes.txt'),
-        "mushrooms": os.path.join(dirname, 'data/dictionaries/spelling_mushrooms.txt'),
-        "non_vegan": os.path.join(dirname, 'data/dictionaries/spelling_non_vegan.txt'),
-        "nuts": os.path.join(dirname, 'data/dictionaries/spelling_nuts.txt'),
-        "oil": os.path.join(dirname, 'data/dictionaries/spelling_oil.txt'),
-        "pork": os.path.join(dirname, 'data/dictionaries/spelling_pork.txt'),
-        "poultry": os.path.join(dirname, 'data/dictionaries/spelling_poultry.txt'),
-        "processed": os.path.join(dirname, 'data/dictionaries/spelling_processed.txt'),
-        "red_meat": os.path.join(dirname, 'data/dictionaries/spelling_red_meat.txt'),
-        "rennet": os.path.join(dirname, 'data/dictionaries/spelling_rennet.txt'),
-        "seeds": os.path.join(dirname, 'data/dictionaries/spelling_seeds.txt'),
-        "shellfish": os.path.join(dirname, 'data/dictionaries/spelling_shellfish.txt'),
-        "spices": os.path.join(dirname, 'data/dictionaries/spelling_spices.txt'),
-        "vegetables": os.path.join(dirname, 'data/dictionaries/spelling_vegetables.txt'),
-        "wheat": os.path.join(dirname, 'data/dictionaries/spelling_wheat.txt'),
-        "all": os.path.join(dirname, 'data/dictionaries/spelling.dict'),
-    }
-}
 
 class SpellChecker:
 
@@ -50,9 +22,8 @@ class SpellChecker:
         return max(self.candidates(word), key=self.P)
 
     def candidates(self, word):
-        sig = self.case_signature(word)
-        word = word.lower()
-        return [self.apply_signature((self.known([word]) or self.known(self.edits1(word)) or self.known(self.edits2(word)) or [word]), sig)]
+        lower_word = word.lower()
+        return (self.apply_signature((self.known([lower_word]) or self.known(self.edits1(lower_word)) or self.known(self.edits2(lower_word)) or [None]), word))
 
     def known(self, words):
         "The subset of `words` that appear in the dictionary of WORDS."
@@ -60,7 +31,7 @@ class SpellChecker:
 
     def edits1(self, word):
         "All edits that are one edit away from `word`."
-        letters = 'abcdefghijklmnopqrstuvwxyz'
+        letters = 'abcdefghijklmnopqrstuvwxyz-_'
         splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
         deletes = [L + R[1:] for L, R in splits if R]
         transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
@@ -74,56 +45,73 @@ class SpellChecker:
 
     def get_words(self, text): return re.findall(r'\w+', text.lower())
 
-    def case_signature(self, word):
-        signature = ""
+
+    def apply_signature(self, words, template):
+        formatted_words = set()
+
+        default_case = self.get_default_case(template)
+
+        if len(template) == 0:
+            return formatted_words
+        
+        for word in words:
+            # Add None if the the word is None or the template is null
+            if word == None or not len(word):
+                formatted_words.add(None)
+                continue
+
+            # Add trailing characters to the template as needed
+            while len(word) > len(template):
+                template += template[-1]
+
+            # Fix case based on the template and the default case
+            formatted_word = ""
+            for letter, token in zip(word, template):
+                formatted_word += token if letter.lower() == token.lower() else default_case(letter)
+
+            formatted_words.add(formatted_word)
+
+        return formatted_words
+
+
+    def get_default_case(self, word):
+        upper = 0
+        lower = 0
 
         for letter in word:
             code = ord(letter)
-            if code in [32]:
-                signature += " "
-            elif code > 64:
+            if code > 64:
                 if code < 91:
-                    signature += "X"
+                    upper += 1
                 elif code > 96 and code < 123:
-                    signature += "x"
-                else:
-                    signature += "_"
-            else:
-                signature += "_"
+                    lower += 1
 
-        return signature
+        if upper > lower:
+            return str.upper
 
-    def apply_signature(self, words, signature):
-        for word in words:
-            if len(word) > len(signature):
-                for i in range(len(signature), len(word)):
-                    signature += signature[-1]
-            temp = word.lower()
-            output = ""
-
-            for letter, token in zip(temp, signature):
-                if token == "X":
-                    output += letter.upper()
-                else:
-                    output += letter
-
-        return output
+        return str.lower
 
 
+### TESTS ###
 def test():
-    fruit_test = SpellChecker(whitelist['spelling']['fruits'])
-    mush_test = SpellChecker(whitelist['spelling']['mushrooms'])
-    veg_test = SpellChecker(whitelist['spelling']['vegetables'])
-
+    spell_checker = SpellChecker(whitelists['spelling']['all'])
+    assert(spell_checker.correct("fried") == "fried")
+    
+    fruit_test = SpellChecker(whitelists['spelling']['fruits'])
     assert(fruit_test.correct("Appil") == "Apple")
+
+    mush_test = SpellChecker(whitelists['spelling']['mushrooms'])
     assert(mush_test.correct("Portabella") == "Portobello")
+
+    veg_test = SpellChecker(whitelists['spelling']['vegetables'])
     assert(veg_test.correct("celry") == "celery")
     assert(veg_test.correct("celeryz") == "celery")
     assert(veg_test.correct("cElryz") == "cElery")
 
     print("All tests passed.\n")
 
-    spell_checker = SpellChecker(whitelist['spelling']['all'])
+def cmd_ln_interface():
+    spell_checker = SpellChecker(whitelists['spelling']['all'])
     
     while True:
         input_word = input("Enter a word to correct, 'z' for option[z] or 'q' to [q]uit: ")
@@ -132,12 +120,13 @@ def test():
             break
         elif input_word == 'z':
             while True:
-                dictionary = input("Enter dictionary name or 'all' for default:")
-                if dictionary in whitelist['spelling']:
-                    spell_checker = SpellChecker(whitelist['spelling'][dictionary])
+                dictionary = input("Enter dictionary name or 'all' for default: ")
+                if dictionary in whitelists['spelling']:
+                    spell_checker = SpellChecker(whitelists['spelling'][dictionary])
+                    print("Dictionary changed to:", dictionary)
                     break;
                 else:
-                    print("\nERROR: Dictionary not found.")
+                    print("\nERROR: Dictionary", dictionary, "not found.")
                     print("Please choose one of:\n    alcohol\n    artificial\n    carcinogens\n    dairy\n    eggs\n    fish\n    fruits\n    grains\n    insects\n    legumes\n    mushrooms\n    non_vegan\n    nuts\n    oil\n    pork\n    poultry\n    processed\n    red_meat\n    rennet\n    seeds\n    shellfish\n    spices\n    vegetables\n    wheat\n")
             continue            
         elif " " in input_word or not len(input_word):
@@ -150,6 +139,7 @@ def test():
 
 if __name__ == '__main__':
     test()
+    cmd_ln_interface()
 
 
     

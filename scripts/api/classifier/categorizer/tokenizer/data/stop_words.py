@@ -1,6 +1,8 @@
 # This should go into the stop words in the spaCy folder
 # Keep it as a .py file for now so I can test with it
 
+# or into the categories folder
+
 stop_words = {
     "acting",
     "activity",
@@ -37,6 +39,7 @@ stop_words = {
     "fabrication",
     "facility",
     "freshness",
+    "fried",
     "garnish",
     "gourmet",
     "grade",

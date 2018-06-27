@@ -1,4 +1,4 @@
-"' a salt"
+﻿"' a salt"
 "' salt"
 "'parsley"
 "Alaea salt"
@@ -28,6 +28,8 @@
 '& kosher salt'
 '& salt'
 '& sea salt'
+chickweed
+Chickweed
 '& spices'
 '& turmeric'
 '& turmeric]'
@@ -415,7 +417,7 @@
 'aromatic herbs and spices'
 'aromatic spices'
 'asafoetida salt'
-'TAJÍN clasico seasoning [chili peppers'
+'TAJIN clasico seasoning [chili peppers'
 'Asafoetida'
 'asafoetida'
 'ascorbic palmitate); Soup base (salt'
@@ -1443,7 +1445,7 @@
 'Fennel roMaine'
 'fennel spices). salt'
 'Fennel sweet anise'
-'FENNEL S£ED‘'
+'FENNEL SEED'
 'fennel turmeric'
 'Fennel'
 'fennel'
@@ -2679,7 +2681,7 @@
 'salt). contains 2% or less of each'
 'salt). contains 2% or less of: salt'
 'salt). contains less than 2% of th'
-'salt). contains less than ½% of salt'
+'salt). contains less than % of salt'
 'salt). kalamata olives (ripe olives'
 'salt). paprika'
 'salt). sauce: prepared horseradish (horseradish'
@@ -2692,7 +2694,7 @@
 'salt. *'
 'salt. *adds a trivial amount of saturated fat'
 'salt. *dried'
-'salt. *†'
+'salt. *'
 'salt. < 2% turmeric'
 'salt. [*] contains one or more of th'
 'salt. bar'
@@ -2748,8 +2750,6 @@
 'salt. yeast'
 'salt.'
 'salt.*'
-'salt.*+'
-'salt.*†'
 'salt..'
 'salt.3'
 'salt.gluten free'

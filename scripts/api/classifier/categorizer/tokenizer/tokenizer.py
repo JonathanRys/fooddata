@@ -1,6 +1,10 @@
 import re
+from nltk.stem import PorterStemmer
+from nltk.corpus import stopwords
 from .data import special_chars
-#from .spell_correct import *
+
+porter_stemmer = PorterStemmer()
+stop_words = set(stopwords.words('english'))
 
 # Decorator
 
@@ -23,9 +27,8 @@ def use_list(func):
     wrapper._no_list = func
     return wrapper
 
+
 # Utilities
-
-
 def tokenizer(list_to_split):
     return [x.strip() for x in re.split(special_chars.patterns["list_boundries"], list_to_split)]
 
@@ -58,6 +61,16 @@ def lower_case(string):
 @use_list
 def strip_scraper_extras(string):
     return re.sub(special_chars.re_pattern("scraper_extras"), " ", string)
+
+
+@use_list
+def stem(string):
+    return porter_stemmer.stem(string)
+
+
+@use_list
+def remove_stop_words(string):
+    return '' if string in stop_words else string
 
 
 # Tests

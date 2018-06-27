@@ -1,4 +1,4 @@
-"'beet"
+﻿"'beet"
 "'celery"
 "'green leaf lettuce"
 "'red pepper"
@@ -41,6 +41,8 @@
 '#pumpkin seeds'
 '& black pepper'
 '& celery powder'
+cannabis
+Cannabis
 '& garlic'
 '& ginger'
 '& onion'
