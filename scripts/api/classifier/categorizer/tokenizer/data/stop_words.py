@@ -3,7 +3,7 @@
 
 # or into the categories folder
 
-stop_words = {
+stop_words = [
     "acting",
     "activity",
     "adjuster",
@@ -88,4 +88,4 @@ stop_words = {
     "wash",
     "water",
     "year"
-}
+]

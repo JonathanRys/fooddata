@@ -54,6 +54,7 @@ whitelists = {
         "shellfish": os.path.join(dirname, 'categories/shellfish.txt'),
         "spices": os.path.join(dirname, 'categories/spices.txt'),
         "vegetables": os.path.join(dirname, 'categories/vegetables.txt'),
-        "wheat": os.path.join(dirname, 'categories/wheat.txt')
+        "wheat": os.path.join(dirname, 'categories/wheat.txt'),
+        "stops": os.path.join(dirname, 'categories/stops.txt')
     }
 }
