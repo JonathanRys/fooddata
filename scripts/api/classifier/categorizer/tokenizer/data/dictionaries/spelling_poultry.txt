@@ -407,7 +407,6 @@
 'chicken meat and natural juices '
 'chicken meat and natural juices'
 'chicken meat and skin'
-'chicken meat cooed chicken meat'
 'chicken meat cooked chicken meat'
 'chicken meat extract 0.1%'
 'Chicken Meat Extract 0.1%'

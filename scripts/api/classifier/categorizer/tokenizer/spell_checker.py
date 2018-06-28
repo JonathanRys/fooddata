@@ -14,11 +14,11 @@ class SpellChecker:
 
     def P(self, word):
         N = sum(self.words.values())
-        "Probability of `word`."
+        """Probability of `word`."""
         return self.words[word] / N
 
     def correct(self, word):
-        "Most probable spelling correction for word."
+        """Most probable spelling correction for word."""
         return max(self.candidates(word), key=self.P)
 
     def candidates(self, word):
@@ -26,11 +26,11 @@ class SpellChecker:
         return (self.apply_signature((self.known([lower_word]) or self.known(self.edits1(lower_word)) or self.known(self.edits2(lower_word)) or [None]), word))
 
     def known(self, words):
-        "The subset of `words` that appear in the dictionary of WORDS."
+        """The subset of `words` that appear in the dictionary of WORDS."""
         return set(w for w in words if w in self.words)
 
     def edits1(self, word):
-        "All edits that are one edit away from `word`."
+        """All edits that are one edit away from `word`."""
         letters = 'abcdefghijklmnopqrstuvwxyz-_'
         splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
         deletes = [L + R[1:] for L, R in splits if R]
@@ -40,7 +40,7 @@ class SpellChecker:
         return set(deletes + transposes + replaces + inserts)
 
     def edits2(self, word):
-        "All edits that are two edits away from `word`."
+        """All edits that are two edits away from `word`."""
         return (e2 for e1 in self.edits1(word) for e2 in self.edits1(e1))
 
     def get_words(self, text): return re.findall(r'\w+', text.lower())
@@ -55,16 +55,16 @@ class SpellChecker:
             return formatted_words
         
         for word in words:
-            # Add None if the the word is None or the template is null
+            """Add None if the the word is None or the template is null"""
             if word == None or not len(word):
                 formatted_words.add(None)
                 continue
 
-            # Add trailing characters to the template as needed
+            """Add trailing characters to the template as needed"""
             while len(word) > len(template):
                 template += template[-1]
 
-            # Fix case based on the template and the default case
+            """Fix case based on the template and the default case"""
             formatted_word = ""
             for letter, token in zip(word, template):
                 formatted_word += token if letter.lower() == token.lower() else default_case(letter)
@@ -74,7 +74,7 @@ class SpellChecker:
         return formatted_words
 
 
-    def get_default_case(self, word):
+    def alt_get_default_case(self, word):
         upper = 0
         lower = 0
 
@@ -87,6 +87,22 @@ class SpellChecker:
                     lower += 1
 
         if upper > lower:
+            return str.upper
+
+        return str.lower
+
+    def get_default_case(self, word):
+        tracker = 0
+        lower_letters = 'abcdefghijklmnopqrstuvwxyz'
+        upper_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+        for letter in word:
+            if letter in lower_letters:
+                tracker -= 1
+            elif letter in upper_letters:
+                tracker += 1
+
+        if tracker > 0:
             return str.upper
 
         return str.lower

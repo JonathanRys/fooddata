@@ -6,7 +6,7 @@ from .data import special_chars
 porter_stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
-# Decorator
+"""Decorator"""
 
 
 def use_list(func):
@@ -19,7 +19,7 @@ def use_list(func):
             else:
                 result = func(item)
 
-            # Omit empty items
+            """Omit empty items"""
             if len(result):
                 output_list.append(result)
 
@@ -28,7 +28,9 @@ def use_list(func):
     return wrapper
 
 
-# Utilities
+"""Utilities"""
+
+
 def tokenizer(list_to_split):
     return [x.strip() for x in re.split(special_chars.patterns["list_boundries"], list_to_split)]
 
@@ -49,7 +51,7 @@ def translate_to_en_chars(string, lang="es"):
 
 @use_list
 def trim_whitespace(string):
-    # Removes all leading, trailing or duplicated whitespace and converts all whitespace to spaces
+    """Removes all leading, trailing or duplicated whitespace and converts all whitespace to spaces"""
     return re.sub(special_chars.re_pattern("whitespace"), " ", string).strip()
 
 
@@ -73,7 +75,9 @@ def remove_stop_words(string):
     return '' if string in stop_words else string
 
 
-# Tests
+"""Tests"""
+
+
 def test():
 
     alphabet = [x for x in "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-"]
@@ -88,13 +92,13 @@ def test():
     spaces_in_odd_places = ["\t    Do    you  ",
                             "   know", " \the\t\tmuffi\n", "ma\n?   "]
 
-    # Test list_tokenize
+    """Test list_tokenize"""
     result_list = tokenizer(itemized_list)
     assert len(result_list) == 7
     assert result_list[0] == "Here is one"
     assert result_list[6] == "those"
 
-    # Test translate_to_en_chars
+    """Test translate_to_en_chars"""
     result_list = translate_to_en_chars(es_chars)
     assert len(result_list) == 14
     assert result_list[0] == "a"
@@ -106,20 +110,20 @@ def test():
     assert result_list[9] == "c"
     assert result_list[27] == "OE"
 
-    # Test strip_special_chars
+    """Test strip_special_chars"""
     result_list = strip_special_chars(punctuation)
     assert len(result_list) == 2
     assert result_list[0] == "-"
     assert result_list[1] == "_"
 
-    # Test trim_whitespace
+    """Test trim_whitespace"""
     result_list = trim_whitespace(spaces_in_odd_places)
     assert len(result_list) == 4
     assert result_list[0] == "Do you"
     assert result_list[2] == "he muffi"
     assert result_list[3] == "ma ?"
 
-    # Test lower_case
+    """Test lower_case"""
     result_list = lower_case(alphabet)
     assert len(result_list) == 38
     assert result_list[0] == "a"
@@ -130,6 +134,6 @@ def test():
     print("All tests passed.")
 
 
-# Run tests by default
+"""Run tests by default"""
 if __name__ == '__main__':
     test()
