@@ -1,20 +1,79 @@
+"""
+===============
+ Spell Checker
+===============
+
+A class used to correct mispelled words
+
+Dependencies:
+    * collections
+
+Available public methods:
+    * correct(string)
+
+Available dictionaries
+    * alcohol
+    * artificial
+    * carcinogens
+    * dairy
+    * eggs
+    * fish
+    * fruits
+    * grains
+    * insects
+    * legumes
+    * mushrooms
+    * non_vegan
+    * nuts
+    * oil
+    * pork
+    * poultry
+    * processed
+    * red_meat
+    * rennet
+    * seeds
+    * shellfish
+    * spices
+    * vegetables
+    * wheat
+    * all
+"""
+
 import re
 import os
 import collections
 
-from .data.whitelists import whitelists
+from data.whitelists import whitelists
+from data.stop_words import stop_words
+from data.language_codes import language_codes
 
 dirname = os.path.dirname(__file__)
 
 class SpellChecker:
+    """
+    A class used to correct mispelled words
 
+    :param dict_file: The path to the dictionary file to be used
+    :type dict_file: string
+    :raises: None
+    """
+    
     def __init__(self, dict_file):
+        self.dictionaries = whitelists['spelling']
+        self.stopwords = stop_words
+        self.language_codes = language_codes
+
+        # Check if the dict_file is a dictionary key
+        if dict_file in self.dictionaries:
+            dict_file = self.dictionaries[dict_file]
+        
         with open(dict_file) as f:
             self.words = collections.Counter(self.get_words(f.read()))
+            
 
     def P(self, word):
-        N = sum(self.words.values())
         """Probability of `word`."""
+        N = sum(self.words.values())        
         return self.words[word] / N
 
     def correct(self, word):
@@ -22,16 +81,17 @@ class SpellChecker:
         return max(self.candidates(word), key=self.P)
 
     def candidates(self, word):
+        """Best matches found for word"""
         lower_word = word.lower()
         return (self.apply_signature((self.known([lower_word]) or self.known(self.edits1(lower_word)) or self.known(self.edits2(lower_word)) or [None]), word))
 
     def known(self, words):
-        """The subset of `words` that appear in the dictionary of WORDS."""
+        """The subset of `words` that appear in the dictionary."""
         return set(w for w in words if w in self.words)
 
     def edits1(self, word):
         """All edits that are one edit away from `word`."""
-        letters = 'abcdefghijklmnopqrstuvwxyz-_'
+        letters = 'abcdefghijklmnopqrstuvwxyz-_ '
         splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
         deletes = [L + R[1:] for L, R in splits if R]
         transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R) > 1]
@@ -47,6 +107,19 @@ class SpellChecker:
 
 
     def apply_signature(self, words, template):
+        """
+        Take a list of words and a template and convert the
+        case of the words to match the case of the template
+
+        :param words: A list of words to change the case of 
+        :param template: A template representing the desired casing
+        :type words: list
+        :type template: string
+        :returns: A set containing the re-cased words
+        :rtype: list
+        :raises: None
+        """
+
         formatted_words = set()
 
         default_case = self.get_default_case(template)
@@ -55,23 +128,23 @@ class SpellChecker:
             return formatted_words
         
         for word in words:
-            """Add None if the the word is None or the template is null"""
+            # Add None if the the word is None or the template is null
             if word == None or not len(word):
                 formatted_words.add(None)
                 continue
 
-            """Add trailing characters to the template as needed"""
+            # Add trailing characters to the template as needed
             while len(word) > len(template):
                 template += template[-1]
 
-            """Fix case based on the template and the default case"""
+            # Fix case based on the template and the default case
             formatted_word = ""
             for letter, token in zip(word, template):
                 formatted_word += token if letter.lower() == token.lower() else default_case(letter)
 
             formatted_words.add(formatted_word)
 
-        return formatted_words
+        return [x for x in formatted_words]
 
 
     def alt_get_default_case(self, word):
@@ -92,6 +165,16 @@ class SpellChecker:
         return str.lower
 
     def get_default_case(self, word):
+        """
+        A function to find the most prevalent case used in a word
+
+        :param word: A word to use as an example
+        :type word: string
+        :returns: Either str.upper or str.lower based on most prevalent case
+        :rtype: function
+        :raises: None
+        """
+        
         tracker = 0
         lower_letters = 'abcdefghijklmnopqrstuvwxyz'
         upper_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -116,6 +199,9 @@ def test():
     fruit_test = SpellChecker(whitelists['spelling']['fruits'])
     assert(fruit_test.correct("Appil") == "Apple")
 
+    fruit_test = SpellChecker('fruits')
+    assert(fruit_test.correct("Appil") == "Apple")
+    
     mush_test = SpellChecker(whitelists['spelling']['mushrooms'])
     assert(mush_test.correct("Portabella") == "Portobello")
 
