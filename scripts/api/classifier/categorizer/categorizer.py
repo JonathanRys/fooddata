@@ -1,3 +1,21 @@
+"""
+=====================
+ Product Categorizer
+=====================
+
+The main categorization engine for the classifier API.
+
+Dependencies:
+    * nltk
+    * pyxDamerauLevenshtein(Windows) or jellyfish(Linux)
+    * Tokenizer
+    * SpellChecker
+
+Available public methods:
+    * categorize(list): categorize a list of ingredients
+
+"""
+
 import os
 import platform
 
@@ -11,7 +29,7 @@ from tokenizer.data.whitelists import whitelists
 from tokenizer.data.stop_words import stop_words
 from tokenizer.tokenizer import tokenizer
 
-"""Use the platform-specific version of the Damerau-Levenshtein distance formula"""
+# Use the platform-specific version of the Damerau-Levenshtein distance formula
 dam_lev_distance = None
 
 if platform.system() != "Windows":
@@ -21,18 +39,18 @@ else:
     from jellyfish import levenshtein_distance
     dam_lev_distance = levenshtein_distance
 
-"""Set initial values"""
+# Set initial values
 dirname = os.path.dirname(__file__)
 PS = PorterStemmer()
 DISTANCE_THRESHHOLD = 4
 STEMS_BY_CATEGORY = whitelists["categories"]
 
-"""Combine the "stop words" libraries"""
+# Combine the "stop words" libraries
 NLTK_STOP_WORDS = set(stopwords.words('english'))
 for x in stop_words:
     NLTK_STOP_WORDS.add(x)
 
-"""Preload the categorization data"""
+# Preload the categorization data as ROOTS
 ROOTS = {}
 for x in STEMS_BY_CATEGORY:
     file_name = STEMS_BY_CATEGORY[x]
@@ -47,7 +65,7 @@ for x in STEMS_BY_CATEGORY:
         ROOTS[x] = f.read().split("\n")
 
 
-"""Preload the spell checkers"""
+# Preload the spell checkers
 spell_checkers = {}
 for x in whitelists["spelling"]:
     print("Loading", whitelists["spelling"][x])
@@ -56,10 +74,21 @@ for x in whitelists["spelling"]:
 
 ### Define functions ###
 
-"""Function to find the best match in a list"""
-
-
 def closest_match(ingredient, root, roots):
+    """
+    Function to find the best match in a list
+
+    :param ingredient: The ingredient to match
+    :param root: The key for the category to match in
+    :param roots: The list of words in the given category
+    :type ingredient: string
+    :type root: string
+    :type roots: dict
+    :returns: The best matching word in the given category
+    :rtype: list
+    :raises: None
+    """
+
     ingredient_stem = PS.stem(ingredient)
     best_match = [(DISTANCE_THRESHHOLD, "", "")]
 
@@ -81,10 +110,17 @@ def closest_match(ingredient, root, roots):
     return best_match
 
 
-"""Function to categorize a list of ingredients"""
-
-
 def categorize(ingredient_list):
+    """
+    Function to categorize a list of ingredients
+
+    :param ingredient_list: A list of ingredients to categorize
+    :type ingredient_list: list
+    :returns: A dictionary of categories containing lists of matches
+    :rtype: dict
+    :raises: None
+    """
+
     tokens = word_tokenize(ingredient_list)
 
     """Lower case the words and remove punctuation"""
@@ -142,10 +178,23 @@ def categorize(ingredient_list):
     return classified_products
 
 
-"""Add or append a value to a dictionary"""
-
-
 def add_or_append(base_dict, key, value, conditional=True):
+    """
+    Add or append a value to a dictionary
+
+    :param base_dict: The existing dictionary to modify
+    :param key: The key to add or append to
+    :param value: The value to give that key
+    :param(optional) conditional: optional conditional exclusion parameter
+    :type base_dict: dict
+    :type key: string
+    :type value: string
+    :type conditional: bool
+    :returns: New dictionary with the provided key/value pair added
+    :rtype: dict
+    :raises: None
+    """
+
     new_dict = {x: base_dict[x] for x in base_dict}
     """Check if the key already exists"""
     if key in new_dict:
@@ -159,10 +208,22 @@ def add_or_append(base_dict, key, value, conditional=True):
     return new_dict
 
 
-def correct_ingredient(nearest, ingredient_phrase):
+def correct_ingredient(tags, ingredient_phrase):
+    """
+    Apply a spelling correction to the entire text of an ingredient.
+
+    :param tags: List of tuples containing spelling-corrected tags
+    :param ingredient_phrase: The whole text of the ingredient to fix
+    :type tags: list
+    :type ingredient_phrase: string
+    :returns: A list of tuples containing the corrected phrases
+    :rtype: list
+    :raises: None
+    """
+
     corrected_ingredients = []
 
-    for tag in nearest:
+    for tag in tags:
         category = tag[2]
         product = tag[1]
 
@@ -194,7 +255,9 @@ def put_in_category(tags, categories):
 
 
 def test():
-    result = categorize("aplles, celert, banana, fried calms")
+    TEST_STRING = "aplles, celert, banana, fried calms"
+    print("Categorizing:", TEST_STRING)
+    result = categorize(TEST_STRING)
     print("Result:", result)
 
 
