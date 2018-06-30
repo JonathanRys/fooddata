@@ -17,7 +17,20 @@
 '[bacon cured with water'
 '[pork'
 '[Pork'
+Slugburger
+backribs
+bacon-and-egg
+baconsalt
+Teewurst
+knockwurst
 '_pork_ 31%'
+capicolla
+pancetta
+Pancetta
+Bangers
+bangers
+Frybread
+pastrami
 'a portion of ground ham added cure'
 'a portion of ground ham cured with water'
 'a portion of ground ham shank and ham added [cured with water'
@@ -851,6 +864,8 @@
 'Sweet Italian sausage ingredients: pork'
 'Taste The Difference Smoked Bacon (13%) (British Pork'
 'Thick sliced bacon. pork cured with: water'
+'Un-skinned pork'
+'un-smoked British bacon collar joint'
 'uncured bacon (no nitrates or nitrites added except those naturally occurring in celery powder) (pork'
 'uncured bacon n'
 'uncured bacon topping (no nitrates or nitrites added) except for the naturally occurring nitrates found in celery juice and sea salt (pork'
@@ -875,8 +890,6 @@
 'uncured precooked bacon - no nitrates or nitrites added except for'
 'uncured smoked bacon - no nitrites or nitrates added other than those naturally occurring in celery powder [pork'
 'Uncured smoked ham contains 20% added solution of water'
-'Un-skinned pork'
-'un-smoked British bacon collar joint'
 'vinegar & enzymes). pepperoni (pork'
 'water ). butter bacon flavor (yeast extract'
 'water and binder product in bbq sauce: pork'
@@ -889,3 +902,19 @@
 'xanthan gum. uncured Canadian bacon: pork'
 'yeast extract and sodium nitrite in a natural pork casing'
 'yeast). ham (water'
+Bacon-wrapped
+Baconator
+Blutwurst
+Bockwurst
+Bolognese
+Boloney
+Currywurst
+Gelbwurst
+Knackwurst
+Kochwurst
+Kohlwurst
+Liverwurst
+Mettwurst
+Metworst
+Pastrami
+Rookworst

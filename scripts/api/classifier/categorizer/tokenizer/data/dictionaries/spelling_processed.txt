@@ -33,17 +33,59 @@
 ' +cane sugar'
 ' +chocolate liquid'
 ' +chocolate liquor'
+applecdervinegar
 ' +raw cane sugar'
+High-fructose
+High-maltose
+Theobromine
 ' +sugar'
 ' +vanilla beans'
 ' +vanilla beans'
 ' acai powder'
+cocaobutter
 ' agave powder'
 ' agave powder'
+Marshmallow-filled
+Chocolate-covered
+chocolate-coated
+chocolate-coconut
+chocolate-flavored
+chocolatechips
+fudgeribbon
+Salt-cured
+Sugaring
+vinegar-flavored
+yeast-leavened
+maltodextrose
+maltextract
+modifiedcornstarch
+potatostarch
+beangum
 ' agave syrup '
+guargum
+invertsugar
+palmkernel
+palmoil
+palmsugar
+bleachedwheatflour
+xanthangum
+tahini-based
+vanillaextract
+starch-based
+vanillaflavour
+vanillapowder
+vanillasugar
+bongkrek
 ' agave syrup'
 ' agave syrup'
 ' agave syrup'
+canesugar
+corndextrin
+foodstarch
+ricedextrin
+riceflour
+sunflowerlecithin
+heinzketchup
 ' agave syrup. '
 ' agave syrup. '
 ' an emulsifier extract'
@@ -528,6 +570,7 @@
 'and caramel color. contains active cultures'
 'and caramel coloring'
 'AND CARAMEL COLORING'
+bakingsoda
 'and caramel color}'
 'and caramel'
 'and carnauba wax'

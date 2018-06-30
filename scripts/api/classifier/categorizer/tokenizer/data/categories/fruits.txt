@@ -222,6 +222,7 @@ schisandra
 sevil
 soursop
 star
+starfruit
 stra
 straw
 strawb

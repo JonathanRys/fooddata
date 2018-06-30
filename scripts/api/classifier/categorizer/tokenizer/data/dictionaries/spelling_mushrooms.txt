@@ -26,6 +26,7 @@
 cantharellus
 'black mushroom'
 'black mushrooms'
+Yellow-foot
 'black summer truffle (tuber aestivum vitt.)'
 'black summer truffle mix [black summer truffle'
 'black summer truffle pieces'

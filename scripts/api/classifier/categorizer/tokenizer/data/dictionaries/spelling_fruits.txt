@@ -17,7 +17,61 @@
 ' apple'
 ' bleuets sauvages'
 ' blueberries sugar'
+Chrysophyllum
+saskatoon
+saskatoonberries
+pawpaws
+Oil-and-lemon
+Orange-flavored
+Ackee
+ackee
+Clymenia
+Jogi-jeot
+Mango-ginger
+dactylifera
+pineapple-flavored
+somnifera
+screwpine
+Adakka
+adakka
+fogfruit
+elanthai
+goldenberry
+grapejuice
+grapeskin
+limejuice
+macrocarpon
+mayapple
+Barberry
+barberry
+organicorange
+Areca
+areca
+superfruit
+mayhaw
+Verjuice
+verjuice
+cherimoyas
 ' currants'
+coffeefruit
+Apple-based
+Bumbleberry
+Appleseed
+Cherimoya
+Cortland
+Custard-apple
+Fruit-based
+Ice-apple
+Kumquat
+Lemon-lime
+Limequat
+Orangequat
+Starfruit
+applejuice
+aromalemon
+aroniaberry
+Sugar-apple
+soursop
 ' dates'
 ' lemon and mango type'
 ' palm fruit'

@@ -36,6 +36,12 @@
 '* sprouted sunflower seeds'
 '* sprouted sunflower seeds*'
 '* sunflower seeds'
+flaxmeal
+flaxmilk
+multiseed
+sesame-seeded
+hempseed
+tahini-based
 '* sunflower'
 '**flax seed'
 '**sesame seeds'

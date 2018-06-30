@@ -33,6 +33,7 @@
 '**extra virgin olive oil'
 '**extract virgin olive oil'
 '*++ DHA algal oil'
+Oil-and-lemon
 '*canola oil'
 '*expeller pressed canola oil'
 '*expeller pressed high oleic sunflower oil'

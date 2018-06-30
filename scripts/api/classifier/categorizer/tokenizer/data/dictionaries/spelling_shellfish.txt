@@ -19,15 +19,23 @@
 'AND _SHRIMP_'
 'and clam juice'
 'Argentine red shrimp'
+magellanicus
+halfshell
 'arrow squid'
 'artificial crab flavor'
 'artificial crab flavors'
 'artificial shrimp flavor'
 'Baby claims'
 'baby clam extract'
+seashell
+butterclam
 'Baby clams (mollusks) water'
+crablets
 'Baby clams'
 'Baby Clams'
+tailmeat
+urchin
+urchins
 'baby corn. cooked shrimp: shrimp'
 'baby shrimp'
 'baked crab meat including natural crab juices'
@@ -37,7 +45,6 @@
 'blue crab meat'
 'Blue crab'
 'blue crab'
-paralithodes camtschaticus
 'Blue swimming crab meat'
 'Bouillon of clam'
 'Calamari (squid) rings'
@@ -568,3 +575,9 @@ paralithodes camtschaticus
 'Wonton shrimp [farm raised shrimp'
 'yeast and soda canola oil (USA) crab seasoning (USA) salt'
 'Young abalone'
+Gastropod
+Geoduck
+paralithodes camtschaticus
+Seashell
+She-crab
+Squid-like

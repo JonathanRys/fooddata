@@ -15,6 +15,37 @@
 ' glutinous rice'
 '#gluten free oat flour'
 '#oats'
+Joyweed
+Celosia
+Burebrot
+Jwarichi
+sorghumflour
+Palm-grass
+Chapati
+sticky-rice
+Breadmaking
+Coxcomb
+sourdough-risen
+Faluche
+Tortilla-based
+Barley-based
+rice-based
+rice-fermented
+rice-paddy
+semolinaflour
+supergrain
+riceflour
+ricemilk
+bread-crumbed
+bread-like
+corn-based
+corndextrin
+corn-roll
+Milk-rice
+barleyflour
+Yellow-rice
+maygrass
+Frybread
 '& rice'
 '(9%) candy coated chocolate flavored chips (sugar'
 '(all GMO free) flour blend (white rice'

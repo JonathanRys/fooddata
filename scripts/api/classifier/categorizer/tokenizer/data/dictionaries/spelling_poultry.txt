@@ -31,6 +31,12 @@
 'All-natural chicken'
 'and chicken fat'
 'and chicken'
+stew-like
+stewing-meat
+stock-based
+in-broth
+broth-based
+woodcock
 'and citric acid. add gourmet flavor to chicken'
 'and citric acid. breaded chicken breast chunks: boneless skinless chicken breast with rib meat'
 'and orange juice concentrates; citric acid; pineapple and apple juice concentrates; natural flavor. roast white turkey - cured - smoke flavor added - white turkey'
@@ -1435,3 +1441,7 @@
 'yellow egg shade. filling: chicken'
 'Young chicken'
 'Young turkey breast containing up to 18% of a flavoring solution. solution ingredients: water'
+Chasseur
+chickenbroth
+Guineafowl
+Woodcock

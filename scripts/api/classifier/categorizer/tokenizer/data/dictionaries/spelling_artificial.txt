@@ -1,5 +1,6 @@
 ﻿0 001% sodium metabisulfite added as preservative
 0 006% potassium iodide
+aldehyde
 0 01% of potassium sorbate as preservatives
 0 01% of sodium benzoate
 0 01% potassium sorbate as preservatives
@@ -29,6 +30,32 @@
 0 1% sodium benzoate as conservative
 0 1% sodium benzoate as preservative
 0 1% sodium benzoate e211 as preservative
+calciumchloride
+trisodiumcitrate
+doughconditioner
+microcrystalline
+tocopherylacetate
+calciumcitrate
+beta-carotene
+diacylglycerol
+zincoxide
+sodiumbicarbonate
+sodiumhydrogen
+sodiumphosphate
+dimethylamine
+dipotassiumphosphate
+sulfurdioxide
+gluconodelta
+gluconodeltalactone
+glucosaccharide
+tetrasodiumpyrophosphate
+ironphosphate
+diacetylactis
+disodiumguanylate
+betacarotene
+calciumlactate
+carboxyl
+ethylvanilin
 0 1% sodium benzoate preservative
 0 1% sodium benzoate preservative calcium chloride
 0 1% sodium benzoate preservative natural flavors
@@ -43,6 +70,8 @@ enriched bromated wheat flour bleached [wheat flour
 0 5% silicon dioxide to prevent caking
 0 70% sodium nitrite
 0 powdered cellulose
+barbecue-flavor
+arsenic-laden
 000 i u vitamin A palmitate
 005% potassium sorbate as preservatives
 01% of potassium sorbate as preservatives

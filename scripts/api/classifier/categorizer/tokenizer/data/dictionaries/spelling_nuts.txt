@@ -32,11 +32,22 @@
 '* Brazil nuts'
 '* cashews'
 '* coconut oil'
+breadnut
+pistachionut
+nutmilk
+coconutmilk
+coconutoil
+cashewnut
+candlenut
+cashewmilk
+tigernutmilk
 '* coconut palm sugar'
 '* coconut sugar'
 '* coconut vinegar'
 '* coconut'
+beechnut
 '* sprouted pistachios'
+almondmilk
 '* walnuts'
 '** coconut oil'
 '** shredded coconut'

@@ -21,6 +21,23 @@
 '100% chuck beef'
 '100% grass -fed beef'
 '100% grass fed beef'
+beefflavor
+beefmeatloat
+gazelle
+broth-based
+goat-sheep
+haggis
+knockwurst
+meat-filled
+pastrami
+stew-like
+in-broth
+stewing-meat
+stock-based
+ox-tripe
+intestines
+kangaroo
+rabbit
 '100% grass fed ground beef'
 '100% grass fed organic beef'
 '100% grass fed organic ground beef'
@@ -31,6 +48,7 @@
 '100% Lamb. Contains bones'
 '100% organic beef'
 '100% organic grass fed beef'
+Slugburger
 '100% premium beef'
 '100% pure beef patties'
 '100% pure beef'
@@ -47,6 +65,7 @@
 'and beef extract'
 'and beef fat'
 'and beef tallow'
+Sea-pie
 'and beef'
 'and binder product: beef strips'
 'and enzymes. teriyaki beef: beef'
@@ -137,10 +156,10 @@
 'beef dehydrated garlic'
 'Beef dripping'
 'Beef Dripping'
-'beef extract'
 'beef extract disodium inosinate and guanylate'
 'beef extract powder [beef stock'
 'beef extract powder'
+'beef extract'
 'beef extract'
 'Beef Extract'
 'beef extract* *adds a dietarily insignificant amount of fat and cholesterol'
@@ -465,8 +484,8 @@
 'fat and extract'
 'fat'
 'FD&C yellow #5 & #6. beef filling: beef'
-'Fillet mignon'
 'FILLED INTO NON-UK BEEF PROTEIN CASING'
+'Fillet mignon'
 'filling: beef'
 'Filling: beef'
 'Filling: cooked beef'
@@ -743,9 +762,9 @@
 'organic grass fed beef'
 'Organic grass fed beef'
 'Organic grass fed ground beef'
+'Organic grass-fed beef'
 'Organic grass-fed beef*'
 'Organic grass-fed meats'
-'Organic grass-fed beef'
 'Organic ground beef'
 'organic ground beef'
 'Organic meats'
@@ -958,4 +977,28 @@
 'yellow egg shade. filling: beef'
 'Ziti base [spaghetti with meat sauce (sauce base (vine-ripened fresh tomatoes'
 '{beef stock'
+Blutwurst
+Bockwurst
+Bolognese
+Bushmeat
+Chasseur
+cheesesteak
+Crocodile
+Fried-brain
+Gelbwurst
+Greyhound
+Haggis
+Kangaroo
+Knackwurst
+Kochwurst
+Liverwurst
+Meat-based
+Meat-seafood-vegetable
+Meatloaf-like
+Ostrich
+Ox-tongue
+Pastrami
+Rat-on-a-stick
+Ratsnake
+Rookworst
 s'

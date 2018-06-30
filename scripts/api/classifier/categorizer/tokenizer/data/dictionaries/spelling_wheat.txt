@@ -29,8 +29,28 @@
 ') and potato starch and may contain traces of wheat'
 '00 flour [soft wheat flour]'
 '00 soft wheat'
+Faluche
+bleachedwheatflour
+cakeflour
+cake-dish
+cake-like
+carckermeal
+enrichedflour
+flour-based
+dough-based
 '00 wheat flour'
+seitan
+tortilla-based
+Frybread
+frybread
+wheat-based
+wheatbran
+wheatflour
+wheatgrass
+Zwieback
+unbleachedflour
 '1) noodle: wheat flour'
+Tortilla-based
 '1)noodle: wheat flour'
 '100% certified buckwheat'
 '100% certified organic buckwheat'

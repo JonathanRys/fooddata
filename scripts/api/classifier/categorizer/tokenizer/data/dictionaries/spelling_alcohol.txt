@@ -4,12 +4,24 @@
 ' sake wine'
 '**alcohol'
 '*alcohol'
+Absinthe
+Appletini
+Applejack
 '*white wine'
+GaraGuzu
+chartreuse
+Framboise
+Frangelico
+Boilermaker
 '0% alcohol'
 '1.8% ethyl alcohol'
 '10% alcohol'
 '12 year old whiskey'
+orangeliqueur
+Hofbrau
 '12% alcohol by volume'
+sangria
+liqueur-filled
 '9.5% alcohol'
 '<0.5% alcohol by volume'
 '_Grain_ Whiskey'
@@ -20,7 +32,19 @@
 'alcohol by volume'
 'alcohol'
 'Alcohol'
+Mimosa
+framboises
+Non-alcoholic
+Snakebite
+Sangria
+Sapporo
+Hurricane
 'alcohol'
+Trappist
+Trappist-style
+Schnapps
+Schwarzbier
+Midori
 'alcohol [35%]'
 'alcohol [to preserve freshness]'
 'alcohol [to retain freshness]'

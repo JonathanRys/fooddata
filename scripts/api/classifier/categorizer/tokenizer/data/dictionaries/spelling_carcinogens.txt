@@ -20,8 +20,10 @@
 'aspartame carrageenan'
 'aspartame*'
 'aspartame**'
+teabag
 'stabilizers (carob bean and/or xanthan and/or guar gums and/or carrageenan)**'
 'beta carotene] and carrageenan'
+blacktea
 'brown sugar. carrageenan'
 'carrageenan'
 'calcium carbonate. carrageenan'
@@ -29,6 +31,8 @@
 'carob bean gum and carrageenan'
 'carrageen an. vitamin d3'
 'carrageen'
+coffeefruit
+coffeepowder
 'carrageen. sherbet: water'
 'carrageenan & vitamin d3'
 'carrageenan (carrageenan xanthan gum); tumbled with water'
