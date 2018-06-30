@@ -18,12 +18,9 @@ Available public methods:
 import os
 
 from nltk.corpus import stopwords
-from data.stop_words import stop_words
-from data.whitelists import whitelists
 from spell_checker import SpellChecker
 
 dirname = os.path.dirname(__file__)
-all_stop_words = set(zip(stopwords.words('english'), stop_words))
 spell_checker = SpellChecker('all')
 
 UNIQUE_FILE = os.path.join(dirname, "data/words_new/_unique.txt")
@@ -73,7 +70,7 @@ def filter_unique(items):
     unique_words = set()
 
     for item in items:
-        if not item in all_stop_words:
+        if not item in spell_checker.stopwords:
             unique_words.add(item)
 
     return sorted([x for x in unique_words])
