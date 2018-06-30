@@ -43,8 +43,9 @@ import re
 import os
 import collections
 
-from data.whitelists import whitelists
+from nltk.corpus import stopwords
 from data.stop_words import stop_words
+from data.whitelists import whitelists
 from data.language_codes import language_codes
 
 dirname = os.path.dirname(__file__)
@@ -60,7 +61,7 @@ class SpellChecker:
     
     def __init__(self, dict_file):
         self.dictionaries = whitelists['spelling']
-        self.stopwords = stop_words
+        self.stopwords = zip(stopwords.words('english'), stop_words)
         self.language_codes = language_codes
 
         # Check if the dict_file is a dictionary key
