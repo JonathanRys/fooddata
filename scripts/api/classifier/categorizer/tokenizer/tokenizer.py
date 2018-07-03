@@ -1,3 +1,26 @@
+"""
+===========
+ Tokenizer
+===========
+
+A class to help with extracting relevant data from ingredient lists
+
+Dependencies:
+    * nltk
+    * SpellChecker <- inherit from?
+
+Available public methods:
+    * tokenizer(string)
+    * strip_special_chars(list)
+    * translate_to_en_chars(list, [lang=[char]])
+    * trim_whitespace(list)
+    * lower_case(list)
+    * strip_scraper_extras(list)
+    * stem(list)
+    * remove_stop_words(list)
+
+"""
+
 import re
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
@@ -6,10 +29,11 @@ from .data import special_chars
 porter_stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
-"""Decorator"""
+
 
 
 def use_list(func):
+    """Decorator to replace map just to use decorators"""
     def wrapper(*args):
         output_list = []
 
