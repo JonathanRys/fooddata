@@ -30,6 +30,8 @@ bacon-and-egg
 '_egg_ whites'
 '_Egg_ Yolk'
 mayonnaise-based
+eggy
+Eggy
 '_egg_ yolk'
 wholeeggs
 '_EGG_ YOLK'
@@ -38,10 +40,18 @@ wholeeggs
 '_EGG_ YOLKS'
 '_Egg_'
 '_egg_'
+pancake
+Pancake
+pancakes
+Pancakes
 egg-based
 egg-cook
 egg-like
 egg-milk
+Omelet
+omelet
+Omelets
+omelets
 Zwieback
 '_EGG_'
 '_eggs_'

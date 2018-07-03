@@ -30,6 +30,18 @@
 "These chili contains stone-ground masa flour"
 ' + chocolate liquor'
 ' +cacao beans'
+Coke
+coke
+lollies
+lolly
+Lollies
+Lolly
+Donuts
+Necco
+Krispies
+Krispie
+krispies
+krispie
 ' +cane sugar'
 ' +chocolate liquid'
 ' +chocolate liquor'

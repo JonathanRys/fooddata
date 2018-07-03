@@ -27,6 +27,25 @@ sashimi
 fish-based
 fishballs
 fishcake
+saltfish
+Saltfish
+Stockfish
+stockfish
+herrings
+Herrings
+fishery
+fishing
+fishy
+Grouper
+grouper
+Groupers
+hake
+kaviar
+Kaviar
+hakes
+Hake
+Hakes
+groupers
 surimipollock
 fishcakes
 coryphaena
@@ -38,6 +57,10 @@ coryphaena
 'Alaska sockeye salmon'
 'Alaskan flounder'
 'Alaskan pink salmon and salt'
+Caviar
+caviar
+Lox
+lox
 'Alaskan pink salmon'
 'Alaskan pollack'
 'Alaskan pollack'

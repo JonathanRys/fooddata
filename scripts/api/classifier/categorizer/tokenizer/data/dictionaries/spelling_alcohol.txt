@@ -11,17 +11,37 @@ Applejack
 GaraGuzu
 chartreuse
 Framboise
+miller
+Miller
+framboise
 Frangelico
 Boilermaker
+ales
+Ales
 '0% alcohol'
 '1.8% ethyl alcohol'
 '10% alcohol'
 '12 year old whiskey'
+Riesling
+riesling
 orangeliqueur
 Hofbrau
 '12% alcohol by volume'
 sangria
+sloe gin
+Sloe gin
+amontillado
+Amontillado
+Coors
+coors
+Shandy
+shandy
+Saison
+saison
+Patron
+patron
 liqueur-filled
+Curacao
 '9.5% alcohol'
 '<0.5% alcohol by volume'
 '_Grain_ Whiskey'
@@ -33,7 +53,33 @@ liqueur-filled
 'alcohol'
 'Alcohol'
 Mimosa
+Liqueurs
+liqueurs
+Liqueur
+Pearson
+Penguin
+People
+Pendant
+Paula
+Mead
+Peasant
+mead
+Ouzo
+ouzo
+Pegasus
+liqueur
 framboises
+Framboises
+Martini
+Martinis
+martini
+martinis
+Cocktails
+Cocktail
+Gimlet
+gimlet
+cocktails
+cocktail
 Non-alcoholic
 Snakebite
 Sangria

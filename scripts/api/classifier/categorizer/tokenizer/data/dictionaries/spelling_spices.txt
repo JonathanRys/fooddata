@@ -36,6 +36,8 @@ crystalsalt
 '& turmeric]'
 berbere
 Mediterranean-spiced
+Catnip
+catnip
 Mint-flavored
 Myrtle-leaved
 blackpepper
@@ -181,7 +183,7 @@ Saffron-flavored
 'ajwain caraway'
 'Alaea red Hawaiian sea salt and purified red clay'
 'Alaea salt'
-'Alberger salt'
+'salt'
 'alder smoked salt'
 'alder wood smoked salt'
 'alder wood smoked salt'

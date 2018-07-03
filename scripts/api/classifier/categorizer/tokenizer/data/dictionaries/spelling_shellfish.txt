@@ -34,6 +34,10 @@ crablets
 'Baby clams'
 'Baby Clams'
 tailmeat
+Chowder
+Chowders
+chowder
+chowders
 urchin
 urchins
 'baby corn. cooked shrimp: shrimp'

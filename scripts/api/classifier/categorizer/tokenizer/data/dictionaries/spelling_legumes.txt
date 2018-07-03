@@ -24,6 +24,7 @@ kidney beans
 lentils
 Earthnut
 Soy-based
+Black-eyed
 snail-like
 soy-based
 Peabutter
@@ -31,18 +32,26 @@ Peameal
 Peanut-flavored
 Ricebean
 soy-sauce
+Tofurkey
+tofurkey
+soybase
+Soybase
 Groundnut
 Pagoda-tree
 Groundnuts
 groundnut
 groundnuts
 beancurd
+Chole
+chole
 peanut-butter-like
 peaprotein
 mungbean
 earthnut
 blackbean
 lima beans or Butter bean
+Rajma
+rajma
 mung beans
 navy beans
 pinto beans

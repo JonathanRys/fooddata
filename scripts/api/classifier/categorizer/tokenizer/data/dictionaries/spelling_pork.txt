@@ -27,9 +27,15 @@ knockwurst
 capicolla
 pancetta
 Pancetta
+Burger
+Burgers
 Bangers
+Bruhwurst
+bruhwurst
 bangers
 Frybread
+entrails
+Entrails
 pastrami
 'a portion of ground ham added cure'
 'a portion of ground ham cured with water'

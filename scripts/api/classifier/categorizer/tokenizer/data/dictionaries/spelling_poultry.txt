@@ -30,13 +30,37 @@
 'All natural turkey meatballs {all natural turkey'
 'All-natural chicken'
 'and chicken fat'
+Burger
+Burgers
+Poussin
+poussin
+entrails
+Entrails
+gull
+Gull
+gulls
+Gulls
+Cock
+cock
+Cocks
+cocks
+Pollo
+pollo
+Partridge
+partridge
+Partridges
+partridges
+Hawk
+hawk
+Hawks
+hawks
+Pelican
+Pelicans
+pelican
+pelicans
+Grouse
+grouse
 'and chicken'
-stew-like
-stewing-meat
-stock-based
-in-broth
-broth-based
-woodcock
 'and citric acid. add gourmet flavor to chicken'
 'and citric acid. breaded chicken breast chunks: boneless skinless chicken breast with rib meat'
 'and orange juice concentrates; citric acid; pineapple and apple juice concentrates; natural flavor. roast white turkey - cured - smoke flavor added - white turkey'
@@ -1441,7 +1465,13 @@ woodcock
 'yellow egg shade. filling: chicken'
 'Young chicken'
 'Young turkey breast containing up to 18% of a flavoring solution. solution ingredients: water'
+broth-based
 Chasseur
 chickenbroth
 Guineafowl
+in-broth
+stew-like
+stewing-meat
+stock-based
+woodcock
 Woodcock

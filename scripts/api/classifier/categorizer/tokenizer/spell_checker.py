@@ -6,6 +6,7 @@
 A class used to correct mispelled words
 
 Dependencies:
+    * nltk
     * collections
 
 Available public methods:
@@ -61,7 +62,7 @@ class SpellChecker:
     
     def __init__(self, dict_file):
         self.dictionaries = whitelists['spelling']
-        self.stopwords = zip(stopwords.words('english'), stop_words)
+        self.stopwords = stopwords.words('english') + stop_words
         self.language_codes = language_codes
 
         # Check if the dict_file is a dictionary key
@@ -84,7 +85,15 @@ class SpellChecker:
     def candidates(self, word):
         """Best matches found for word"""
         lower_word = word.lower()
-        return (self.apply_signature((self.known([lower_word]) or self.known(self.edits1(lower_word)) or self.known(self.edits2(lower_word)) or [None]), word))
+        return (
+            self.apply_signature(
+                self.known([lower_word])
+                or self.known([word.capitalize()])
+                or self.known(self.edits1(lower_word))
+                or self.known(self.edits2(lower_word))
+                or [None],
+                word
+            ))
 
     def known(self, words):
         """The subset of `words` that appear in the dictionary."""
@@ -147,23 +156,6 @@ class SpellChecker:
 
         return [x for x in formatted_words]
 
-
-    def alt_get_default_case(self, word):
-        upper = 0
-        lower = 0
-
-        for letter in word:
-            code = ord(letter)
-            if code > 64:
-                if code < 91:
-                    upper += 1
-                elif code > 96 and code < 123:
-                    lower += 1
-
-        if upper > lower:
-            return str.upper
-
-        return str.lower
 
     def get_default_case(self, word):
         """

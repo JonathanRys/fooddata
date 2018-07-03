@@ -15,37 +15,6 @@
 ' glutinous rice'
 '#gluten free oat flour'
 '#oats'
-Joyweed
-Celosia
-Burebrot
-Jwarichi
-sorghumflour
-Palm-grass
-Chapati
-sticky-rice
-Breadmaking
-Coxcomb
-sourdough-risen
-Faluche
-Tortilla-based
-Barley-based
-rice-based
-rice-fermented
-rice-paddy
-semolinaflour
-supergrain
-riceflour
-ricemilk
-bread-crumbed
-bread-like
-corn-based
-corndextrin
-corn-roll
-Milk-rice
-barleyflour
-Yellow-rice
-maygrass
-Frybread
 '& rice'
 '(9%) candy coated chocolate flavored chips (sugar'
 '(all GMO free) flour blend (white rice'
@@ -66,6 +35,26 @@ Frybread
 '* amaranth'
 '* brown rice crisps'
 '* brown rice protein powder'
+Multi-grain
+multi-grain
+whole-wheat
+Whole-wheat
+Rava
+rava
+brownrice
+Brownrice
+Tapai
+tapai
+Nachos
+nachos
+Buns
+pancake
+Pancake
+pancakes
+Pancakes
+Flatbreads
+flatbreads
+Flatbread
 '* brown rice protein'
 '* brown rice syrup'
 '* cocoa powder* sprouted gluten free oats'
@@ -323,7 +312,6 @@ Frybread
 'basmati white rice'
 'batter coating'
 'batter coating: rice flour'
-'beaten white rice'
 'Bhutanese red rice flour'
 'bio-fermented raw rice protein'
 'black barley malt'
@@ -2353,3 +2341,36 @@ Frybread
 'yellow & red quinoa'
 'Yellow quinoa'
 'yellow rice'
+Barley-based
+barleyflour
+bread-crumbed
+bread-like
+Breadmaking
+Breads
+breads
+Burebrot
+Celosia
+Chapati
+corn-based
+corn-roll
+corndextrin
+Coxcomb
+Faluche
+Frybread
+Joyweed
+Jwarichi
+maygrass
+Milk-rice
+Palm-grass
+rice-based
+rice-fermented
+rice-paddy
+riceflour
+ricemilk
+semolinaflour
+sorghumflour
+sourdough-risen
+sticky-rice
+supergrain
+Tortilla-based
+Yellow-rice

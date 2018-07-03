@@ -21,6 +21,8 @@
 'aspartame*'
 'aspartame**'
 teabag
+tobacco
+Tobacco
 'stabilizers (carob bean and/or xanthan and/or guar gums and/or carrageenan)**'
 'beta carotene] and carrageenan'
 blacktea

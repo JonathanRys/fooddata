@@ -7,7 +7,6 @@ A module to take the data from spelling_scraper and spacy_sorter
 and combine them into a sorted list of unique items.
 
 Dependencies:
-    * nltk
     * SpellChecker
 
 Available public methods:
@@ -16,8 +15,6 @@ Available public methods:
 """
 
 import os
-
-from nltk.corpus import stopwords
 from spell_checker import SpellChecker
 
 dirname = os.path.dirname(__file__)
@@ -54,6 +51,7 @@ def get_data():
     OFF_DATA = os.path.join(dirname, "data/ingredients/srtd_ingredients.txt")
     WIKI_DATA = os.path.join(dirname, "data/spelling_scraper/foods.txt")
 
+    return read_data(OFF_DATA)
     return read_data(OFF_DATA) + read_data(WIKI_DATA, " ")
 
 
@@ -68,7 +66,7 @@ def filter_unique(items):
     """
     
     unique_words = set()
-
+    print("   Removing", len(spell_checker.stopwords), "stop words...")
     for item in items:
         if not item in spell_checker.stopwords:
             unique_words.add(item)
@@ -77,18 +75,19 @@ def filter_unique(items):
 
 
 def spelling_list_stripper():
-    print("Ingesting data...")
+    print("Spelling-list Stripper")
+    print("  Ingesting data...")
     data = get_data()
-    print("Filtering data...")
+    print("  Filtering data...")
     filtered_data = filter_unique(data)
     # Save results
-    print("Saving filtered data...")
+    print("  Saving filtered data...")
     save_data(UNIQUE_FILE, filtered_data)
 
     corrected = []
     unknown = []
     found = []
-    print("Spell-checking...")
+    print("  Checking spelling...")
     for x in filtered_data:
         if len(x) == 0:
             continue
@@ -100,12 +99,10 @@ def spelling_list_stripper():
         else:
             corrected.append(x + ": " + corrected_word)
 
-    print("Saving results...")
+    print("  Saving results...")
     save_data(CORRECTED_FILE, corrected)
     save_data(UNKNOWN_FILE, unknown)
     save_data(FOUND_FILE, found)
-
-    print("Done.")
 
 
 if __name__ == '__main__':

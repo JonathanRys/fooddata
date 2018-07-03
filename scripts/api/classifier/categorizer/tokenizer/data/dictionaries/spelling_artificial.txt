@@ -1,6 +1,5 @@
 ﻿0 001% sodium metabisulfite added as preservative
 0 006% potassium iodide
-aldehyde
 0 01% of potassium sorbate as preservatives
 0 01% of sodium benzoate
 0 01% potassium sorbate as preservatives
@@ -30,39 +29,11 @@ aldehyde
 0 1% sodium benzoate as conservative
 0 1% sodium benzoate as preservative
 0 1% sodium benzoate e211 as preservative
-calciumchloride
-trisodiumcitrate
-doughconditioner
-microcrystalline
-tocopherylacetate
-calciumcitrate
-beta-carotene
-diacylglycerol
-zincoxide
-sodiumbicarbonate
-sodiumhydrogen
-sodiumphosphate
-dimethylamine
-dipotassiumphosphate
-sulfurdioxide
-gluconodelta
-gluconodeltalactone
-glucosaccharide
-tetrasodiumpyrophosphate
-ironphosphate
-diacetylactis
-disodiumguanylate
-betacarotene
-calciumlactate
-carboxyl
-ethylvanilin
 0 1% sodium benzoate preservative
 0 1% sodium benzoate preservative calcium chloride
 0 1% sodium benzoate preservative natural flavors
 0 10% sodium benzoate as a preservative
 0 15% preservative
-enriched bromated wheat flour [niacin {a b vitamin}
-enriched bromated wheat flour bleached [wheat flour
 0 15% water added as a carrier for citric acid
 0 15% water added as carrier for citric acid
 0 2% EDTA used as anti-browning
@@ -70,8 +41,6 @@ enriched bromated wheat flour bleached [wheat flour
 0 5% silicon dioxide to prevent caking
 0 70% sodium nitrite
 0 powdered cellulose
-barbecue-flavor
-arsenic-laden
 000 i u vitamin A palmitate
 005% potassium sorbate as preservatives
 01% of potassium sorbate as preservatives
@@ -435,8 +404,8 @@ acidity regulator : citric acid
 acidity regulator acetic acid
 acidity regulator citric acid
 acidity regulator citric acid e330
-acidity regulator e500
 acidity regulator e330
+acidity regulator e500
 acidity regulator sodium bicarbonate
 acidity regulator sodium citrate
 acidity regulator sodium citrate artificial flavor
@@ -572,6 +541,7 @@ alcohol
 alcohol carob powder gum potassium sorbate
 alcohol monosodium glutamate
 alcohol preservative
+aldehyde
 algal carotenes
 algin gum
 algin or sodium alginate
@@ -1423,6 +1393,8 @@ annatto powder
 annatto vegetable color
 annatto vegetable color potato starch
 ant-caking agent
+Antacid
+antacid
 anthocyanin & beta-carotene
 anti
 anti - caking agent
@@ -1517,8 +1489,8 @@ antioxidant: sodium erythorbate
 antioxidant: sodium metabisulfite
 antioxidant: sodium metabisulphite
 antioxidant: sulfites e224
-antioxidant: sulfites e224 acidity 6
 antioxidant: sulfites e224
+antioxidant: sulfites e224 acidity 6
 antioxidant: sulphites
 antioxidant: sulphur dioxide
 antioxidant: sulphurous anhydride
@@ -1620,6 +1592,7 @@ aroma of porcini mushroom
 aroma vanillin
 aroma: vanillin
 aromatic spices-flavor
+arsenic-laden
 art
 art color
 art flavors
@@ -2673,6 +2646,7 @@ barbecue blend fructose
 barbecue sauce high fructose corn syrup
 barbecue seasoning fructose
 barbecue spice mix fructose
+barbecue-flavor
 barley
 barley malt cocoa processed with alkali
 barley malt ex
@@ -2799,6 +2773,7 @@ beta-ca
 beta-car
 beta-carotene
 beta-carotene
+beta-carotene
 beta-carotene carmine
 beta-carotene color
 beta-carotene color
@@ -2814,6 +2789,7 @@ beta-carotene for color sweet relish: pickles cucumbers
 beta-carotene powder
 beta-carotene+
 beta-glucanase
+betacarotene
 bets carotene
 better orange concentrate
 BHA
@@ -2908,8 +2884,8 @@ BHT to preserve freshness vitamins & minerals
 BHT to preserve freshness vitamins & minerals: red
 BHT to preserve freshness vitamins & minerals: reduced iron
 BHT to preserve freshness vitamins & minerals: vitamin B1 thiamin mononitrate
-BHT to preserve freshness vitamins & minerals: vitamin B1 thiamine mononitrate
 BHT to preserve freshness vitamins & minerals: vitamin B1 thiamin mononitrate
+BHT to preserve freshness vitamins & minerals: vitamin B1 thiamine mononitrate
 BHT to preserve freshness vitamins& minerals: vitamin B1 thiamin mononitrate
 BHT treated with a solution of potassium sorbate to ensure freshness
 BHT treated with a solutions of potassium sorbate to ensure freshness
@@ -3611,6 +3587,9 @@ calcium water
 calcium-d-pantothenate
 calcium-pantothenate vitamin B5 pyridoxine hydrochloride vitamin B6 cyanocobalamin vitamin B12
 calcium-ribonucleotide
+calciumchloride
+calciumcitrate
+calciumlactate
 California dried pitted plums pitted prunes potassium sorbate added as a preservative
 calrose rice enriched with niacin
 candelilla wax
@@ -3746,6 +3725,7 @@ carbonation
 carbonation added
 carbonic acid
 carbonic gas
+carboxyl
 carboxymethylcellulose
 carboxymethylcellulose
 carboxymethylcellulose gum
@@ -4086,13 +4066,14 @@ citric acid & tricalcium phosphate
 citric acid &/or lemon concentrate
 citric acid - acidity regulator
 citric acid - e330
+citric acid - sodium carboxymethyl cellulose - natural color carmine - vitamin C - sodium benzoate 100ppm
+citric acid - sodium carboxymethyl cellulose - vitamin C - sodium benzoate 100 ppm
 citric acid 0 01% added to preserve freshness
 citric acid 0 01% sodium benzoate
 citric acid 0 15
 citric acid 0 18
 citric acid 0 5
 citric acid 1 7
-citric acid e330
 citric acid : e330
 citric acid acacia gum
 citric acid acesulfame potassium
@@ -4207,13 +4188,14 @@ citric acid disodium guanylate
 citric acid distilled vinegar
 citric acid dried
 citric acid dried cranberries cranberries
-citric acid e330
-citric acid e330 as acid
 citric acid e-330
+citric acid e330
+citric acid e330
 citric acid e330
 citric acid e330 0 15
 citric acid e330 0 2
 citric acid e330 2 5
+citric acid e330 as acid
 citric acid e330 as acidity regulator
 citric acid e330 as acidity regulators
 citric acid e330 powdered sugar
@@ -4620,10 +4602,10 @@ color FD&C red no 40 lake
 color FD&C yellow # 6
 color FD&C yellow #6
 color FD&C yellow 5
+color FD&C yellow 5
 color FD&C yellow 6
 color FD&C yellow 6 sulfur
 color FD&C yellow no 5
-color FD&C yellow 5
 color fruit chews
 color incl
 color includes beta carotene vitamins
@@ -4796,9 +4778,9 @@ colour: carmines
 colour: carotenes
 colour: copper chlorophyllin
 colour: curcumin
-colour: e120 preservative e250
 colour: e-150 b caramel
 colour: e120 carmines
+colour: e120 preservative e250
 colour: e133 brilliant blue
 colour: e150 d antioxidant e220
 colour: e150c
@@ -6298,6 +6280,8 @@ diacetyl tartaric esters of mono
 diacetyl tartaric esters of mono-
 diacetyl tartaric esters of mono-
 diacetyl-free
+diacetylactis
+diacylglycerol
 dibasic ammonium phosphate
 dibasic calcium phosphate
 dicalcium
@@ -6429,6 +6413,7 @@ dimagnesium phosphate
 dimethyl dicarbonate
 dimethyl silicone
 dimethyl silicone for anti-foaming contains propellant to dispense spray
+dimethylamine
 dimethylpolysiloxane
 dimethylpolysiloxane
 dimethylpolysiloxane added as an anti-foaming agent
@@ -6470,6 +6455,7 @@ dipotassium phosphate titanium dioxide for color
 dipotassium phosphate xanthan gum
 dipotassium propionate
 dipotassium sulfate
+dipotassiumphosphate
 disodium
 disodium & guanylate corn starch
 disodium 5
@@ -6646,6 +6632,7 @@ disodium-5-inosinate
 disodium-EDTA preservatives
 disodium-guanylate
 disodium-inosinate
+disodiumguanylate
 distarch phosphate
 distilled mono
 distilled mono glycerides
@@ -6713,6 +6700,7 @@ dough conditioners sodium stearoyl
 dough conditioners sodium stearoyl lactylate
 dough softener water
 dough: enriched semolina flour with niacin
+doughconditioner
 dried apple flakes artificial apricot flavor
 dried apricots apricots
 dried apricots prepared with sulfur dioxide
@@ -7175,6 +7163,8 @@ enriched all purpose flour
 enriched barley flour
 enriched bleached
 enriched bleached flour
+enriched bromated wheat flour [niacin {a b vitamin}
+enriched bromated wheat flour bleached [wheat flour
 enriched cake
 enriched cake flour
 enriched corn flour
@@ -7382,6 +7372,7 @@ ethyl maltol phenylketonurics: contain phenylalanine
 ethyl vanilla
 ethyl vanillin
 ethyl vanillin
+ethylvanilin
 evaporated apples treated with sulfur dioxide to preserve color contains 2% or l
 evaporated apples with sodium sulfite added to preserve color
 evaporated cane juice citric acid provides tartness
@@ -8608,7 +8599,10 @@ glucono-delta lactone
 glucono-delta- lactone yeast extract
 glucono-delta-lactone
 glucono-lactone
+gluconodelta
+gluconodeltalactone
 gluconolactone
+glucosaccharide
 glucose
 glucose - fructose and/or dextrose
 glucose - fructose syrup
@@ -9622,6 +9616,7 @@ iron with ferrous sulfate
 iron- reduced
 iron: vitamin A palmitate
 iron: vitamin C
+ironphosphate
 irradiated
 irradiated spices
 isobutane
@@ -9649,6 +9644,10 @@ it contains flow agent e535
 Italian inosinate
 jack-o-lantern sprinkles- dextrose
 jalapeno seasoning dextrose
+Jell-o
+jell-o
+Jello
+jello
 juice concentrate ascorbic acid vitamin C
 juice powder maltodextrin
 juices of sweet potato
@@ -9673,6 +9672,10 @@ konjac flour
 konjac gum
 kosher gelatin
 kosher gelatin natural flavor
+Krispie
+krispie
+Krispies
+krispies
 l
 l +-tartaric acid
 l - cysteine
@@ -10715,6 +10718,7 @@ microbial enzyme
 microbial enzymes
 microbial enzymes cellulose
 microbial enzymes powdered cellulose added to prevent caking
+microcrystalline
 mild sauce water
 milled sweet potato
 min
@@ -11521,6 +11525,7 @@ nature identical mango flavour
 nature identical rose flavor
 nature-identical flavor
 nature-identical flavoring
+Necco
 neotame
 neotame and
 neotame front porch lemonade ingredients: sorbitol
@@ -11611,6 +11616,8 @@ nisin preparation
 nisin preparation as preservative
 nisin preparation as preservatives
 nisin preparation sodium chloride
+Niter
+niter
 nitrate
 nitrite
 nitrous oxide
@@ -11824,6 +11831,7 @@ Oreo cookie pieces sugar
 Oreo cookie pieces sugar
 Oreo cookies sugar
 Oreo sugar
+Oreos
 organ nutmeg sea salt non-GMO citric acid
 organic amaranth flour potato starch
 organic annatto extract color potato starch and/or cellulose fiber used as a processing aid to help prevent caking
@@ -12754,11 +12762,11 @@ preservative BHT vitamins & minerals: vitamin C sodium ascorbate
 preservative calcium propionate
 preservative calcium proportionate
 preservative citric acid
-preservative e223
 preservative e1105 lysozyme
 preservative e202
 preservative e211
 preservative e220
+preservative e223
 preservative e223 "acidity 4
 preservative e250
 preservative free red wine vinegar
@@ -13186,6 +13194,8 @@ re 40
 reb a stevia extract citric acid caramel color monk fruit extract
 reb a stevia leaf sweetener vitamins & minerals: calcium carbonate
 rebaudioside a riboflavin color
+rebaudiosidea
+Rebaudiosidea
 rebiana natural sweetener
 rebiana stevia
 rebiana sweetener from stevia
@@ -14602,9 +14612,9 @@ sodium metabisulfite as preservatives FD&C yellow #5
 sodium metabisulfite color retention
 sodium metabisulfite contains sulfites
 sodium metabisulfite dehydrated
-sodium metabisulfite e223 retain color
 sodium metabisulfite e223
 sodium metabisulfite e223 as anti-oxidant
+sodium metabisulfite e223 retain color
 sodium metabisulfite EDTA
 sodium metabisulfite for color
 sodium metabisulfite for color retention
@@ -14635,8 +14645,8 @@ sodium metabisulphite as a preservative
 sodium metabisulphite as preservative
 sodium metabisulphite color retention
 sodium metabisulphite dough conditioner
-sodium metabisulphite e223 as preservative
 sodium metabisulphite e223 0 01
+sodium metabisulphite e223 as preservative
 sodium metabisulphite e223 as preservatives
 sodium metabisulphite preservative
 sodium metabisulphite sulphur dioxide
@@ -14950,6 +14960,9 @@ sodium tripolyphosphate used to retain moisture
 sodium tripolyphosphate-to retain moisture
 sodium-alginate
 sodium-i-ascorbate
+sodiumbicarbonate
+sodiumhydrogen
+sodiumphosphate
 solids calcium salt
 solids dextrose
 soluble arabica coffee
@@ -15637,6 +15650,7 @@ sulfur dioxide used as a preservative apricots
 sulfur dioxide used as a preservative of quince pulp
 sulfur dioxide used as a preservative Thailand diced pineapple pineapple
 sulfur dioxide used to protect quality
+sulfurdioxide
 sulfured
 sulphite
 sulphite ammonia caramel
@@ -15861,6 +15875,7 @@ tetrasodium pyrophosphate for thickening
 tetrasodium pyrophosphate natural
 tetrasodium pyrophosphate whipping aid
 tetrasodium pyrophosphate white chocolaty coating: sugar
+tetrasodiumpyrophosphate
 Thai jasmine rice 100
 Thai long grain white rice 100
 the following added to promote color retention disodium EDTA
@@ -15895,8 +15910,10 @@ thiamin mononitrate riboflavin iron
 thiamin mononitrate vitamin 61 folic acid
 thiamin mononitrate vitamin 81
 thiamin mononitrate vitamin B
+thiamin mononitrate vitamin B
 thiamin mononitrate vitamin B 1
 thiamin mononitrate vitamin B-1
+thiamin mononitrate vitamin B1
 thiamin mononitrate vitamin B1
 thiamin mononitrate vitamin B1 folic acid
 thiamin mononitrate vitamin B1 riboflavin vitamin 82
@@ -15906,8 +15923,6 @@ thiamin mononitrate vitamin B11
 thiamin mononitrate vitamin B2
 thiamin mononitrate vitamin B2 riboflavin
 thiamin mononitrate vitamin B2 riboflavin vitamin B2
-thiamin mononitrate vitamin B
-thiamin mononitrate vitamin B1
 thiamin mononitrate vitamin v1 riboflavin vitamin B2
 thiamin mononitrate water
 thiamin mononitrate-B1
@@ -15965,11 +15980,11 @@ thiamine mononitrate vitamin B1 pyridoxine hydrochloride vitamin B6
 thiamine mononitrate vitamin B1 riboflavin
 thiamine mononitrate vitamin B1 riboflavin vitamin B2
 thiamine mononitrate vitamin B1 riboflavin vitamin B2
+thiamine mononitrate vitamin B1 riboflavin vitamin B2
+thiamine mononitrate vitamin B1 riboflavin vitamin B2
 thiamine mononitrate vitamin B1 riboflavin vitamin B2 folic acid
 thiamine mononitrate vitamin B1 riboflavin vitamin B2 folic acid a "b" vitamin
-thiamine mononitrate vitamin B1 riboflavin vitamin B2
 thiamine mononitrate vitamin B2
-thiamine mononitrate vitamin B1 riboflavin vitamin B2
 thiamine mononitrate-b
 thiamine mononitrate-B1
 thiamine riboflavin
@@ -16234,6 +16249,7 @@ tocopherols vitamin E to maintain freshness
 tocopherols vitamin E tocopherols vitamin E molasses
 tocopheryl acetate
 tocopheryl acetate
+tocopherylacetate
 toffee pieces maltitol
 tofu cocoa processed with alkali
 tomatillo
@@ -16378,6 +16394,7 @@ trisodium phosphate vitamins & minerals: calcium carbonate
 trisodium phosphate vitamins & minerals: vi
 trisodium phosphate vitamins & minerals: vitamin
 trisodium phosphate vitamins & minerals: vitamin B1
+trisodiumcitrate
 turmeric acid
 turmeric acid beet powder color
 turmeric acid turmeric extract
@@ -16714,10 +16731,13 @@ vitamin & minerals: calcium carbonate
 vitamin & minerals: potassium chloride
 vitamin & minerals: vitamin B1
 vitamin A
+vitamin A
+vitamin A
 vitamin A & beta-carotene
 vitamin A & D
 vitamin A & D added
 vitamin A & D3
+vitamin A & E
 vitamin A & E
 vitamin A & E drizzle: sugar
 vitamin A & E premix
@@ -16726,7 +16746,6 @@ vitamin A ace
 vitamin A acetate
 vitamin A ascorbic acid
 vitamin A D3
-vitamin A
 vitamin A palmate
 vitamin A palmate added
 vitamin A palmitate
@@ -16791,11 +16810,9 @@ vitamin A palmitate'
 vitamin A palpitate
 vitamin A supplement
 vitamin A to maintain color
-vitamin A & E
 vitamin A-palmitate
 vitamin A1
 vitamin A2
-vitamin A
 vitamin acetate
 vitamin and
 vitamin B
@@ -16832,6 +16849,7 @@ vitamin B12 BHT added to packaging material to preserve freshness
 vitamin B12 cyanocobalamin
 vitamin B12 cyanocobalamin BHT added to packaging materials to help preserve freshness
 vitamin B12 cyanocobalamin BHT added to packaging to help preserve freshness
+vitamin B12 cyanocobalamin BHT added to packaging to help preserve freshness
 vitamin B12 live
 vitamin B12 live active cultures include: l bulgaricus
 vitamin B12 live active cultures: s thermophilus
@@ -16841,7 +16859,6 @@ vitamin B12 preservative sodium benzoate col
 vitamin B12 reduced iron
 vitamin B12 romano
 vitamin B12 vitamin D3
-vitamin B12 cyanocobalamin BHT added to packaging to help preserve freshness
 vitamin B2
 vitamin B2 & B6 & C
 vitamin B2 folic acid
@@ -16906,6 +16923,7 @@ vitamin C- enriching substance
 vitamin C-enriching substance
 vitamin Cl
 vitamin D
+vitamin D
 vitamin D 2
 vitamin D 3
 vitamin D 3 con
@@ -16915,7 +16933,6 @@ vitamin D BHT added to packaging material to help preserve freshness
 vitamin D BHT added to packaging to help preserve freshness
 vitamin D con
 vitamin D cultures: s thermophilus
-vitamin D
 vitamin D one of the b vitamins
 vitamin D reduced iron
 vitamin D vegetable monoglycerides
@@ -16970,6 +16987,8 @@ vitamin D3 topping: almonds
 vitamin D3 topping: salted caramel clusters white coating sugar
 vitamin D4 l-selenomethionine selenium
 vitamin E
+vitamin E
+vitamin E
 vitamin E & C as antioxidant
 vitamin E & vitamin B-6
 vitamin E - for freshness
@@ -17000,12 +17019,13 @@ vitamin E mixed tocopherols added to preserve freshness
 vitamin E mixed tocopherols added to preserve freshness organic
 vitamin E mixed tocopherols added to preserve freshness vitamin
 vitamin E mixed tocopherols added to preserve freshness vitamins
+vitamin E mixed tocopherols added to preserve freshness vitamins
 vitamin E mixed tocopherols added to preserve freshness vitamins & minerals: calcium carbonate
 vitamin E mixed tocopherols added to retain
 vitamin E mixed tocopherols added to retain freshness
 vitamin E mixed tocopherols to maintain freshness
 vitamin E mixed tocopherols to preserve freshness
-vitamin E mixed tocopherols added to preserve freshness vitamins
+vitamin E niacinamide
 vitamin E powder di-alpha tocopheryl acetate electrolytic iron
 vitamin E supplement
 vitamin E to help maintain freshness
@@ -17015,9 +17035,6 @@ vitamin E to preserve freshness vitamins & minerals: reduced iron
 vitamin E to protect flavor
 vitamin E tocopherols for freshness
 vitamin E used to preserve freshness vitamins & minerals: reduced iron
-vitamin E
-vitamin E
-vitamin E niacinamide
 vitamin H
 vitamin H biotin vitamin D3 cholecalciferol
 vitamin K
@@ -17054,9 +17071,9 @@ vitamins & minerals: potassium chloride
 vitamins & minerals: potassium phosphate
 vitamins A
 vitamins A & D
+vitamins A & D
 vitamins A & D added
 vitamins A palmitate
-vitamins A & D
 vitamins aggregates
 vitamins B2
 vitamins B6
@@ -17075,6 +17092,10 @@ vitamins to maintain color parsley
 vitamins&minerals: calcium sulfate
 vitamins: niacin
 vitamins: niacinamide
+Vodka
+vodka
+Vodkas
+vodkas
 w / alkali
 w/ alkali
 wafer pieces potato starch
@@ -17090,8 +17111,6 @@ wasabi seasoning flavor maltodextrin
 wasabi seasoning maltodextrin
 water & citric acid
 water & monoglycerides with propionic acid
-citric acid - sodium carboxymethyl cellulose - natural color carmine - vitamin C - sodium benzoate 100ppm
-citric acid - sodium carboxymethyl cellulose - vitamin C - sodium benzoate 100 ppm
 water 10% with sulphur dioxide 0152
 water 72 43% stabilizer: guar gum e412 0 20
 water additionally: apple attack: citric acid
@@ -17342,7 +17361,6 @@ with sulphur dioxide added as
 with sulphur dioxide added as a
 with sulphur dioxide added as a preservative
 with tartrazine
-with TBHQ for freshness
 with TBHQ
 with TBHQ & citric acid to protect the flavor
 with TBHQ added f
@@ -17355,6 +17373,7 @@ with TBHQ anti-oxidant
 with TBHQ antioxidant
 with TBHQ as a preservative
 with TBHQ as antioxidant
+with TBHQ for freshness
 with TBHQ for freshness
 with TBHQ for freshness sugar
 with TBHQ preservative
@@ -17621,18 +17640,18 @@ yellow #5 extract of annatto
 yellow #5 food color
 yellow #5 la
 yellow #5 lake
+yellow #5 lake
 yellow #5 lake nonpareils sugar
 yellow #5 lake tortilla chips: corn
 yellow #5 lakes
 yellow #5 red # 40
 yellow #5 red #40
 yellow #5 tartrazine
+yellow #5 tartrazine
 yellow #5 yellow #6
 yellow #5 yellow #6 color
 yellow #5 yellow & brown mustard seeds
 yellow #5&6
-yellow #5 lake
-yellow #5 tartrazine
 yellow #6
 yellow #6 & 5
 yellow #6 & blue #1
@@ -17669,6 +17688,7 @@ yellow 5 & yellow 6
 yellow 5 &6
 yellow 5 adds a trivial amount of fat
 yellow 5 and
+yellow 5 and 6
 yellow 5 BHT added to packaging material to preserve freshness vitamins
 yellow 5 BHT added to packaging material to preserve product freshness vitamin
 yellow 5 BHT added to packaging material to preserve product freshness vitamins
@@ -17706,7 +17726,6 @@ yellow 5 yellow 6
 yellow 5& 6
 yellow 5&6
 yellow 5&6 blue 1
-yellow 5 and 6
 yellow 6
 yellow 6
 yellow 6 & 5
@@ -17853,4 +17872,5 @@ zinc sulfate monohydrate
 zinc sulphate
 zinc zinc oxide BHT added to packaging to help preserve freshness
 zinc zinc zinc oxide
+zincoxide
 zing oxide

@@ -29,28 +29,8 @@
 ') and potato starch and may contain traces of wheat'
 '00 flour [soft wheat flour]'
 '00 soft wheat'
-Faluche
-bleachedwheatflour
-cakeflour
-cake-dish
-cake-like
-carckermeal
-enrichedflour
-flour-based
-dough-based
 '00 wheat flour'
-seitan
-tortilla-based
-Frybread
-frybread
-wheat-based
-wheatbran
-wheatflour
-wheatgrass
-Zwieback
-unbleachedflour
 '1) noodle: wheat flour'
-Tortilla-based
 '1)noodle: wheat flour'
 '100% certified buckwheat'
 '100% certified organic buckwheat'
@@ -61,6 +41,13 @@ Tortilla-based
 '100% certified organic whole wheat durum semolina'
 '100% certified organic whole wheat flour'
 '100% Durum wheat semolina'
+Flatbreads
+Flatbread
+flatbreads
+pancake
+Pancake
+pancakes
+Pancakes
 '100% durum wheat semolina'
 '100% durum whole wheat flour'
 '100% hard amber durum whole wheat semolina'
@@ -482,9 +469,8 @@ Tortilla-based
 'breaded with: wheat flour'
 'breading (enriched flour (wheat flour'
 'breading [wheat flour'
-'breadsticks: wheat flour'
-'enzymes); bread stick
 'breadstick'
+'breadsticks: wheat flour'
 'Brioche bun: wheat flour'
 'bromate-free wheat flour'
 'bronze chief whole wheat flour'
@@ -1394,6 +1380,7 @@ Tortilla-based
 'enzymes [from wheat]'
 'enzymes [wheat]'
 'enzymes) unbleached wheat flour'
+'enzymes); bread stick
 'enzymes]). crust: enriched flour (wheat flour'
 'enzymes]).crust: malted wheat flour (wheat flour'
 'enzymes]. wheat flour'
@@ -1927,7 +1914,6 @@ Tortilla-based
 'Oreo cookie pieces {unbleached enriched flour [wheat flour'
 'Oreo crunch {bleached wheat flour'
 'Oreo crunch {unbleached enriched flour [wheat flour'
-'organic buckwheat flour'
 'organic 100% soft white wheat flour'
 'Organic 100% stone ground whole wheat flour'
 'Organic 100% stone ground whole wheat'
@@ -1945,6 +1931,7 @@ Tortilla-based
 'organic bread crumbs [organic wheat flour'
 'organic breadcrumbs [organic wheat flour'
 'organic buck wheat flour'
+'organic buckwheat flour'
 'Organic buckwheat flour'
 'organic buckwheat flour'
 'Organic Buckwheat Flour'
@@ -2082,12 +2069,12 @@ Tortilla-based
 'organic stone ground whole wheat flour water'
 'organic stone ground whole wheat flour'
 'Organic stone ground whole wheat flour'
+'Organic stone ground whole wheat flour'
 'Organic stone ground whole wheat pastry flour'
 'organic stone ground whole wheat pastry flour'
 'organic stone-ground whole wheat & rye flours'
 'organic stone-ground whole wheat flour'
 'organic stone-ground whole wheat'
-'Organic stone ground whole wheat flour'
 'organic sugar. organic cracked wheat'
 'Organic toasted buckwheat groats'
 'organic tomato paste) organic macaroni (organic semolina [wheat] flour'
@@ -2199,9 +2186,9 @@ Tortilla-based
 'Organic whole grain hard white wheat'
 'Organic whole grain kamut brand wheat flakes. organic whole grain brown rice flour'
 'organic whole grain kamut bulgur wheat'
+'organic whole grain kamut khorasan wheat flour'
 'organic whole grain kamut wheat'
 'Organic whole grain kamut wheat'
-'organic whole grain kamut khorasan wheat flour'
 'organic whole grain rolled wheat'
 'organic whole grain soft white wheat flour'
 'Organic whole grain soft white wheat'
@@ -2348,6 +2335,7 @@ Tortilla-based
 'Pizza crust [wheat flour'
 'polysorbate 80. breaded with: wheat flour'
 'pot pie crust (bleached enriched flour (wheat flour'
+'potassium chloride isolated soy protein wheat gluten sodium tripolyphosphate tetrasodium'
 'potassium chloride wheat starch'
 'potassium sorbate (a preservative). wheat protein isolate'
 'potassium sorbate (preservative). crust: enriched wheat flour (wheat flour'
@@ -2357,16 +2345,15 @@ Tortilla-based
 'Potato starch wheat flour'
 'potato starch. contains less than 2% of the following ingredients: wheat flour'
 'Potato wheat flour'
-'potassium chloride isolated soy protein wheat gluten sodium tripolyphosphate tetrasodium'
 'Potsticker ingredients: wheat flour'
 'powdered cellulose (to prevent caking). seeds: organic dry roasted sunflower kernels. crouton: organic whole wheat flour'
 'powdered cellulose (to prevent caking). seeds: organic dry roasted sunflower kernels. topping: organic whole wheat flour'
 'pre-cooked durum wheat'
 'pre-cooked organic kamut khorasan wheat'
+'pre-gelatinized wheat starch'
 'precooked durum wheat semolina'
 'Precooked durum wheat'
 'precooked organic durum wheat semolina'
-'pre-gelatinized wheat starch'
 'preserved with sodium benzoate. crust: wheat flour'
 'pretzel (enriched flour (wheat flour'
 'pretzel (enriched wheat flour (contains: wheat flour'
@@ -2540,18 +2527,18 @@ Tortilla-based
 'Scone mix [enriched wheat flour [bleached wheat flour'
 'sea salt and spices. tortilla: enriched wheat flour'
 'sea salt and spices. wrap: unbleached flour'
+'SEA SALT MUSTARD FLOUR'
 'sea salt) flour'
 'sea salt. crust: whole grain stone ground soft wheat flour'
 'sea salt. pretzels - wheat flour'
 'sea salt; topped with organic crushed wheat'
-'SEA SALT MUSTARD FLOUR'
-'seasoning blend (enriched pastry) flour [wheat flour'
 'Seasoning (Fortified Wheat Flour (Wheat Flour'
 'seasoning (natural smoke flavor and polysorbate 80). breaded with: enriched wheat flour (niacin'
 'seasoning (soy sauce powder (soy sauce (wheat'
 'seasoning [hydrolyzed soy/corn/wheat gluten protein'
 'seasoning [wheat flour'
 'seasoning blend (bread crumbs (wheat flour'
+'seasoning blend (enriched pastry) flour [wheat flour'
 'seasoning blend {bleached wheat flour'
 'Seasoning mix ingredients (new wt 1.6 oz): bread crumbs [bleached wheat flour'
 'seed and cereal blend [sprouted wheat'
@@ -2909,6 +2896,8 @@ Tortilla-based
 'Ultragrain whole wheat flour'
 'Un-bleached and un-bromated enriched wheat flour'
 'Un-bleached and un-bromated wheat flour'
+'un-toasted wheat germ'
+'Un-toasted wheat germ'
 'Unbleached & enriched wheat flour'
 'UNBLEACHED _WHEAT_ FLOUR'
 'Unbleached _Wheat_ Flour'
@@ -3042,8 +3031,6 @@ Tortilla-based
 'Unprocessed wheat bran'
 'unprocessed wheat bran'
 'Unprompted unbleached enriched wheat flour [flour'
-'un-toasted wheat germ'
-'Un-toasted wheat germ'
 'v buck wheat flour'
 'Vanilla bites (enriched bleached flour (wheat flour'
 'vanilla bites (enriched bleached flour (wheat flour'
@@ -3163,8 +3150,8 @@ Tortilla-based
 'wheat & corn starch'
 'wheat & malt barley flour'
 'wheat & malted barley flour'
-'wheat & salt) sugar'
 'wheat & salt'
+'wheat & salt) sugar'
 'wheat & sulfites'
 'wheat & wheat flour'
 'wheat '
@@ -3840,16 +3827,16 @@ Tortilla-based
 'Wholemeal wheat flour'
 'Wholewheat 80%'
 'Wholewheat flour'
-'with _wheat_'
 'with _Wheat flour_'
 'with _wheat flour_'
+'with _wheat_'
 'with added wheat bran'
 'with gluten'
 'with wheat flour'
-'with wheat starch'
-'with wheat'
 'with Wheat flour'
 'with wheat flour'
+'with wheat starch'
+'with wheat'
 'Wonton wrapper [bleached wheat flour'
 'Wonton wrapper: bleached wheat flour'
 'Wonton: wheat flour'
@@ -3895,3 +3882,27 @@ Tortilla-based
 'zinc. corn dog batter: enriched wheat flour'
 'Ziti pasta (durum semolina flour (wheat flour'
 '{flour-bleached wheat flour'
+bleachedwheatflour
+Breads
+breads
+Buns
+cake-dish
+cake-like
+cakeflour
+Cakes
+carckermeal
+dough-based
+enrichedflour
+Faluche
+flour-based
+Frybread
+frybread
+seitan
+tortilla-based
+Tortilla-based
+unbleachedflour
+wheat-based
+wheatbran
+wheatflour
+wheatgrass
+Zwieback

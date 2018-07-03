@@ -17,66 +17,27 @@
 ' apple'
 ' bleuets sauvages'
 ' blueberries sugar'
-Chrysophyllum
-saskatoon
-saskatoonberries
-pawpaws
-Oil-and-lemon
-Orange-flavored
-Ackee
-ackee
-Clymenia
-Jogi-jeot
-Mango-ginger
-dactylifera
-pineapple-flavored
-somnifera
-screwpine
-Adakka
-adakka
-fogfruit
-elanthai
-goldenberry
-grapejuice
-grapeskin
-limejuice
-macrocarpon
-mayapple
-Barberry
-barberry
-organicorange
-Areca
-areca
-superfruit
-mayhaw
-Verjuice
-verjuice
-cherimoyas
 ' currants'
-coffeefruit
-Apple-based
-Bumbleberry
-Appleseed
-Cherimoya
-Cortland
-Custard-apple
-Fruit-based
-Ice-apple
-Kumquat
-Lemon-lime
-Limequat
-Orangequat
-Starfruit
-applejuice
-aromalemon
-aroniaberry
-Sugar-apple
-soursop
 ' dates'
 ' lemon and mango type'
+Curacao
 ' palm fruit'
 ' papaya sugar'
 ' pineapple'
+Tangelo
+tangelo
+tangelos
+Tangelos
+Ficus
+ficus
+Ugli
+ugli
+orange-
+Orange-
+Uglifruit
+uglifruit
+soursops
+Soursops
 ' raspberries'
 ' sour cherries'
 ' strawberries'
@@ -85,10 +46,24 @@ soursop
 '#cranberries'
 '#dried apricots'
 '#figs'
+Partridge berry
+partridge berry
+partridge berries
+Partridge berries
 '% 1 00 dried figs'
 '& apple cider vinegar'
+Prunus
+prunus
 '& apple'
 '& lime'
+Pokeberry
+pokeberry
+Pokeberries
+pokeberries
+Limeade
+limeade
+Lime-ade
+lime-ade
 '& limes'
 '& orange peel) and water'
 '& preserved lemon'
@@ -1694,10 +1669,10 @@ soursop
 'dried diced papaya'
 'dried diced pineapple'
 'dried diced plums'
+'Dried fig paste 85% [dried figs'
 'Dried figs (Greece) partially rehydrated (dried figs'
 'dried figs'
 'Dried figs'
-'Dried fig paste 85% [dried figs'
 'dried fruit (11%) (sultanas'
 'dried fruit mix (banana chips (bananas'
 'dried fruit'
@@ -1870,7 +1845,7 @@ soursop
 'Evaporated cane juice & lemon'
 'evaporated lemon juice'
 'evaporated raspberries'
-'EXPELLERPRESSED CANOLA0L FIMERED WATER. BROWN RICE SYRUP APPLECIDER VINEGAR'
+'EXPELLERPRESSED WATER. BROWN RICE SYRUP APPLECIDER VINEGAR'
 'expiry date on bottom of can'
 'extra olive'
 'Extra sweet pineapple'
@@ -4879,4 +4854,58 @@ soursop
 'Zante currants'
 'Zante currants'
 'Zante currants*'
+Ackee
+ackee
+Adakka
+adakka
 Apple
+Apple-based
+applejuice
+Appleseed
+Areca
+areca
+aromalemon
+aroniaberry
+Barberry
+barberry
+Bumbleberry
+Cherimoya
+cherimoyas
+Chrysophyllum
+Clymenia
+coffeefruit
+Cortland
+Custard-apple
+dactylifera
+elanthai
+fogfruit
+Fruit-based
+goldenberry
+grapejuice
+grapeskin
+Ice-apple
+Jogi-jeot
+Kumquat
+Lemon-lime
+limejuice
+Limequat
+macrocarpon
+Mango-ginger
+mayapple
+mayhaw
+Oil-and-lemon
+Orange-flavored
+Orangequat
+organicorange
+pawpaws
+pineapple-flavored
+saskatoon
+saskatoonberries
+screwpine
+somnifera
+soursop
+Starfruit
+Sugar-apple
+superfruit
+Verjuice
+verjuice

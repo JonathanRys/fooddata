@@ -26,8 +26,22 @@
 '. lac'
 '100% all natural honeybee honey'
 honey-sweetened
+Crickets
+crickets
+HoneyBaked
+honeybaked
+Honey-Baked
+honey-baked
+Honey-baked
+Cricket
+Insects
+insects
 Silkworm
 silkworm
+Grasshoppers
+grasshoppers
+Grasshopper
+grasshopper
 butter-and-honey
 '100% all-natural honeybee honey'
 '100% domestic honey'

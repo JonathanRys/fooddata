@@ -13,48 +13,9 @@
 "[cow's milk"
 "[part skim cow's milk"
 "[part skimmed cow's milk"
-termilk
 "[pasteurized cow's milk"
-Burebrot
-Majdoule
-butter-and-honey
-butterblend
-Stretch-curd
-skimmilk
-stretched-curd
-re-milk
-soured-milk
-diacetylactis
-colostrum
-egg-milk
-buttercream
-Palpusztai
-butterflavor
-wheymaltodextrin
-wheysalt
-wholemilk
-full-cream
-yogurt-based
-yogurt-cucumber-garlic
-yogurt-like
-Ackawi
-ackawi
-sweetcream
-milk-based
-milk-caramel
-milk-containing
-milk-fed
-milkshake
-milkshakes
-nonfatmilk
-culturedmilk
 "[pasteurized part skim cow's milk"
 "[pasteurized part-skim cow's milk"
-Vesterhavsost
-wholemilk
-Yogurt-based
-gruyere
-gruyère
 "_Butter_ (cow's _milk_) ("
 "a dehydrated blend of parmesan and Romano cheeses [part-skim cow's milk"
 "a dehydrated blend of Romano cheese [part skim cow's milk"
@@ -67,9 +28,39 @@ gruyère
 "Asiago cheese [pasteurized part-skimmed cow's milk"
 "au moins d'extraits de lait"
 "baker's cheese [skim m"
-Faluche
 "baker's cheese [skim milk"
 "baker's cheese [skim"
+Custards
+Milka
+milka
+milks
+Milks
+Gruyère
+ice-cream
+Ice-cream
+milking
+milky
+re-milk
+Milking
+Milky
+Puddings
+puddings
+Raita
+raita
+Parmigiana
+parmigiana
+chevre
+Chevre
+pancake
+Pancake
+pancakes
+Pancakes
+Jarlsburg
+Milky
+milky
+custards
+Custard
+custard
 "blend of Romano and parmesan cheese [pasteurized part skim cow's milk"
 "blend of Romano and parmesan cheese [pasteurized part-skim cow's milk"
 "blend of Romano and parmesan cheeses [pasteurized part skim cow's milk"
@@ -10234,7 +10225,16 @@ Faluche
 '{milk}'
 '{pasteurized milk'
 '{pasteurized part-skim milk'
+Ackawi
+ackawi
 Ambrosia
+Boursin
+boursin
+Burebrot
+butter-and-honey
+butterblend
+buttercream
+butterflavor
 cheese-egg
 Cheese-filled
 cheese-flavored
@@ -10245,20 +10245,53 @@ cheesemakers
 Cheesesteak
 cheesesteak
 Colby-Jack
+colostrum
 cows-milk
 cream-based
 cream-colored
 cream-coloured
 cream-style
 creamsalt
+culturedmilk
 Dairy-based
 Dairygold
+diacetylactis
+egg-milk
+Faluche
+full-cream
+Roquefort
 Gruyere
+Gruyère
 Gudbrandsdalsost
+Majdoule
+milk-based
+milk-caramel
 Milk-chocolate
+milk-containing
 Milk-cream
+milk-fed
 Milk-rice
+milkshake
 Milkshake
+milkshakes
 Munster-Gerome
 neufchatel
+nonfatmilk
 Ovo-lacto
+Palpusztai
+re-milk
+skimmilk
+soured-milk
+Stretch-curd
+stretched-curd
+sweetcream
+termilk
+Vesterhavsost
+wheymaltodextrin
+wheysalt
+wholemilk
+wholemilk
+yogurt-based
+Yogurt-based
+yogurt-cucumber-garlic
+yogurt-like
