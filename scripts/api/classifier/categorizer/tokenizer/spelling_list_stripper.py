@@ -25,6 +25,7 @@ CORRECTED_FILE = os.path.join(dirname, "data/words_new/corrected.txt")
 UNKNOWN_FILE = os.path.join(dirname, "data/words_new/unknown.txt")
 FOUND_FILE = os.path.join(dirname, "data/words_new/found.txt")
 
+
 def read_data(file, delimiter="\n"):
     """Read the data from a file and return a list"""
     with open(file, 'rt', encoding="utf-8") as f:
@@ -46,7 +47,7 @@ def get_data():
     :returns: The list of all words
     :rtype: list
     """
-    
+
     # This should be read from config somewhere; OK for now
     OFF_DATA = os.path.join(dirname, "data/ingredients/srtd_ingredients.txt")
     WIKI_DATA = os.path.join(dirname, "data/spelling_scraper/foods.txt")
@@ -64,30 +65,48 @@ def filter_unique(items):
     :returns: A unique sorted list from the list passed in
     :rtype: list
     """
-    
+
     unique_words = set()
-    print("   Removing", len(spell_checker.stopwords), "stop words...")
+    print("    removing", len(spell_checker.stopwords), "stop words...")
     for item in items:
         if not item in spell_checker.stopwords:
-            unique_words.add(item)
+            if item.capitalize() in spell_checker.stopwords:
+                unique_words.add('~' + item)
+            else:
+                unique_words.add(item)
+
+    print("    removing duplicates...")
 
     return sorted([x for x in unique_words])
 
 
 def spelling_list_stripper():
-    print("Spelling-list Stripper")
-    print("  Ingesting data...")
+    """
+    A function to take a list of ingredients and
+    attempt to identify every word.  This function
+    outputs to four files referenced by these variables:
+        * UNIQUE_FILE    - Unique set of every word sans stopwords
+        * CORRECTED_FILE - Any words that were corrected
+        * UNKNOWN_FILE   - Words the spell checker doesn't know
+        * FOUND_FILE     - Words that are correctly spelled
+
+    :param: None
+    :returns: None
+    """
+
+    print("Starting: ")
+    print("  ingesting data...")
     data = get_data()
-    print("  Filtering data...")
+    print("  filtering data...")
     filtered_data = filter_unique(data)
     # Save results
-    print("  Saving filtered data...")
+    print("  saving filtered data...")
     save_data(UNIQUE_FILE, filtered_data)
 
     corrected = []
     unknown = []
     found = []
-    print("  Checking spelling...")
+    print("  checking spelling...")
     for x in filtered_data:
         if len(x) == 0:
             continue
@@ -99,10 +118,11 @@ def spelling_list_stripper():
         else:
             corrected.append(x + ": " + corrected_word)
 
-    print("  Saving results...")
+    print("  saving results...")
     save_data(CORRECTED_FILE, corrected)
     save_data(UNKNOWN_FILE, unknown)
     save_data(FOUND_FILE, found)
+    print("done.")
 
 
 if __name__ == '__main__':
