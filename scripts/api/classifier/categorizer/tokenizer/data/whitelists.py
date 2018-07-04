@@ -28,6 +28,7 @@ whitelists = {
         "spices": os.path.join(dirname, 'dictionaries/spelling_spices.txt'),
         "vegetables": os.path.join(dirname, 'dictionaries/spelling_vegetables.txt'),
         "wheat": os.path.join(dirname, 'dictionaries/spelling_wheat.txt'),
+        "yeast": os.path.join(dirname, 'dictionaries/spelling_yeast.txt'),
         "all": os.path.join(dirname, 'dictionaries/spelling.dict')
     },
     "categories": {
@@ -55,6 +56,7 @@ whitelists = {
         "spices": os.path.join(dirname, 'categories/spices.txt'),
         "vegetables": os.path.join(dirname, 'categories/vegetables.txt'),
         "wheat": os.path.join(dirname, 'categories/wheat.txt'),
+        "yeast": os.path.join(dirname, 'categories/yeast.txt'),
         "stops": os.path.join(dirname, 'categories/stops.txt')
     }
 }
