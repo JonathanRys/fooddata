@@ -51,6 +51,7 @@ from data.language_codes import language_codes
 
 dirname = os.path.dirname(__file__)
 
+
 class SpellChecker:
     """
     A class used to correct mispelled words
@@ -59,7 +60,7 @@ class SpellChecker:
     :type dict_file: string
     :raises: None
     """
-    
+
     def __init__(self, dict_file):
         self.dictionaries = whitelists['spelling']
         self.stopwords = stopwords.words('english') + stop_words
@@ -68,36 +69,36 @@ class SpellChecker:
         # Check if the dict_file is a dictionary key
         if dict_file in self.dictionaries:
             dict_file = self.dictionaries[dict_file]
-        
+
         with open(dict_file) as f:
             self.words = collections.Counter(self.get_words(f.read()))
-            
 
     def P(self, word):
         """Probability of `word`."""
-        N = sum(self.words.values())        
+        N = sum(self.words.values())
         return self.words[word] / N
 
     def correct(self, word):
         """Most probable spelling correction for word."""
         return max(self.candidates(word), key=self.P)
 
+    def known(self, words):
+        """The subset of `words` that appear in the dictionary."""
+        return set(w for w in words if w in self.words)
+
     def candidates(self, word):
         """Best matches found for word"""
         lower_word = word.lower()
         return (
             self.apply_signature(
-                self.known([lower_word])
+                self.known([word])
                 or self.known([word.capitalize()])
+                or self.known([lower_word])
                 or self.known(self.edits1(lower_word))
                 or self.known(self.edits2(lower_word))
                 or [None],
                 word
             ))
-
-    def known(self, words):
-        """The subset of `words` that appear in the dictionary."""
-        return set(w for w in words if w in self.words)
 
     def edits1(self, word):
         """All edits that are one edit away from `word`."""
@@ -115,7 +116,6 @@ class SpellChecker:
 
     def get_words(self, text): return re.findall(r'\w+', text.lower())
 
-
     def apply_signature(self, words, template):
         """
         Take a list of words and a template and convert the
@@ -132,11 +132,11 @@ class SpellChecker:
 
         formatted_words = set()
 
-        default_case = self.get_default_case(template)
-
         if len(template) == 0:
             return formatted_words
-        
+
+        default_case = self.get_default_case(template)
+
         for word in words:
             # Add None if the the word is None or the template is null
             if word == None or not len(word):
@@ -156,7 +156,6 @@ class SpellChecker:
 
         return [x for x in formatted_words]
 
-
     def get_default_case(self, word):
         """
         A function to find the most prevalent case used in a word
@@ -167,7 +166,7 @@ class SpellChecker:
         :rtype: function
         :raises: None
         """
-        
+
         tracker = 0
         lower_letters = 'abcdefghijklmnopqrstuvwxyz'
         upper_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -188,15 +187,15 @@ class SpellChecker:
 def test():
     spell_checker = SpellChecker(whitelists['spelling']['all'])
     assert(spell_checker.correct("fried") == "fried")
-    
+
     fruit_test = SpellChecker(whitelists['spelling']['fruits'])
     assert(fruit_test.correct("Appil") == "Apple")
 
-    fruit_test = SpellChecker('fruits')
-    assert(fruit_test.correct("Appil") == "Apple")
-    
     mush_test = SpellChecker(whitelists['spelling']['mushrooms'])
     assert(mush_test.correct("Portabella") == "Portobello")
+
+    fruit_test = SpellChecker('fruits')
+    assert(fruit_test.correct("Appil") == "Apple")
 
     veg_test = SpellChecker(whitelists['spelling']['vegetables'])
     assert(veg_test.correct("celry") == "celery")
@@ -205,36 +204,38 @@ def test():
 
     print("All tests passed.\n")
 
+
 def cmd_ln_interface():
     spell_checker = SpellChecker(whitelists['spelling']['all'])
-    
+
     while True:
-        input_word = input("Enter a word to correct, 'z' for option[z] or 'q' to [q]uit: ")
+        input_word = input(
+            "Enter a word to correct, 'z' for option[z] or 'q' to [q]uit: ")
 
         if input_word == 'q':
             break
         elif input_word == 'z':
             while True:
-                dictionary = input("Enter dictionary name or 'all' for default: ")
+                dictionary = input(
+                    "Enter dictionary name or 'all' for default: ")
                 if dictionary in whitelists['spelling']:
-                    spell_checker = SpellChecker(whitelists['spelling'][dictionary])
+                    spell_checker = SpellChecker(
+                        whitelists['spelling'][dictionary])
                     print("Dictionary changed to:", dictionary)
-                    break;
+                    break
                 else:
                     print("\nERROR: Dictionary", dictionary, "not found.")
                     print("Please choose one of:\n    alcohol\n    artificial\n    carcinogens\n    dairy\n    eggs\n    fish\n    fruits\n    grains\n    insects\n    legumes\n    mushrooms\n    non_vegan\n    nuts\n    oil\n    pork\n    poultry\n    processed\n    red_meat\n    rennet\n    seeds\n    shellfish\n    spices\n    vegetables\n    wheat\n")
-            continue            
+            continue
         elif " " in input_word or not len(input_word):
             print("Please enter a single word.")
-            continue;
+            continue
 
         corrected_word = spell_checker.correct(input_word)
 
         print("Corrected word:", corrected_word)
 
+
 if __name__ == '__main__':
     test()
     cmd_ln_interface()
-
-
-    
