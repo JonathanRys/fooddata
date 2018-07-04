@@ -8,8 +8,8 @@ FILE_NAME = "roots_SHELLFISH_PRODUCTS.txt"
 
 ps = PorterStemmer()
 
-def main():
-    f = open(FILE_NAME, "r")
+def finalsort(file_name):
+    f = open(file_name, "r")
     if f.mode == "r":
         file_contents = f.read()
 
@@ -77,4 +77,4 @@ def count_instances(list):
         
 
 if __name__ == "__main__":
-    main();
+    finalsort(FILE_NAME);
