@@ -2747,7 +2747,6 @@ sultana
 sultanas
 sumac
 summer
-sunblush
 sunbutter
 sunchoke
 sunflower
@@ -2790,8 +2789,6 @@ tangerine
 tango
 tangolettuce
 tanguticum
-tapiocadextrin
-tapiocastarch
 tar
 tarragon
 tartar
@@ -3029,7 +3026,6 @@ wine
 wings
 winter
 wit
-withania
 wolfberry
 wood
 wort

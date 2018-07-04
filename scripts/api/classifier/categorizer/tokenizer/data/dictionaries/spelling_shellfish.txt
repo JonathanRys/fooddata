@@ -1,587 +1,589 @@
-﻿' crab extract'
-') clam extract maltodextrin'
-'100% hand picked blue swimming crab (portunus pelagicus) sodium acid pyrophosphate added to retain color'
-'100% hand picked swimming crab (portunus haanii) sodium acid pyrophosphate added to retain color'
-'100% hand picked swimming crab (portunus pelagicus) sodium acid pyrophosphate added to retain color'
-'100% natural Florida lobster heads'
-'100% natural Florida lobster meat'
-'100% portunus pelagicus crab meat'
-'40% shelled clams'
-'65% shrimps'
-'_Clam_ juice'
-'_Oyster_ Flavour'
-'_prawn_ (_Crustaceans_) 40%'
-'_prawn_ 70%'
-'_Prawns_ 36%'
-'_shrimp_'
-'Abalone mushroom water and salt'
-'Abalone type shellfish'
-'AND _SHRIMP_'
-'and clam juice'
-'Argentine red shrimp'
-magellanicus
-halfshell
-'arrow squid'
-'artificial crab flavor'
-'artificial crab flavors'
-'artificial shrimp flavor'
-'Baby claims'
-'baby clam extract'
-seashell
+﻿100% hand picked blue swimming crab (portunus pelagicus) sodium acid pyrophosphate added to retain color
+100% hand picked swimming crab (portunus haanii) sodium acid pyrophosphate added to retain color
+100% hand picked swimming crab (portunus pelagicus) sodium acid pyrophosphate added to retain color
+100% natural Florida lobster heads
+100% natural Florida lobster meat
+100% portunus pelagicus crab meat
+40% shelled clams
+65% shrimps
+_Clam_ juice
+_Oyster_ Flavour
+_prawn_ (_Crustaceans_) 40%
+_prawn_ 70%
+_Prawns_ 36%
+_shrimp_
+Abalone mushroom water and salt
+Abalone type shellfish
+AND _SHRIMP_
+and clam juice
+Argentine red shrimp
+arrow squid
+artificial crab flavor
+artificial crab flavors
+artificial shrimp flavor
+Baby claims
+baby clam extract
+Baby clams
+Baby Clams
+Baby clams (mollusks) water
+baby corn. cooked shrimp: shrimp
+baby shrimp
+baked crab meat including natural crab
+baked crab meat including natural crab juices
+Bay scallop
+Bay scallops
+Blue crab
+blue crab
+blue crab meat
+Blue swimming crab meat
+Bouillon of clam
 butterclam
-'Baby clams (mollusks) water'
-crablets
-'Baby clams'
-'Baby Clams'
-tailmeat
+Calamari (squid) rings
+Canadian snow crab legs and claws
+capsaicin). garnish: dehydrated shrimp
+chopped clams
+Chopped clams
+Chopped sea clams
 Chowder
-Chowders
 chowder
+Chowders
 chowders
-urchin
-urchins
-'baby corn. cooked shrimp: shrimp'
-'baby shrimp'
-'baked crab meat including natural crab juices'
-'baked crab meat including natural crab'
-'Bay scallop'
-'Bay scallops'
-'blue crab meat'
-'Blue crab'
-'blue crab'
-'Blue swimming crab meat'
-'Bouillon of clam'
-'Calamari (squid) rings'
-'Canadian snow crab legs and claws'
-'capsaicin). garnish: dehydrated shrimp'
-'chopped clams'
-'Chopped clams'
-'Chopped sea clams'
-'clam base [clams {clam meat'
-'clam base*'
-'clam broth concentrate'
-'Clam broth from concentrate'
-'clam broth from concentrate'
-'clam broth powder [dehydrated clam broth'
-'Clam broth'
-'clam broth'
-'CLAM BROTH'
-'clam extract (shellfish). contains no artificial colors or preservatives'
-'clam extract soy protein isolate'
-'clam extract'
-'clam flavor {dried soy sauce'
-'Clam juice and fresh clams'
-'clam juice concentrate'
-'clam juice'
-'Clam juice'
-'clam meat'
-'clam meat*'
-'clam powder'
-'Clam stock'
-'Clam'
-'clam'
-'clam*'
-'clams [clam  meat'
-'clams [clam meat'
-'Clams and clam juice soybean oil'
-'clams and clam juice'
-'Clams and clam juice'
-'clams and clam stock'
-'clams extract {maltodextrin'
-'clams in clam juice'
-'Clams in their natural juice'
-'Clams in their natural juices'
-'clams juice'
-'CLAMS'
-'clams'
-'Clams'
-'Cleaned squid'
-'coating. shrimp macaroni and cheese: shrimp'
-'Coconut shrimp - shrimp'
-'concentrated clam broth'
-'concentrated oyster extracts'
-'concentrated oyster'
-'contains 2% less of: natural & artificial flavors [includes crab]'
-'contains 2% or less of the following: king crab meat'
-'contains 2% or less of the following: king crab meat'
-'contains 2% or less of the following: lobster meat'
-'contains 2% or less of the following: natural and artificial crab flavor'
-'contains 2% or less of the following: snow crab'
-'contains 2% or less of: clam broth concentrate'
-'contains 2% or less of: king crab meat'
-'contains 2% or less of: lobster meat'
-'contains 2% or less of: lobster'
-'contains 2% or less of: natural & artificial crab flavor'
-'contains 2% or less of: natural crab & lobster flavor'
-'contains 2% or less of: natural crab flavor'
-'contains 2% or less of: snow crab meat'
-'contains less than 2% of each of the following: artificial lobster flavor'
-'Contains: scallops'
-'Contains: shrimp'
-'Cooked baby clam meat'
-'cooked clam meat'
-'cooked clams including clam juices'
-'cooked clams with clam juice and clam extract'
-'cooked clams'
-'cooked crab meat'
-'Cooked king crab'
-'Cooked lobster meat'
-'cooked lobster meat'
-'cooked lobster'
-'Cooked lobster'
-'cooked mussel meat and cooked shrimp'
-'cooked mussel meat and shrimp'
-'cooked mussel meat'
-'Cooked mussels in shell with their natural juices'
-'cooked mussels'
-'Cooked mussels'
-'Cooked octopus style squid tentacles'
-'cooked oyster'
-'cooked salad shrimps'
-'Cooked scallop trim meat'
-'Cooked shrimp'
-'cooked shrimp'
-'Cooked shrimp: shrimp'
-'Cooked surf clam'
-'cooked whole shell clams'
-'corbicula clam extract powder'
-'crab and clams'
-'crab aroma'
-'crab base [baked crab meat including natural crab juices'
-'crab base [cooked crab and crab broth'
-'crab base [crab meat including crab juices'
-'crab brown meat crab extract'
-'crab extract monosodium glutamate'
-'crab extract'
-'crab extract]'
-'crab extracts'
-'crab flavor base'
-'crab flavor'
-'crab flavoring'
-'crab flavors'
-'crab flavour'
-'Crab meat (portunus haanii) and sodium acid pyrophosphate to promote color retention'
-'Crab meat (portunus spp). contains sodium acid pyrophosphate to prevent the formation of struvite crystals'
-'Crab meat (wild) 20%'
-'crab meat extract'
-'Crab meat from blue crab (callinectes spp). contains sodium acid pyrophosphate to prevent the formation of struvite crystals'
-'crab meat'
-'Crab meat'
-'crab powder'
-'crab roe'
-'crab seasoning powder'
-'crab seasoning'
-'crab stick'
-'Crab stock'
-'Crab surimi (fish (pollock and /or whiting'
-'crab surimi (fish protein (contains one or more of the following: pollock and/or pacific whiting) water'
-'crab'
-'Crab'
-'crab*'
-'Crabmeat (blue swimming crab - portunus pelagicus) and sodium acid pyrophosphate (to retain color'
-'Crabmeat and SAPP'
-'Crabmeat and SAPP. species: portunus pelagicus'
-'Crabmeat picked from north American crabs of the callinectes genus'
-'crabmeat'
-'Crabmeat'
-'Cream cheese [pasteurized nonfat milk and milkfat. lactic acid. salt. locust bean gum (stabilizer). natural flavors imitation crab [fish protein [pollock and/or whiting]. water. wheat starch. corn starch. sugar. sorbitol. contains 2% or 
-'dehydrated clam broth'
-'dehydrated clam powder'
-'Dehydrated oyster'
-'dextrin). soup base: manila clam broth (manila clam'
-'diced clams'
-'disodium inosinate and disodium guanylate. squid'
-'disodium lobster and shrimp flavors'
-'dried _shrimp_ 9%'
-'dried clam broth'
-'Dried lobster mushrooms'
-'dried scallop'
-'dried scallops'
-'dried shrimp 6%'
-'dried shrimp [crustacean shellfish]'
-'dried shrimp'
-'Dried shrimp'
-'dried shrimps'
-'dried squid flakes'
-'Dried squid'
-'dry _shrimp_'
-'Dry shrimp with shell'
-'dry shrimp'
-'Dungeness crab'
-'dungeness crab'
-'edible crab. northern prawn'
-'Escargot'
-'European lobster'
-'extracts of blue crab'
-'extracts of crab'
-'extracts of lobster'
-'Farm raised clams'
-'Farm raised penaeus vannamei pacific white shrimp'
-'Farm raised scallops'
-'Farm raised shrimp'
-'farm raised shrimp'
-'Farm raised white shrimp'
-'Farm-raised scallops'
-'Farm-raised shrimp'
-'fermented shrimp'
-'Filling: shrimp [shrimp'
-'Filling: shrimp'
-'Filling: wild caught shrimp'
-'finely ground crab meat'
-'flavors (shrimp (contains soy lecithin'
-'freeze dried shrimp'
-'fresh clams'
-'Fresh clams'
-'fresh ground quahog clams'
-'Fresh hand-picked crab meat'
-'Fresh water shrimp'
-'Fully cooked clam meat and natural juice'
-'Fully cooked clams in shell'
-'Fully cooked king crab'
-'fully cooked mussel meat and fully cooked clam meat'
-'fully cooked mussels in shell'
-'Giant squid'
-'green bell peppers). shrimp: (uncooked shrimp'
-'Greenshell mussels'
-'Ground shrimp'
-'Gulf shrimp'
-'gummy lobsters: corn syrup'
-'Hand-picked crabmeat'
-'imitation crab (fish protein (pollock'
-'imitation crab meat (fish protein [pollock/whiting) wheat starch'
-'imitation crab meat [fish protein [pollock and/or whiting]'
-'imitation crab meat [fish proteins of pollock'
-'imitation crab meat [water'
-'Imitation crab meat'
-'imitation crab meat(surimi(pollock and/or whiting'
-'imitation crab {fish protein'
-'Imitation crab/snow blend'
-'imitation crabmeat (fish protein (pollock'
-'Ingredient- squid'
-'Ingredients (shrimp): shrimp. ingredients (cocktail sauce): cocktail sauce (tomato paste'
-'Ingredients: Crab (_Crustacean_) (50%'
-'Ingredients: crab meat'
-'Ingredients: dry bay scallops'
-'Ingredients: natural juice from ocean clams.salt'
-'Ingredients: pacific oysters'
-'Ingredients: scallops'
-'Ingredients: shrimp'
-'Ingredients: smoked oysters'
-'Ingredients:cooked whole clam'
-'Ingredients:oysters'
-'Ingredients:shrimp'
-'Jonah crab'
-'Jonah crab'
-'Juice from sea clams'
-'jumbo lump crabmeat'
-'Jumbo squid'
-'kimchi'
-'King crab'
-'King crab. salt'
-'krill extract'
-'krill'
-'Langostino and north Atlantic lobster meat'
-'langostino lobster'
-'less than 2% of natural and artificial crab flavors'
-'littleneck clam extract'
-'lobster and Alaska pollack'
-'lobster and Alaska pollock'
-'Lobster bisque'
-'lobster concentrate [lobster'
-'lobster extract'
-'lobster flavor [lobster extract'
-'lobster flavor'
-'lobster meat'
-'Lobster meat'
-'Lobster mushrooms'
-'lobster mushrooms'
-'Lobster pollock'
-'Lobster salad lobster meat [lobster meat salt]'
-'lobster seasoning powder'
-'lobster stock concentrate [lobster'
-'lobster stock'
-'lobster tail'
-'Lobster tails metabisulfite as a preservative'
-'Lobster tails'
-'lobster'
-'Lobster'
-'Lump blue crab meat'
-'Lump crabmeat'
-'Lump white crab meat. water. salt. citric acid'
-'manila clam extract-p'
-'manila clam'
-'Minced clams'
-'minced lobster meat'
-'Minced lobster'
-'minced lobster'
-'Minced shrimp'
-'mollusks'
-'mussel extract'
-'mussel'
-'mussel*'
-'Mussels 88%'
-'Mussels and sauce prepared with soybean oil'
-'mussels Mytilus edulis 80%'
-'mussels'
-'Mussels'
-'Mussels*'
-'natural & artificial crab flavors'
-'natural and artificial crab flavor'
-'natural and artificial flavor [extracts of lobster'
-'natural and artificial lobster and shrimp flavors'
-'natural and artificial lobster flavor'
-'natural clam and seafood flavors'
-'natural clam extract'
-'natural clam flavor'
-'natural clam flavors'
-'natural crab extract'
-'natural crab flavor [crab extract'
-'natural crab flavor {crab extract'
-'natural crab flavor'
-'natural crab flavoring'
-'NATURAL EXTRACT OF TURMERIC. CONTAINS _CLAM_'
-'Natural farm-raised shrimp'
-'natural flavor [extract of shrimp'
-'natural flavor crab flavor'
-'natural flavors [crab extract]'
-'natural flavors {crab extract}'
-'Natural juice from clams'
-'natural lobster flavor'
-'natural lobster flavoring*'
-'natural shrimp powder'
-'natural/artificial crab flavor'
-'North Atlantic lobster all natural with no additives and no preservatives'
-'ocean clam j'
-'Ocean clam juice and salt'
-'Ocean clam juice salt'
-'ocean clam juice'
-'ocean clams and ocean clam juice'
-'Ocean clams and ocean clam juice'
-'ocean clams and ocean clams juice'
-'ocean clams'
-'Ocean clams'
-'Oregon pink shrimp'
-'oyster - flavored extract powder {cooked oyster'
-'Oyster broth'
-'oyster extract {oyster'
-'oyster extract'
-'oyster extract*'
-'oyster extract]'
-'oyster extracts'
-'oyster flavor'
-'oyster flavored sauce [water'
-'oyster juice concentrate'
-'oyster juice extract'
-'oyster juice'
-'oyster nectar'
-'Oyster Salt'
-'oyster sauce [water'
-'oyster sauce package: oyster sauce'
-'oyster sauce {water'
-'oyster sauce'
-'oyster'
-'Oyster'
-'oyster*'
-'oyster-flavored extract powder [cooked oyster'
-'Oysters'
-'oysters'
-'Pacific oysters'
-'paprika (color). shrimp'
-'pasteurized crab meat'
-'Peeled shrimp'
-'peeled shrimp'
-'pink shrimp'
-'powdered shrimp shells'
-'prawn (penaeus vannamei) 12%'
-'prawn cocktail seasoning. Prawn cocktail seasoning contains: Flavouring'
-'prawn crustacean'
-'prawn flavor'
-'prawn powder'
-'prawn'
-'prawns and cockles'
-'prawns'
-'Precooked clam meat'
-'premium chopped clams'
-'pureed lobster meat'
-'Raw shell on pink shrimp'
-'Raw shrimp'
-'raw shrimp'
-'Razor clams'
-'razor clams'
-'Razor shell clams'
-'Red swimming crab meat'
-'rehydrated potatoes clams'
-'rock crab meat'
-'Rock crab'
-'salt and crab extract'
-'Salt shrimp powder'
-'Salted shrimp fry'
-'salted shrimp fry'
-'salted shrimp powder'
-'salted shrimp'
-'sauce [scallops'
-'sauce. shrimp: shrimp'
-'sauteed lobster and natural lobster stock'
-'scallop extract'
-'scallop extract*'
-'scallop'
-'Scallops'
-'scallops'
-'scallops}'
-'sea clam broth concentrate'
-'sea clam broth'
-'Sea clam juice and salt'
-'Sea clam juice'
-'sea clam juice'
-'sea clams & sea clam juice'
-'sea clams and juice'
-'Sea clams and sea clam juice'
-'Sea clams and sea gram juice'
-'sea clams'
-'Sea clams'
-'Sea clams. clam juice'
-'Sea scallops'
-'seasoned shrimp'
-'Shell on pink shrimp'
-'Shredded shrimp with toasty sesame & nori'
-'shrimp & fish flavor'
-'Shrimp (farm raised) salt'
-'Shrimp (penaeus aztecus) - sodium tripolyphosphate (to retain moisture'
-'Shrimp (penaeus duorarum) - sodium tripolyphosphate (to retain moisture'
-'shrimp 83%'
-'Shrimp [salt'
-'Shrimp [shellfish]'
-'shrimp [shrimp'
-'Shrimp [water'
-'shrimp and fish flavor'
-'shrimp and salads'
-'shrimp and salt '
-'Shrimp and salt'
-'Shrimp and water'
-'shrimp corn oil'
-'shrimp extract powder'
-'shrimp extract'
-'shrimp extracts'
-'shrimp flavor'
-'shrimp flavor. seasoning oil: rice bran oil'
-'Shrimp fry'
-'Shrimp ingredients: shrimp'
-'Shrimp meat with salt added'
-'shrimp meat with salt added'
-'Shrimp meat'
-'shrimp paste (shrimp paste (shrimp'
-'shrimp paste [shrimp'
-'shrimp paste {shrimp'
-'shrimp paste'
-'shrimp powder (shrimp (crustacean'
-'shrimp powder'
-'SHRIMP POWDER'
-'shrimp roes'
-'shrimp salt'
-'Shrimp salt'
-'shrimp sauce (shrimp (shell fish'
-'shrimp sauce'
-'shrimp sea clams ad sea clam juice red tell peppers carrots'
-'shrimp seasoning'
-'shrimp stock concentrate [shrimp'
-'Shrimp water'
-'Shrimp wonton (farm-raised shrimp (litopenaeus vannamei'
-'shrimp {shrimp'
-'shrimp'
-'Shrimp'
-'Shrimp(litopenaeus vannamei) 95%'
-'shrimp*'
-'Shrimp. salt'
-'Shrimp. salt. artificial color FD&C yellow 6 FD&C red 40 sulfur dioxide'
-'Shrimp. wheat flour'
-'Shrimp: shrimp'
-'Shrimps'
-'Small scallops'
-'Small squid'
-'Smoked _oysters_'
-'Smoked baby clams'
-'smoked herring (fish) and dried shrimp (shellfish'
-'Smoked mussels'
-'Smoked oysters cottonseed oil'
-'Smoked oysters in cotton seed oil'
-'Smoked oysters'
-'Smoked scallops'
-'Snail helix lucorum'
-'snail'
-'Snails water'
-'Snails'
-'snails'
-'snapper turtle'
-'Snapper'
-'snow crab extract'
-'snow crab meat'
-'snow crab'
-'Snow crab'
-'snow crab. lobster'
-'snow crabmeat'
-'sodium aluminosilicate (anti-caking agent). squid'
-'sodium bisulfite (preservative). gulf shrimp'
-'sodium tripolyphosphate to retain clam moisture'
-'sodium tripolyphosphate to retain moisture contains shrimp'
-'sorbitol contains 2% or less of the following: snow crab'
-'soy bean oil. filling: lobster meat'
-'soy lecithin. filling: shrimp'
-'soybean oil. shrimp - shrimp'
-'Spicy crab salad'
-'spicy shrimp salad [cooked shrimp'
-'spinach artichoke seafood stuffing (imitation crab (fish protein'
-'squid extract'
-'squid ink and saffron'
-'squid ink'
-'squid powder'
-'Squid rings and tentacles'
-'squid rings'
-'squid sorbitol'
-'Squid tubes with co-treated to promote color retention'
-'squid'
-'Squid'
-'Squid/calamaris'
-'Squids'
-'surf clams'
-'Surf clams'
-'swimming crab extract'
-'swimming crab'
-'swimming crab-portunus sp.'
-'Tempura shrimp: farm-raised shrimp'
-'Tiny shrimp paste'
-'Tiny shrimp'
-'Uncooked scallops'
-'uncooked shrimp'
-'Uncooked shrimp'
-'vegetable and egg blend: shrimp'
-'vegetable oil. shrimp: shrimp'
-'water clam meat'
-'water extract of clams'
-'water) shrimp'
-'White clams'
-'White shrimp'
-'Whole baby clam meat and natural juice'
-'Whole baby clams'
-'Whole baby scallops'
-'Whole clams'
-'Whole oysters'
-'Whole smoked oysters'
-'Wild caught American shrimp'
-'Wild caught clam meat'
-'Wild caught cooked shrimp'
-'Wild caught crab meat'
-'Wild caught langostino lobster tails'
-'Wild caught shrimp'
-'Wild caught squids'
-'Wild snow crab legs'
-'Wild squid cleaned'
-'Wild-caught Jonah crab meat'
-'Wonton shrimp [farm raised shrimp'
-'yeast and soda canola oil (USA) crab seasoning (USA) salt'
-'Young abalone'
+Clam
+clam
+clam
+clam base
+clam base [clams {clam meat
+Clam broth
+clam broth
+CLAM BROTH
+clam broth concentrate
+Clam broth from concentrate
+clam broth from concentrate
+clam broth powder [dehydrated clam broth
+clam extract
+clam extract (shellfish). contains no artificial colors or preservatives
+clam extract maltodextrin
+clam extract soy protein isolate
+clam flavor {dried soy sauce
+clam juice
+Clam juice
+Clam juice and fresh clams
+clam juice concentrate
+clam meat
+clam meat
+clam powder
+Clam stock
+CLAMS
+clams
+Clams
+clams [clam  meat
+clams [clam meat
+clams and clam juice
+Clams and clam juice
+Clams and clam juice soybean oil
+clams and clam stock
+clams extract {maltodextrin
+clams in clam juice
+Clams in their natural juice
+Clams in their natural juices
+clams juice
+Cleaned squid
+coating. shrimp macaroni and cheese: shrimp
+Coconut shrimp - shrimp
+concentrated clam broth
+concentrated oyster
+concentrated oyster extracts
+contains 2% less of: natural & artificial flavors [includes crab
+contains 2% or less of the following: king crab meat
+contains 2% or less of the following: king crab meat
+contains 2% or less of the following: lobster meat
+contains 2% or less of the following: natural and artificial crab flavor
+contains 2% or less of the following: snow crab
+contains 2% or less of: clam broth concentrate
+contains 2% or less of: king crab meat
+contains 2% or less of: lobster
+contains 2% or less of: lobster meat
+contains 2% or less of: natural & artificial crab flavor
+contains 2% or less of: natural crab & lobster flavor
+contains 2% or less of: natural crab flavor
+contains 2% or less of: snow crab meat
+contains less than 2% of each of the following: artificial lobster flavor
+Contains: scallops
+Contains: shrimp
+Cooked baby clam meat
+cooked clam meat
+cooked clams
+cooked clams including clam juices
+cooked clams with clam juice and clam extract
+cooked crab meat
+Cooked king crab
+cooked lobster
+Cooked lobster
+Cooked lobster meat
+cooked lobster meat
+cooked mussel meat
+cooked mussel meat and cooked shrimp
+cooked mussel meat and shrimp
+cooked mussels
+Cooked mussels
+Cooked mussels in shell with their natural juices
+Cooked octopus style squid tentacles
+cooked oyster
+cooked salad shrimps
+Cooked scallop trim meat
+Cooked shrimp
+cooked shrimp
+Cooked shrimp: shrimp
+Cooked surf clam
+cooked whole shell clams
+corbicula clam extract powder
+crab
+Crab
+crab
+crab and clams
+crab aroma
+crab base [baked crab meat including natural crab juices
+crab base [cooked crab and crab broth
+crab base [crab meat including crab juices
+crab brown meat crab extract
+crab extract
+crab extract
+crab extract
+crab extract monosodium glutamate
+crab extracts
+crab flavor
+crab flavor base
+crab flavoring
+crab flavors
+crab flavour
+crab meat
+Crab meat
+Crab meat (portunus haanii) and sodium acid pyrophosphate to promote color retention
+Crab meat (portunus spp). contains sodium acid pyrophosphate to prevent the formation of struvite crystals
+Crab meat (wild) 20%
+crab meat extract
+Crab meat from blue crab (callinectes spp). contains sodium acid pyrophosphate to prevent the formation of struvite crystals
+crab powder
+crab roe
+crab seasoning
+crab seasoning powder
+crab stick
+Crab stock
+Crab surimi (fish (pollock and /or whiting
+crab surimi (fish protein (contains one or more of the following: pollock and/or pacific whiting) water
+crablets
+crabmeat
+Crabmeat
+Crabmeat (blue swimming crab - portunus pelagicus) and sodium acid pyrophosphate (to retain color
+Crabmeat and SAPP
+Crabmeat and SAPP. species: portunus pelagicus
+Crabmeat picked from north American crabs of the callinectes genus
+Cream cheese [pasteurized nonfat milk and milkfat. lactic acid. salt. locust bean gum (stabilizer). natural flavors imitation crab [fish protein [pollock and/or whiting]. water. wheat starch. corn starch. sugar. sorbitol. contains 2% or
+dehydrated clam broth
+dehydrated clam powder
+Dehydrated oyster
+dextrin). soup base: manila clam broth (manila clam
+diced clams
+disodium inosinate and disodium guanylate. squid
+disodium lobster and shrimp flavors
+dried _shrimp_ 9%
+dried clam broth
+Dried lobster mushrooms
+dried scallop
+dried scallops
+dried shrimp
+Dried shrimp
+dried shrimp 6%
+dried shrimp [crustacean shellfish
+dried shrimps
+Dried squid
+dried squid flakes
+dry _shrimp_
+dry shrimp
+Dry shrimp with shell
+Dungeness crab
+dungeness crab
+edible crab. northern prawn
+Escargot
+European lobster
+extracts of blue crab
+extracts of crab
+extracts of lobster
+Farm raised clams
+Farm raised penaeus vannamei pacific white shrimp
+Farm raised scallops
+Farm raised shrimp
+farm raised shrimp
+Farm raised white shrimp
+Farm-raised scallops
+Farm-raised shrimp
+fermented shrimp
+Filling: shrimp
+Filling: shrimp [shrimp
+Filling: wild caught shrimp
+finely ground crab meat
+flavors (shrimp (contains soy lecithin
+freeze dried shrimp
+fresh clams
+Fresh clams
+fresh ground quahog clams
+Fresh hand-picked crab meat
+Fresh water shrimp
+Fully cooked clam meat and natural juice
+Fully cooked clams in shell
+Fully cooked king crab
+fully cooked mussel meat and fully cooked clam meat
+fully cooked mussels in shell
 Gastropod
 Geoduck
+Giant squid
+green bell peppers). shrimp: (uncooked shrimp
+Greenshell mussels
+Ground shrimp
+Gulf shrimp
+gummy lobsters: corn syrup
+halfshell
+Hand-picked crabmeat
+Homarus
+homarus
+imitation crab (fish protein (pollock
+Imitation crab meat
+imitation crab meat (fish protein [pollock/whiting) wheat starch
+imitation crab meat [fish protein [pollock and/or whiting
+imitation crab meat [fish proteins of pollock
+imitation crab meat [water
+imitation crab meat(surimi(pollock and/or whiting
+imitation crab {fish protein
+Imitation crab/snow blend
+imitation crabmeat (fish protein (pollock
+Ingredient- squid
+Ingredients (shrimp): shrimp. ingredients (cocktail sauce): cocktail sauce (tomato paste
+Ingredients: Crab (_Crustacean_) (50%
+Ingredients: crab meat
+Ingredients: dry bay scallops
+Ingredients: natural juice from ocean clams.salt
+Ingredients: pacific oysters
+Ingredients: scallops
+Ingredients: shrimp
+Ingredients: smoked oysters
+Ingredients:cooked whole clam
+Ingredients:oysters
+Ingredients:shrimp
+Jonah crab
+Jonah crab
+Juice from sea clams
+jumbo lump crabmeat
+Jumbo squid
+kimchi
+King crab
+King crab. salt
+krill
+krill extract
+Langostino and north Atlantic lobster meat
+langostino lobster
+less than 2% of natural and artificial crab flavors
+littleneck clam extract
+lobster
+Lobster
+lobster and Alaska pollack
+lobster and Alaska pollock
+Lobster bisque
+lobster concentrate [lobster
+lobster extract
+lobster flavor
+lobster flavor [lobster extract
+lobster meat
+Lobster meat
+Lobster mushrooms
+lobster mushrooms
+Lobster pollock
+Lobster salad lobster meat [lobster meat salt
+lobster seasoning powder
+lobster stock
+lobster stock concentrate [lobster
+lobster tail
+Lobster tails
+Lobster tails metabisulfite as a preservative
+Lump blue crab meat
+Lump crabmeat
+Lump white crab meat. water. salt. citric acid
+magellanicus
+manila clam
+manila clam extract-p
+Minced clams
+Minced lobster
+minced lobster
+minced lobster meat
+Minced shrimp
+mollusks
+mussel
+mussel
+mussel extract
+mussels
+Mussels
+Mussels
+Mussels 88%
+Mussels and sauce prepared with soybean oil
+mussels Mytilus edulis 80%
+natural & artificial crab flavors
+natural and artificial crab flavor
+natural and artificial flavor [extracts of lobster
+natural and artificial lobster and shrimp flavors
+natural and artificial lobster flavor
+natural clam and seafood flavors
+natural clam extract
+natural clam flavor
+natural clam flavors
+natural crab extract
+natural crab flavor
+natural crab flavor [crab extract
+natural crab flavor {crab extract
+natural crab flavoring
+NATURAL EXTRACT OF TURMERIC. CONTAINS _CLAM_
+Natural farm-raised shrimp
+natural flavor [extract of shrimp
+natural flavor crab flavor
+natural flavors [crab extract
+natural flavors {crab extract
+Natural juice from clams
+natural lobster flavor
+natural lobster flavoring
+natural shrimp powder
+natural/artificial crab flavor
+North Atlantic lobster all natural with no additives and no preservatives
+ocean clam j
+ocean clam juice
+Ocean clam juice and salt
+Ocean clam juice salt
+ocean clams
+Ocean clams
+ocean clams and ocean clam juice
+Ocean clams and ocean clam juice
+ocean clams and ocean clams juice
+Oregon pink shrimp
+oyster
+Oyster
+oyster
+oyster - flavored extract powder {cooked oyster
+Oyster broth
+oyster extract
+oyster extract
+oyster extract
+oyster extract {oyster
+oyster extracts
+oyster flavor
+oyster flavored sauce [water
+oyster juice
+oyster juice concentrate
+oyster juice extract
+oyster nectar
+Oyster Salt
+oyster sauce
+oyster sauce [water
+oyster sauce package: oyster sauce
+oyster sauce {water
+oyster-flavored extract powder [cooked oyster
+Oysters
+oysters
+Pacific oysters
+paprika (color). shrimp
 paralithodes camtschaticus
+pasteurized crab meat
+Peeled shrimp
+peeled shrimp
+pink shrimp
+powdered shrimp shells
+prawn
+prawn (penaeus vannamei) 12%
+prawn cocktail seasoning. Prawn cocktail seasoning contains: Flavouring
+prawn crustacean
+prawn flavor
+prawn powder
+prawns
+prawns and cockles
+Precooked clam meat
+premium chopped clams
+pureed lobster meat
+Raw shell on pink shrimp
+Raw shrimp
+raw shrimp
+Razor clams
+razor clams
+Razor shell clams
+Red swimming crab meat
+rehydrated potatoes clams
+Rock crab
+rock crab meat
+salt and crab extract
+Salt shrimp powder
+salted shrimp
+Salted shrimp fry
+salted shrimp fry
+salted shrimp powder
+sauce [scallops
+sauce. shrimp: shrimp
+sauteed lobster and natural lobster stock
+scallop
+scallop extract
+scallop extract
+Scallops
+scallops
+scallops
+sea clam broth
+sea clam broth concentrate
+Sea clam juice
+sea clam juice
+Sea clam juice and salt
+sea clams
+Sea clams
+sea clams & sea clam juice
+sea clams and juice
+Sea clams and sea clam juice
+Sea clams and sea gram juice
+Sea clams. clam juice
+Sea scallops
+seashell
 Seashell
+seasoned shrimp
 She-crab
+Shell on pink shrimp
+Shredded shrimp with toasty sesame & nori
+shrimp
+Shrimp
+shrimp
+shrimp & fish flavor
+Shrimp (farm raised) salt
+Shrimp (penaeus aztecus) - sodium tripolyphosphate (to retain moisture
+Shrimp (penaeus duorarum) - sodium tripolyphosphate (to retain moisture
+shrimp 83%
+Shrimp [salt
+Shrimp [shellfish
+shrimp [shrimp
+Shrimp [water
+shrimp and fish flavor
+shrimp and salads
+shrimp and salt
+Shrimp and salt
+Shrimp and water
+shrimp corn oil
+shrimp extract
+shrimp extract powder
+shrimp extracts
+shrimp flavor
+shrimp flavor. seasoning oil: rice bran oil
+Shrimp fry
+Shrimp ingredients: shrimp
+Shrimp meat
+Shrimp meat with salt added
+shrimp meat with salt added
+shrimp paste
+shrimp paste (shrimp paste (shrimp
+shrimp paste [shrimp
+shrimp paste {shrimp
+shrimp powder
+SHRIMP POWDER
+shrimp powder (shrimp (crustacean
+shrimp roes
+shrimp salt
+Shrimp salt
+shrimp sauce
+shrimp sauce (shrimp (shell fish
+shrimp sea clams ad sea clam juice red tell peppers carrots
+shrimp seasoning
+shrimp stock concentrate [shrimp
+Shrimp water
+Shrimp wonton (farm-raised shrimp (litopenaeus vannamei
+shrimp {shrimp
+Shrimp(litopenaeus vannamei) 95%
+Shrimp. salt
+Shrimp. salt. artificial color FD&C yellow 6 FD&C red 40 sulfur dioxide
+Shrimp. wheat flour
+Shrimp: shrimp
+Shrimps
+Small scallops
+Small squid
+Smoked _oysters_
+Smoked baby clams
+smoked herring (fish) and dried shrimp (shellfish
+Smoked mussels
+Smoked oysters
+Smoked oysters cottonseed oil
+Smoked oysters in cotton seed oil
+Smoked scallops
+snail
+Snail helix lucorum
+Snails
+snails
+Snails water
+Snapper
+snapper turtle
+snow crab
+Snow crab
+snow crab extract
+snow crab meat
+snow crab. lobster
+snow crabmeat
+sodium aluminosilicate (anti-caking agent). squid
+sodium bisulfite (preservative). gulf shrimp
+sodium tripolyphosphate to retain clam moisture
+sodium tripolyphosphate to retain moisture contains shrimp
+sorbitol contains 2% or less of the following: snow crab
+soy bean oil. filling: lobster meat
+soy lecithin. filling: shrimp
+soybean oil. shrimp - shrimp
+Spicy crab salad
+spicy shrimp salad [cooked shrimp
+spinach artichoke seafood stuffing (imitation crab (fish protein
+squid
+Squid
+squid extract
+squid ink
+squid ink and saffron
+squid powder
+squid rings
+Squid rings and tentacles
+squid sorbitol
+Squid tubes with co-treated to promote color retention
 Squid-like
+Squid/calamaris
+Squids
+surf clams
+Surf clams
+swimming crab
+swimming crab extract
+swimming crab-portunus sp
+tailmeat
+Tempura shrimp: farm-raised shrimp
+Tiny shrimp
+Tiny shrimp paste
+Uncooked scallops
+uncooked shrimp
+Uncooked shrimp
+urchin
+urchins
+vegetable and egg blend: shrimp
+vegetable oil. shrimp: shrimp
+water clam meat
+water extract of clams
+water) shrimp
+White clams
+White shrimp
+Whole baby clam meat and natural juice
+Whole baby clams
+Whole baby scallops
+Whole clams
+Whole oysters
+Whole smoked oysters
+Wild caught American shrimp
+Wild caught clam meat
+Wild caught cooked shrimp
+Wild caught crab meat
+Wild caught langostino lobster tails
+Wild caught shrimp
+Wild caught squids
+Wild snow crab legs
+Wild squid cleaned
+Wild-caught Jonah crab meat
+Wonton shrimp [farm raised shrimp
+yeast and soda canola oil (USA) crab seasoning (USA) salt
+Young abalone

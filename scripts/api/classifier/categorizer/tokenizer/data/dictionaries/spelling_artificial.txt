@@ -360,6 +360,7 @@ acid: acetic acid
 acid: citric acid
 acid: malic acid
 acid: tartaric acid
+acid_pyrophosphate
 acidic sodium alum
 acidic sodium aluminium
 acidic sodium aluminium phosphate
@@ -609,6 +610,8 @@ alpha-tocopherol antioxidant the chocolate contains at least 49% cocoa solids
 alpha-tocopherol preservative
 alpha-tocopheryl acetate
 alpha-tocopheryl acetate
+alpha_glceryl
+alpha_tocopherol
 also contains FD&C red#40
 alum
 alum artificial flavor
@@ -631,6 +634,9 @@ aluminium sulfate contains 2% each of the following:sugar
 aluminium sulfate contains 2% each the following: dextrose
 aluminium sulfate food starch-modified
 aluminium sulphate
+alumino-phosphate
+Aluminophosphate
+aluminophosphate 
 aluminum
 aluminum free leavening sodium acid pyrophosphate
 aluminum free sodium acid pyrophosphate
@@ -649,6 +655,7 @@ aluminum sulfate contains 2% each of the following: sugar
 aluminum sulfate contains 2% each of the following:dextrose
 aluminum sulphate
 aluminum-free baking powder monocalcium phosphate
+aluminum_phosphate
 am emulsifier
 amaretto flavor
 amino acid
@@ -718,6 +725,7 @@ ammonium sulfate potassium sorbate
 ammonium sulfate: calcium propionate preservative
 ammonium sulfite
 ammonium sulphate
+ammonium_bicarbonate
 amorphous e551
 amorphous silica
 amorphous silicon dioxide e551
@@ -1433,6 +1441,7 @@ anti-caking: magnesium carbonate ins 504ii or maize starch or silica ins 551
 anti-foaming agent
 anti-foaming agent e900
 anti-foaming agents
+anti-humectant
 anti-mold agent
 anti-oxidant
 anti-oxidant agent
@@ -1522,6 +1531,7 @@ apo-carotenal food for color
 apo-carotenal for color
 apo/beta carotenal color
 apocarotenal
+apocarotenal
 apocarotenal as color
 apocarotenal color
 apocarotenal color water
@@ -1587,6 +1597,8 @@ arabic
 arabic & xanthan
 arabic artificial colors yellow 5
 arabic gum
+arabic_gum
+arabicgum
 aroma
 aroma of porcini mushroom
 aroma vanillin
@@ -1677,6 +1689,7 @@ artificial color FD&C red no 3 water
 artificial color FD&C red no 40
 artificial color FD&C red no 40 marshmallow: corn syrup
 artificial color FD&C red no 40 titanium dioxide
+artificial color FD&C red40 e129
 artificial color FD&C yellow # 5
 artificial color FD&C yellow #5
 artificial color FD&C yellow #5
@@ -2226,6 +2239,7 @@ artificial vinegar malic acid
 artificial wasabi flavors
 artificial watermelon flavor
 artificial watermelon flavoring
+artificial_flavor
 artificially
 artificially chocolate flavored filling 30% sugar
 artificially color
@@ -2668,6 +2682,8 @@ baste powder sorbate
 bay leaf
 bbq spice mix fructose
 bean gum
+bean_gum
+beangum
 beat carotene color
 beat-carotene
 Beauregard sweet potato
@@ -2792,6 +2808,7 @@ beta-glucanase
 betacarotene
 bets carotene
 better orange concentrate
+BGH
 BHA
 BHA & BHT
 BHA & BHT added to protect flavor
@@ -2907,6 +2924,7 @@ biscuit ingredients: enriched bleached flour
 bisulfate of soda
 bisulfite
 bisulfites
+bisulphate
 bitter orange concentrate
 bittersweet chocolate chocolate liquor processed with alkali
 bittersweet chocolate unsweetened chocolate processed with alkali
@@ -3587,6 +3605,8 @@ calcium water
 calcium-d-pantothenate
 calcium-pantothenate vitamin B5 pyridoxine hydrochloride vitamin B6 cyanocobalamin vitamin B12
 calcium-ribonucleotide
+calcium_stearoyl
+calcium_sulfate
 calciumchloride
 calciumcitrate
 calciumlactate
@@ -3694,6 +3714,7 @@ caramelized sugar syrup
 caramelized unrefined cane sugar
 caramine
 carbohydrate gum
+carbomethylcellulose
 carbon
 carbon bean and/or guar gum and/or xanthan gum
 carbon bean and/or xanthan and/or guar gums
@@ -3876,6 +3897,7 @@ cellulose to prevent caking natamycin to protect flavor
 cellulose to prevent clumping enzymes
 cellulose yeast
 cellulose-added to prevent caking
+cellulose_gum
 certified color
 certified color added
 certified colors including yellow #5
@@ -3952,6 +3974,7 @@ chloride
 chloride added as a firming agent
 chloride disodium EDTA added as a preservative
 chlorine
+chlorofluorocarbon
 chlorophyll -e141
 chlorophyllins
 chlorure d' ammonium
@@ -7326,6 +7349,8 @@ ester gum yellow 5
 ester gum yellow 6
 ester of fatty acid with polyglycerol
 ester of wood rosin
+ester_gum
+estergum
 esters
 esters gum
 esters of
@@ -8195,6 +8220,7 @@ folic folic acid
 folic from fat 80 acid
 folic kid
 folic mushrooms
+folic_acid
 folio acid
 folk acid
 food acid e451 i
@@ -8515,6 +8541,8 @@ gellan gum vitamin & minerals: calcium carbonate
 gellan gum vitamins & minerals: calcium carbonate
 gellan gum/pectin blend
 gellan polysorbate 80 sulfites
+gellan_gum
+gellangum
 gelling agent
 gelling agent e407
 gelling agent gelatin
@@ -8916,6 +8944,8 @@ guar gums blueberries packed in water
 guar gums sorbic acid as a preservative
 guar seed gum
 guar-gum
+guar_gum
+guargum
 guava flavor
 guava flavors
 guava juices contains 0 5%
@@ -9031,6 +9061,7 @@ hash browns Idaho potatoes
 heirloom Beauregard sweet potatoes
 heirloom potato
 heirloom potatoes
+helio-tropine
 helping to protect the environment
 helps prevent caking
 herb disodium guanylate
@@ -9242,6 +9273,8 @@ hydrogenated vegetable shortening contains one or more of the following: rapesee
 hydrogenated vegetables oil
 hydrogenated vegetables oils cottonseed
 hydrogenated vegetables oils rapeseed
+hydrogenatedsoybean
+hydrogencarbonate
 hydrolyze
 hydrolyzed
 hydrolyzed brewers
@@ -9299,6 +9332,8 @@ hydroxypropyl methyl cellulose
 hydroxypropyl methyl cellulose cellulose gum
 hydroxypropyl methylcellulose
 hydroxypropyl methylcellulose
+hydroxypropylcellulose
+hydroxypropylmethylcellulose
 i-cysteine
 i-isoleucine
 i-leucine
@@ -13989,6 +14024,7 @@ silicon dioxide to reduce caking
 silicon dioxide used as processing aids TBHQ added to protect flavor
 silicon disodium inosinate
 silicon oxide
+silicondioxide
 silicone dioxide
 silicone dioxide anti caking agent
 silicone dioxide anti-caking agent
@@ -14960,9 +14996,11 @@ sodium tripolyphosphate used to retain moisture
 sodium tripolyphosphate-to retain moisture
 sodium-alginate
 sodium-i-ascorbate
+sodium_propionate
 sodiumbicarbonate
 sodiumhydrogen
 sodiumphosphate
+sodiumpropionate
 solids calcium salt
 solids dextrose
 soluble arabica coffee
@@ -14976,6 +15014,8 @@ sorbate de potassium 0 1
 sorbate monostearate
 sorbate preservative
 sorbate sodium propionate
+sorbate_and
+sorbateand
 sorbic
 sorbic acid
 sorbic acid 0 01% as preservative
@@ -15994,6 +16034,7 @@ thiamine thiamine mononitrate
 thiamine thiamine mononitrate folic acid
 thiamine-mononitrate
 thiamine-vitamin B1
+thiaminemononitrate
 thicken: fruit pectin
 thickener
 thickener - pectin
@@ -16222,6 +16263,7 @@ tocopherol to maintain freshness
 tocopherol used as an antioxidant
 tocopherol vitamin E - to preserve freshness
 tocopherol vitamin E to maintain freshness
+tocopherol-rich
 tocopherol-rich extract
 tocopherols
 tocopherols a natural antioxidant
@@ -17549,6 +17591,8 @@ xanthan than gum added
 xanthan um
 xanthan/carob bean/guar gum
 xanthan/guar gum
+xanthan_gum
+xanthangum
 xylitol
 xylitol 410mg
 xylitol powder
