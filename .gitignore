@@ -1,1 +1,2 @@
-/scripts/new_structure 2/classifier/categorizer/tokenizer/data/ingredients/en.openfoodfacts.org.products.csv
+/scripts/api/classifier/categorizer/tokenizer/data/ingredients/en.openfoodfacts.org.products.csv
+/scripts/api/classifier/categorizer/tokenizer/data/words_new/google_api.py
