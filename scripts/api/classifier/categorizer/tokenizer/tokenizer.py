@@ -30,8 +30,6 @@ porter_stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
 
-
-
 def use_list(func):
     """Decorator to replace map just to use decorators"""
     def wrapper(*args):
