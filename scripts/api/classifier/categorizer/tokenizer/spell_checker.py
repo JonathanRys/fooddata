@@ -54,14 +54,22 @@ dirname = os.path.dirname(__file__)
 
 class SpellChecker:
     """
-    A class used to correct mispelled words
+    A class used to correct mispelled words.
 
-    :param dict_file: The path to the dictionary file to be used
-    :type dict_file: string
-    :raises: None
+    Attributes:
+        self.words (Counter): A unique list of counted words.
+        self.stopwords (list): A list of words to remove from the ingredient.
+        self.dictionaries (dict): A list of corrected words.
+        self.language_codes (dict): A dictionary to look up country codes.
+
     """
 
     def __init__(self, dict_file):
+        """
+        Args:
+            dict_file (string): The path to or key of the dictionary to be used.
+
+        """
         self.dictionaries = whitelists['spelling']
         self.stopwords = stopwords.words('english') + stop_words
         self.language_codes = language_codes
@@ -87,7 +95,7 @@ class SpellChecker:
         return set(w for w in words if w in self.words)
 
     def candidates(self, word):
-        """Best matches found for word"""
+        """Best matches found for word."""
         lower_word = word.lower()
         return (
             self.apply_signature(
@@ -118,16 +126,14 @@ class SpellChecker:
 
     def apply_signature(self, words, template):
         """
-        Take a list of words and a template and convert the
-        case of the words to match the case of the template
+        Changes the case of the words to match the case of the template.
 
-        :param words: A list of words to change the case of 
-        :param template: A template representing the desired casing
-        :type words: list
-        :type template: string
-        :returns: A set containing the re-cased words
-        :rtype: list
-        :raises: None
+        Args:
+            words: A list of words to change the case of.
+            template: A template representing the desired casing.
+
+        Returns:
+            A set containing the re-cased words.
         """
 
         formatted_words = set()
@@ -158,13 +164,13 @@ class SpellChecker:
 
     def get_default_case(self, word):
         """
-        A function to find the most prevalent case used in a word
+        A function to find the most prevalent case used in a word.
 
-        :param word: A word to use as an example
-        :type word: string
-        :returns: Either str.upper or str.lower based on most prevalent case
-        :rtype: function
-        :raises: None
+        Args:
+            word: A word to use as an example.
+        Returns:
+            function: Either str.upper or str.lower based on most prevalent case.
+
         """
 
         tracker = 0
@@ -185,6 +191,7 @@ class SpellChecker:
 
 ### TESTS ###
 def test():
+    """Unit tests"""
     spell_checker = SpellChecker(whitelists['spelling']['all'])
     assert(spell_checker.correct("fried") == "fried")
 
@@ -206,6 +213,7 @@ def test():
 
 
 def cmd_ln_interface():
+    """A command-line interface for testing the class."""
     spell_checker = SpellChecker(whitelists['spelling']['all'])
 
     while True:

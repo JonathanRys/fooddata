@@ -9,12 +9,12 @@ en_nlp = en_core_web_sm.load()
 dirname = os.path.dirname(__file__)
 data_dir = os.path.join(dirname, "tokenizer/data/ingredients")
 
-"""Define constants"""
+# Define constants
 INPUT_FILE = os.path.join(data_dir, "all_ingredients.txt")
 TOKEN_FILE = os.path.join(data_dir, "tkn_ingredients.txt")
 OUTPUT_FILE = os.path.join(data_dir, "srtd_ingredients.txt")
 
-"""Define functions"""
+# Define functions
 
 
 def sentence_tokenize(ingredients):
@@ -28,18 +28,14 @@ def sentence_tokenize(ingredients):
     return tokenized_ingredients
 
 
-"""Translate non-English letters to English"""
-
-
 def translate(ingredients):
+    """Translate non-English letters to English"""
     print(" Translating characters...")
     return translate_to_en_chars(ingredients)
 
 
-"""Tokenize on words"""
-
-
 def word_tokenize(ingredients):
+    """Tokenizes on words"""
     print(" Applying the spaCy NLP word tokenizer...")
     nlp_ingredients = {}
 
@@ -52,101 +48,83 @@ def word_tokenize(ingredients):
     return nlp_ingredients
 
 
-"""Get the values of a list as an array"""
-
-
 def make_list(obj):
+    """Gets the values of a list as an array"""
     return [obj[x] for x in obj]
 
 
-"""Remove non-alpha words"""
-
-
 def alpha_only(ingredients):
-    """This function works on"""
+    """Removes non-alpha words"""
     print(" Removing non-alpha words e.g. 1-1/2, **, ->, 74, etc.")
     return [x for x in ingredients if x.is_alpha]
 
 
-"""Remove stop words"""
-
-
 def remove_stop_words(ingredients):
+    """Removes stop words"""
     print(" Removing stop words...")
     return[x for x in ingredients if not x.is_stop]
 
 
-"""Remove irrelevant parts of speach"""
-
-
 def pos_filter(ingredients):
+    """Removes irrelevant parts of speach"""
     print(" Filtering based on part of speech...")
     pos_to_keep = ["NOUN", "PROPN"]
     return [x for x in ingredients if x.pos_ in pos_to_keep]
 
 
-"""Remove items with irrelevant tags"""
-
-
 def tag_filter(ingredients):
+    """Removes items with irrelevant tags"""
     print(" Filtering based on tag...")
     tags_to_keep = ["JJ", "NN", "NNP"]
     return [x for x in ingredients if x.tag_ in tags_to_keep]
 
 
-"""Extract the stem?  Do I need a different stemmer?"""
-
-
 def stem(ingredients):
+    """Extract the stem?  Do I need a different stemmer?"""
     print(" Stemming...")
     return [
         x.lemma_ for x in ingredients if x.lemma_ not in stop_words.stop_words]
 
 
-"""Return the word"""
-
-
 def get_word(ingredients):
+    """Returns the word"""
     print(" Getting words...")
     for x in ingredients:
         print("x:", x, ingredients[x])
         exit(0)
 
 
-"""Remove duplicates and sort"""
-
-
 def sorted_set(ingredients):
+    """Removes duplicates and sort"""
     print(" Removing duplicates...")
     return sorted(set(ingredients))
 
 
-"""Output to file"""
-
-
 def write_data(file, data):
+    """Outputs to file"""
     print("Writing to " + file + "...")
     with open(file, "wt", encoding='utf-8') as f:
         for item in data:
             f.write(item + "\n")
 
 
-def process_data():
-    """Check if the required input exists, otherwise create it"""
-    if not os.path.exists(INPUT_FILE) or not os.path.isfile(INPUT_FILE):
+def process_data(file_name):
+    """Process """
+    # Check if the required input exists, otherwise create it
+    if not os.path.exists(file_name) or not os.path.isfile(file_name):
         from .tokenizer.data.ingredients.itemize import itemize
         try:
             itemize()
         except:
-            print("Could not find or create input file", INPUT_FILE)
+            print("Could not find or create input file", file_name)
             exit(0)
 
     print("Input OK. Reading data...")
-    """Ingest the data"""
-    with open(INPUT_FILE, "rt", encoding='utf-8') as f:
+    # Ingest the data
+    with open(file_name, "rt", encoding='utf-8') as f:
         ingredients = f.read()
 
-    """Process the data"""
+    # Process the data
     print("Processing...")
 
     ingredients = sentence_tokenize(ingredients)
@@ -165,7 +143,7 @@ def process_data():
 
     print("Finished processing.")
 
-    """Output the result"""
+    # Output the result
     write_data(OUTPUT_FILE, ingredients_list)
 
     print("Done.")
@@ -176,5 +154,5 @@ if __name__ == '__main__':
     start_time = time.time()
     print("SpaCy Sorter started.")
     print("Checking input...")
-    process_data()
+    process_data(INPUT_FILE)
     print("--- %s seconds ---" % (time.time() - start_time))

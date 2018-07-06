@@ -44,8 +44,8 @@ def get_data():
     """
     Read the data from input files
 
-    :returns: The list of all words
-    :rtype: list
+    Returns:
+        list: The list of all words from OFF and Wiki
     """
 
     # This should be read from config somewhere; OK for now
@@ -60,17 +60,20 @@ def filter_unique(items):
     """
     Filter out stop words and return only unique values
 
-    :param items: A list of items to filter
-    :type items: list
-    :returns: A unique sorted list from the list passed in
-    :rtype: list
+    Args:
+        items (list): A list of items to filter
+
+    Returns: 
+        list: A unique sorted list from the list passed in
     """
 
     unique_words = set()
     print("    removing", len(spell_checker.stopwords), "stop words...")
     for item in items:
         if not item in spell_checker.stopwords:
-            if item.capitalize() in spell_checker.stopwords:
+            if item.lower() in spell_checker.stopwords:
+                unique_words.add('^' + item)
+            elif item.capitalize() in spell_checker.stopwords:
                 unique_words.add('~' + item)
             else:
                 unique_words.add(item)
@@ -85,20 +88,21 @@ def spelling_list_stripper():
     A function to take a list of ingredients and
     attempt to identify every word.  This function
     outputs to four files referenced by these variables:
-        * UNIQUE_FILE    - Unique set of every word sans stopwords
+        * UNIQUE_FILE    - Unique set of words sans stopwords
         * CORRECTED_FILE - Any words that were corrected
         * UNKNOWN_FILE   - Words the spell checker doesn't know
         * FOUND_FILE     - Words that are correctly spelled
 
-    :param: None
-    :returns: None
     """
 
     print("Starting: ")
+
     print("  ingesting data...")
     data = get_data()
+
     print("  filtering data...")
     filtered_data = filter_unique(data)
+
     # Save results
     print("  saving filtered data...")
     save_data(UNIQUE_FILE, filtered_data)
@@ -106,6 +110,7 @@ def spelling_list_stripper():
     corrected = []
     unknown = []
     found = []
+
     print("  checking spelling...")
     for x in filtered_data:
         if len(x) == 0:
@@ -122,6 +127,7 @@ def spelling_list_stripper():
     save_data(CORRECTED_FILE, corrected)
     save_data(UNKNOWN_FILE, unknown)
     save_data(FOUND_FILE, found)
+
     print("done.")
 
 
