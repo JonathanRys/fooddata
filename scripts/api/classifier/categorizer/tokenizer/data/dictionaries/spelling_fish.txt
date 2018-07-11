@@ -16,6 +16,8 @@ _Sardines_
 _Sea Bass_ (Dicentrarchus Labrax) (_Fish_) (81%
 _yellow croaker_ (_fish_) (wild
 Ahi tuna
+poisson
+POISSON
 Alaska pollack
 Alaska pollack
 Alaska pollock
@@ -30,8 +32,6 @@ Alaskan pollack
 Alaskan pollack
 Alaskan pollock
 Alaskan pollock
-walleye
-yellowtail
 Alaskan pollock and or whiting
 Alaskan pollock fillets
 Alaskan pollock fillets. sauce: water
@@ -326,6 +326,8 @@ Fillet of smelt
 Fillets of anchovies
 Fillets of herring
 Fillets of sprat (Sprattus sprattus) 65%
+finlet
+finlets
 fish
 Fish
 FISH
@@ -843,6 +845,7 @@ vegetable oil. minced Alaska pollock breadcrumb coating wheat flour
 Vietnamese garlic chili fish sauce ingredients:
 vitamin e: to maintain freshness of the fish oil
 vitamin e; to maintain freshness of the fish oil
+walleye
 water chestnuts. salmon fillet: wild Alaska salmon. sesame ginger sauce: water
 water. keep refrigerated consuming raw or undercooked shellfish may increase your risk of food-borne illness
 west coast albacore
@@ -932,4 +935,5 @@ yellowfin
 Yellowfin sole
 Yellowfin tuna
 Yellowfin tuna and water
+yellowtail
 young mudfish

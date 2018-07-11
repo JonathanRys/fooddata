@@ -9,6 +9,7 @@ _Grain_ Whiskey
 A BLEND OF IRISH WHISKEYS
 Absinthe
 abv
+kolsch
 alcohol
 alcohol
 alcohol
@@ -18,6 +19,7 @@ Alcohol
 alcohol
 alcohol
 alcohol
+WHISKEYS
 alcohol
 alcohol
 alcohol

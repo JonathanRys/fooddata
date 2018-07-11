@@ -45,9 +45,9 @@ import os
 import collections
 
 from nltk.corpus import stopwords
-from data.stop_words import stop_words
-from data.whitelists import whitelists
-from data.language_codes import language_codes
+from .data.stop_words import stop_words
+from .data.whitelists import whitelists
+from .data.language_codes import language_codes
 
 dirname = os.path.dirname(__file__)
 
@@ -97,16 +97,16 @@ class SpellChecker:
     def candidates(self, word):
         """Best matches found for word."""
         lower_word = word.lower()
-        return (
-            self.apply_signature(
-                self.known([word])
+        
+        corrected_word = (self.known([word])
                 or self.known([word.capitalize()])
                 or self.known([lower_word])
+                or self.known([word.upper()])
                 or self.known(self.edits1(lower_word))
                 or self.known(self.edits2(lower_word))
-                or [None],
-                word
-            ))
+                or word)
+        
+        return self.apply_signature(corrected_word, word)
 
     def edits1(self, word):
         """All edits that are one edit away from `word`."""

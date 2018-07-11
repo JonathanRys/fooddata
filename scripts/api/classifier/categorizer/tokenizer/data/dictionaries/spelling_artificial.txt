@@ -11,6 +11,25 @@
 0 1 of 1% benzoate of soda
 0 1% as a preservative
 0 1% as preservative
+arginine
+asparagine
+cystine
+DiacetylTartaric
+furanone
+glucanase
+glucosamine
+glutamine
+inosine
+leucine
+methoxyl
+proline
+pez
+selenomethionine
+theanine
+threonine
+tyrosine
+acetyl
+alumino
 0 1% of potassium sorbate as preservative
 0 1% of sodium benzoate as a preservative
 0 1% of sodium benzoate as a preservative natural flavor

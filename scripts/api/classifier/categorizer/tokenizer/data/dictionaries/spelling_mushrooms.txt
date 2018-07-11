@@ -163,6 +163,8 @@ Fresh king oyster mushroom
 fresh mushroom
 fresh mushrooms
 fresh portobello mushrooms
+fungal
+fungus
 Golden mushroom
 golden mushrooms
 Golden mushrooms
@@ -335,6 +337,8 @@ shiitake mushrooms
 shiitake mushrooms
 shiitake mushrooms) wrapper: water
 shiitake powder
+shimeji
+Shimeji
 Sliced baby portobello
 Sliced mushrooms
 sliced mushrooms
