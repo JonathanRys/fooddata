@@ -54,6 +54,7 @@ jack
 Jim
 kirsch
 kolsch
+lambrusco
 limoncello
 liqueur
 liquor

@@ -7,7 +7,6 @@ Amount
 BHA
 BHT
 BLANCS
-Blueberry
 CONTAINS
 CULTURES
 Cholesterol
@@ -54,7 +53,6 @@ agent
 aids
 alkali
 allergens
-almonds
 alpha
 ammonium
 amylase
@@ -73,10 +71,7 @@ ash
 aspartame
 bacterial
 baking
-banana
-barley
 base
-basil
 battered
 bean
 beep

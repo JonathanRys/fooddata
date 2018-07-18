@@ -1,6 +1,7 @@
 garrofon
 matpe
 mayocoba
+Kitniyot
 
 
 ADVICE
@@ -59,6 +60,7 @@ Groundnuts
 HYDROLYZED
 INFORMATION
 INVERT
+Inga
 Ingredients
 Italian
 Japanese

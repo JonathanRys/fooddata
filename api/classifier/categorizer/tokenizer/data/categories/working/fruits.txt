@@ -119,6 +119,7 @@ kalamata
 kerda
 Kiwi
 kiwifruit
+Kokum
 kokum
 kudamono
 Kumquat
@@ -161,6 +162,7 @@ Orange
 Orangequat
 oranges
 organicorange
+Pajarero
 palm
 papaya
 papayas
@@ -175,6 +177,7 @@ persimmon
 pichuberry
 pineapple
 pinepple
+pitaya
 plantain
 Plumbs
 Plums

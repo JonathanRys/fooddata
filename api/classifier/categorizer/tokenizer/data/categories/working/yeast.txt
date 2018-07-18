@@ -1,64 +1,25 @@
+S. carlsbergensis
+S. cerevisiae
+Saccharomyces carlsbergensis
+Saccharomyces cerevisiae
+torula
+yeast
+Cyberlindnera jadinii
+Candida utilis
+starter culture
+
+
 Aphanizomenon
 Lactobacillus
-a
-authorized
-autolyzed
-b
 bacterienne
-beet
-bell
-brewers
-broccoli
-carrots
-chives
-color
-contains
-corn
-distilled
-dried
-extract
-flavor
-fresh
-garlic
-ginger
-granulated
-green
-helveticus
-i
-jalapeno
-kimchi
-l
-malt
-maui
-miners
-modified
-monti
-mucosa
-onion
-packet
 paracasei
-passata
-pepper
-pickled
-plantarum
-plum
-powder
-red
 rhamnosus
-ripe
-sake
+helveticus
 salvarius
-sauce
-scallion
-solids
-starch
-syrup
-tapioca
-tomato
-toppings
-torula
-turnips
-vegetable
-vine
-white
-yeast
+
+
+brewers
+dried
+fresh
+active 
+nutritional
