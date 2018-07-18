@@ -24,10 +24,10 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 # from sympound import sympound
 
-from tokenizer.spell_checker import SpellChecker
-from tokenizer.data.whitelists import whitelists
-from tokenizer.data.stop_words import stop_words
-from tokenizer.tokenizer import tokenizer
+from .tokenizer.spell_checker import SpellChecker
+from .tokenizer.data.whitelists import whitelists
+from .tokenizer.data.stop_words import stop_words
+from .tokenizer.tokenizer import tokenizer
 
 # Use the platform-specific version of the Damerau-Levenshtein distance formula
 dam_lev_distance = None
