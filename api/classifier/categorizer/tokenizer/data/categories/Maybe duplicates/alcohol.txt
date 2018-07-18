@@ -20,7 +20,6 @@ bourboned
 Brandy
 Budweiser
 burgundy
-Campari
 cabernet
 chablis
 champagne
@@ -54,7 +53,6 @@ jack
 Jim
 kirsch
 kolsch
-lambrusco
 limoncello
 liqueur
 liquor

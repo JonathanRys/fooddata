@@ -241,6 +241,7 @@ def put_in_category(tags, categories):
     for tag in tags:
         category = tag[2]
         product = tag[1]
+        category_exists = False
 
         corrected_product = spell_checkers[category].correct(product)
         stemmed_product = PS.stem(corrected_product)
