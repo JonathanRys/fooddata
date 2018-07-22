@@ -10,7 +10,7 @@ flask = "*"
 numpy = "*"
 scipy = "*"
 nltk = "*"
-pyxdemeraulevenshtein = "*"
+pyxDamerauLevenshtein = "*"
 spacy = "*"
 
 [requires]
