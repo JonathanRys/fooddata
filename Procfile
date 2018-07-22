@@ -1,1 +1,1 @@
-web: python /api/classifier/classifier.py
+web: python ./api/classifier/classifier.py
