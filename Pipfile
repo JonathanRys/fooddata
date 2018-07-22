@@ -10,8 +10,10 @@ flask = "*"
 numpy = "*"
 scipy = "*"
 nltk = "*"
+jellyfish = "*"
 pyxDamerauLevenshtein = "*"
 spacy = "*"
+
 
 [requires]
 

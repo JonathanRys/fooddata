@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify, make_response, abort
-from categorizer.categorizer import categorize
+from .categorizer.categorizer import categorize
 
 app = Flask(__name__)
 
@@ -11,18 +11,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Please use the endpoint: /fooddata/api/v1.0/tags/ for all requests"
+    return "Please use the endpoint: /api/v1.0/tags/ for all requests"
 
 
 """GET methods"""
 
 
-@app.route('/fooddata/api/v1.0/tags/', methods=['GET'])
+@app.route('/api/v1.0/tags/', methods=['GET'])
 def tags():
     return "Please provide this API with a comma separated list."
 
 
-@app.route('/fooddata/api/v1.0/tags/<string:ingredient_list>', methods=['GET'])
+@app.route('/api/v1.0/tags/<string:ingredient_list>', methods=['GET'])
 def get_tags(ingredient_list):
     """Return the response"""
     return jsonify(categorize(ingredient_list))
@@ -32,7 +32,7 @@ def get_tags(ingredient_list):
 """Accept a JSON array of items via POST"""
 
 
-@app.route('/fooddata/api/v1.0/tags/', methods=['POST'])
+@app.route('/api/v1.0/tags/', methods=['POST'])
 def post_tags(request):
     if not request.json or not 'ingredients' in request.json:
         abort(400)
