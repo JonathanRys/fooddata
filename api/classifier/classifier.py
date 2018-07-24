@@ -1,6 +1,9 @@
 #!flask/bin/python
 from flask import Flask, jsonify, make_response, abort
-from categorizer.categorizer import categorize
+if __name__ == '__main__':
+    from categorizer.categorizer import categorize
+else:
+    from .categorizer.categorizer import categorize
 
 app = Flask(__name__)
 
