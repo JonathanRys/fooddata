@@ -91,7 +91,7 @@ def closest_match(ingredient, category, categories):
     :type categories: dict
     :returns: The best matching word in the given category
     :rtype: list
-    :raises: None
+    :raises: None 
     """
 
     if ingredient == None: return
