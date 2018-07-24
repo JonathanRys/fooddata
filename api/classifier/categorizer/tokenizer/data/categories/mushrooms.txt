@@ -9,6 +9,7 @@ bispora
 bisporus
 boletes
 boletus
+boletus edulis
 borchii
 Button
 cantharellus

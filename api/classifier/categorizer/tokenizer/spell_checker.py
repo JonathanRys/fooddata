@@ -92,7 +92,8 @@ class SpellChecker:
 
     def known(self, words):
         """The subset of `words` that appear in the dictionary."""
-        return set(w for w in words if w in self.words)
+        matches = set(w for w in words if w in self.words)
+        return [x for x in matches]
 
     def candidates(self, word):
         """Best matches found for word."""
@@ -104,8 +105,9 @@ class SpellChecker:
                 or self.known([word.upper()])
                 or self.known(self.edits1(lower_word))
                 or self.known(self.edits2(lower_word))
-                or word)
-        
+                or [word])
+
+        return corrected_word
         return self.apply_signature(corrected_word, word)
 
     def edits1(self, word):

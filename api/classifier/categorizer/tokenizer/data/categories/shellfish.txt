@@ -19,7 +19,6 @@ crustacean
 Crustaceans
 dungeness
 duorarum
-edulis
 Escargot
 Gastropod
 Geoduck

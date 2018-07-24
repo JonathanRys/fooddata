@@ -8,6 +8,7 @@ applecider
 applejuice
 Apples
 apples
+apple
 applesauce
 Appleseed
 Applewood
@@ -131,6 +132,9 @@ Limeade
 limejuice
 Limequat
 lingonberries
+Lo Han Guo
+lo han guo
+Luo Han Guo
 luo han guo
 lyccii
 macrocarpon
@@ -158,12 +162,13 @@ muskmelon
 Navel
 Olives
 olives
+orang
+orange
 Orange
 Orangequat
 oranges
 organicorange
 Pajarero
-palm
 papaya
 papayas
 partridge
