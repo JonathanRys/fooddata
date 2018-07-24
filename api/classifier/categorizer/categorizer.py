@@ -38,10 +38,10 @@ else:
 dam_lev_distance = None
 
 if platform.system() != "Windows":
-    from pyxDamerauLevenshtein import damerau_levenshtein_distance
+    from .pyxDamerauLevenshtein import damerau_levenshtein_distance
     dam_lev_distance = damerau_levenshtein_distance
 else:
-    from jellyfish import levenshtein_distance
+    from .jellyfish import levenshtein_distance
     dam_lev_distance = levenshtein_distance
 
 # Set initial values
