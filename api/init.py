@@ -10,11 +10,9 @@
 # check for classifier/categorizer/tokenizer/data/foods.txt
 # else run spelling_scraper -> spelling_scraper()
 
-import nltk
 from classifier.classifier import app
 
 def init():
-    nltk.download('stopwords')
     app.run()
 
 if __name__ == '__main__':
