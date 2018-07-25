@@ -1,1 +1,3 @@
 *.cpython-36.pyc
+.vscode/
+.vs/
