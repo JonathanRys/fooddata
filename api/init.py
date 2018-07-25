@@ -11,9 +11,7 @@
 # else run spelling_scraper -> spelling_scraper()
 
 from classifier.classifier import app
-import os from pml import app
-
-
+import os
 
 def init():
     port = int(os.environ.get('PORT', 5000))
