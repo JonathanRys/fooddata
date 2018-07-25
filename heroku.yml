@@ -3,5 +3,8 @@ setup:
 build:
   languages:
     - python
+  packages:
+    - g++
 run:
+  web: python -m nltk.downloader all
   web: python ./api/init.py
