@@ -47,6 +47,7 @@ oyster
 oysters
 paralithodes
 pelagicus
+Penaeus
 penaeus
 pollack
 pollock

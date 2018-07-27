@@ -16,6 +16,7 @@ Available dictionaries
     * alcohol
     * artificial
     * carcinogens
+    * celery
     * dairy
     * eggs
     * fish
@@ -98,14 +99,14 @@ class SpellChecker:
     def candidates(self, word):
         """Best matches found for word."""
         lower_word = word.lower()
-        
+
         corrected_word = (self.known([word])
-                or self.known([word.capitalize()])
-                or self.known([lower_word])
-                or self.known([word.upper()])
-                or self.known(self.edits1(lower_word))
-                or self.known(self.edits2(lower_word))
-                or [word])
+                          or self.known([word.capitalize()])
+                          or self.known([lower_word])
+                          or self.known([word.upper()])
+                          or self.known(self.edits1(lower_word))
+                          or self.known(self.edits2(lower_word))
+                          or [word])
 
         return corrected_word
         return self.apply_signature(corrected_word, word)
