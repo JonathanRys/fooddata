@@ -23,6 +23,7 @@ from nltk.stem import PorterStemmer
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 # from sympound import sympound
+
 if __name__ == '__main__':
     from tokenizer.spell_checker import SpellChecker
     from tokenizer.data.whitelists import whitelists
@@ -94,7 +95,8 @@ def closest_match(ingredient, category, categories):
     :raises: None
     """
 
-    if ingredient == None: return
+    if ingredient == None:
+        return
 
     #ingredient_stem = PS.stem(ingredient)
     best_match = [(DISTANCE_THRESHHOLD, "", "")]
@@ -145,11 +147,10 @@ def categorize(ingredient_list):
                 ingredient_map[x] = y
                 break
 
-
     """Iterate through the ingredients and find matching tags in the categories data"""
     classified_products = {}
     possible_matches = []
-    
+
     # TODO: Filter the ingredient to make sure it's just the most significant term
     for ingredient in iterable_list:
         corrected_ingredient = spell_checkers["all"].correct(ingredient)
@@ -165,17 +166,19 @@ def categorize(ingredient_list):
 
             """If the ingredient is a direct match add or append it to the list"""
             if ingredient in CATEGORIES[category]:
-                #This needs to replace the original word in entirety, not just the category
+                # This needs to replace the original word in entirety, not just the category
                 ingredient = ingredient_phrase.replace(
                     ingredient, corrected_ingredient)
 
-                classified_products = add_or_append(classified_products, category, ingredient)
+                classified_products = add_or_append(
+                    classified_products, category, ingredient)
 
                 nearest = []
                 break
             else:
                 """Find the closest match in the nearest category"""
-                closest = closest_match(ingredient, category, CATEGORIES[category])
+                closest = closest_match(
+                    ingredient, category, CATEGORIES[category])
 
                 if closest[0][0] < nearest[0][0]:
                     nearest = closest
@@ -186,7 +189,7 @@ def categorize(ingredient_list):
         for match in correct_ingredient(nearest, ingredient, ingredient_phrase):
             possible_matches.append(match)
         # push to an array here and use find_best()
-    
+
     final_ingredients = find_best(possible_matches)
 
     classified_products = put_in_category(
@@ -244,13 +247,14 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
     corrected_ingredients = []
 
     for tag in tags:
+        print("### Tag:", tag)
         word = "???"
         if len(tag) > 3:
             word = tag[3]
+
         category = tag[2]
         product = tag[1]
-
-
+        print("Checking", product, "in", category)
         corrected_ingredient = spell_checkers[category].correct(product)
 
         corrected_phrase = ingredient_phrase.replace(
@@ -296,7 +300,8 @@ def find_best(tags):
 
     for product in products:
         for category in product_map[product]:
-            new_tags.append((product_map[product][category], product, category))
+            new_tags.append(
+                (product_map[product][category], product, category))
 
     return new_tags
 
@@ -315,7 +320,8 @@ def put_in_category(tags, categories):
         if category in new_categories:
             category_exists = not stemmed_product in new_categories[category]
 
-        new_categories = add_or_append(new_categories, category, product, category_exists)
+        new_categories = add_or_append(
+            new_categories, category, product, category_exists)
 
     return new_categories
 
@@ -333,6 +339,7 @@ def test():
 
 # celery,%20chery,%20bannas,%20boletus%20edulis,%20apple,%20orange
 # aplles,%20celert,%20banana,%20fried%20calms
+
 
 if __name__ == '__main__':
     test()

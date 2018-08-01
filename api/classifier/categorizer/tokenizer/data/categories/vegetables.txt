@@ -165,7 +165,10 @@ greenonion
 Greens
 greens
 Guajillo
+guajillo
 guatemalensis
+Hijiki
+hijiki
 habanero
 Harebell
 Haricot
