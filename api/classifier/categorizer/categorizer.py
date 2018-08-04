@@ -46,6 +46,7 @@ else:
     dam_lev_distance = levenshtein_distance
 
 # Set initial values
+debug = False
 dirname = os.path.dirname(__file__)
 PS = PorterStemmer()
 DISTANCE_THRESHHOLD = 4
@@ -62,10 +63,12 @@ for x in STEMS_BY_CATEGORY:
     file_name = STEMS_BY_CATEGORY[x]
 
     if not os.path.exists(file_name) or not os.path.isfile(file_name):
-        print("Unable to load file", file_name)
+        if debug:
+            print("Unable to load file", file_name)
         continue
 
-    print("Loading", file_name)
+    if debug:
+        print("Loading", file_name)
 
     with open(file_name, "rt", encoding='utf-8') as f:
         CATEGORIES[x] = f.read().split("\n")
@@ -74,7 +77,8 @@ for x in STEMS_BY_CATEGORY:
 # Preload the spell checkers
 spell_checkers = {}
 for x in whitelists["spelling"]:
-    print("Loading", whitelists["spelling"][x])
+    if debug:
+        print("Loading", whitelists["spelling"][x])
     spell_checkers[x] = SpellChecker(whitelists["spelling"][x])
 
 
@@ -153,16 +157,20 @@ def categorize(ingredient_list):
 
     # TODO: Filter the ingredient to make sure it's just the most significant term
     for ingredient in iterable_list:
-        corrected_ingredient = spell_checkers["all"].correct(ingredient)
+        corrected_ingredient = spell_checkers["unidentified"].correct(
+            ingredient)
         ingredient_phrase = ingredient_map[ingredient]
         #ingredient_stem = PS.stem(corrected_ingredient)
         nearest = [(DISTANCE_THRESHHOLD, "", "")]
 
         """Iterate through the categories"""
         for category in CATEGORIES:
-            print("category:", category)
-            corrected_ingredient = spell_checkers["all"].correct(ingredient)
-            print("CI:", corrected_ingredient)
+            if debug:
+                print("category:", category)
+            corrected_ingredient = spell_checkers["unidentified"].correct(
+                ingredient)
+            if debug:
+                print("CI:", corrected_ingredient)
 
             """If the ingredient is a direct match add or append it to the list"""
             if ingredient in CATEGORIES[category]:
@@ -185,7 +193,6 @@ def categorize(ingredient_list):
                 elif closest[0][0] == nearest[0][0]:
                     nearest.append(closest[0])
 
-        #final_ingredients = correct_ingredient(nearest, ingredient, ingredient_phrase)
         for match in correct_ingredient(nearest, ingredient, ingredient_phrase):
             possible_matches.append(match)
         # push to an array here and use find_best()
@@ -195,7 +202,8 @@ def categorize(ingredient_list):
     classified_products = put_in_category(
         final_ingredients, classified_products)
 
-    print("Classified Products:", classified_products)
+    if debug:
+        print("Classified Products:", classified_products)
 
     return classified_products
 
@@ -236,6 +244,7 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
     Apply a spelling correction to the entire text of an ingredient.
 
     :param tags: List of tuples containing spelling-corrected tags
+    :param ingredient: The ingredient to replace
     :param ingredient_phrase: The whole text of the ingredient to fix
     :type tags: list
     :type ingredient_phrase: string
@@ -247,18 +256,26 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
     corrected_ingredients = []
 
     for tag in tags:
-        print("### Tag:", tag)
-        word = "???"
+        if debug:
+            print("### Tag:", tag)
+        unknown_word = "???"
         if len(tag) > 3:
             word = tag[3]
 
         category = tag[2]
         product = tag[1]
-        print("Checking", product, "in", category)
+
+        if (category == ''):
+            category = "unidentified"
+            product = ingredient
+
         corrected_ingredient = spell_checkers[category].correct(product)
 
+        if debug:
+            print("Correcting", product, "in", category)
+
         corrected_phrase = ingredient_phrase.replace(
-            ingredient, product+"("+(word, corrected_ingredient)[product != corrected_ingredient]+")")
+            ingredient, product+"("+(unknown_word, corrected_ingredient)[product != corrected_ingredient]+")")
         corrected_ingredients.append((tag[0], corrected_phrase, category))
 
     return corrected_ingredients
@@ -274,7 +291,8 @@ def find_best(tags):
     new_tags = []
 
     for tag in tags:
-        print("tag:", tag)
+        if debug:
+            print("tag:", tag)
         category = tag[2]
         product = tag[1]
         rank = tag[0]

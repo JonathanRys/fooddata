@@ -29,7 +29,7 @@ whitelists = {
         "vegetables": os.path.join(dirname, 'dictionaries/spelling_vegetables.txt'),
         "wheat": os.path.join(dirname, 'dictionaries/spelling_wheat.txt'),
         "yeast": os.path.join(dirname, 'dictionaries/spelling_yeast.txt'),
-        "all": os.path.join(dirname, 'dictionaries/spelling.dict')
+        "unidentified": os.path.join(dirname, 'dictionaries/spelling.dict')
     },
     "categories": {
         "alcohol": os.path.join(dirname, 'categories/alcohol.txt'),
