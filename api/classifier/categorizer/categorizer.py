@@ -259,8 +259,6 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
         if debug:
             print("### Tag:", tag)
         unknown_word = "???"
-        if len(tag) > 3:
-            word = tag[3]
 
         category = tag[2]
         product = tag[1]
@@ -286,8 +284,6 @@ def find_best(tags):
     product_map = {}
 
     categories = set()
-    category_map = {}
-
     new_tags = []
 
     for tag in tags:
@@ -309,12 +305,6 @@ def find_best(tags):
         else:
             product_map[product] = {}
             product_map[product][category] = rank
-
-        # if category in category_map:
-        #     if category_map[category][0] < rank:
-        #         category_map[category] = tag
-        # else:
-        #     category_map[category] = tag
 
     for product in products:
         for category in product_map[product]:
