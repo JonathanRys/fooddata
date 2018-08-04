@@ -88,15 +88,14 @@ def closest_match(ingredient, category, categories):
     """
     Function to find the best match in a list
 
-    :param ingredient: The ingredient to match
-    :param category: The key for the category to match in
-    :param categories: The list of words in the given category
-    :type ingredient: string
-    :type category: string
-    :type categories: dict
-    :returns: The best matching word in the given category
-    :rtype: list
-    :raises: None
+    Args:
+        ingredient (string): The ingredient to match
+        category (string): Matching category
+        categories (dict): List of words in given category
+
+    Returns (list): 
+        The best matching word in the given category
+
     """
 
     if ingredient == None:
@@ -127,11 +126,11 @@ def categorize(ingredient_list):
     """
     Function to categorize a list of ingredients
 
-    :param ingredient_list: A list of ingredients to categorize
-    :type ingredient_list: list
-    :returns: A dictionary of categories containing lists of matches
-    :rtype: dict
-    :raises: None
+    Args:
+        ingredient_list (list): A list of ingredients to categorize
+
+    Returns (dict): 
+        A dictionary of categories containing lists of matches
     """
 
     tokens = word_tokenize(ingredient_list)
@@ -212,17 +211,14 @@ def add_or_append(base_dict, key, value, conditional=True):
     """
     Add or append a value to a dictionary
 
-    :param base_dict: The existing dictionary to modify
-    :param key: The key to add or append to
-    :param value: The value to give that key
-    :param(optional) conditional: optional conditional exclusion parameter
-    :type base_dict: dict
-    :type key: string
-    :type value: string
-    :type conditional: bool
-    :returns: New dictionary with the provided key/value pair added
-    :rtype: dict
-    :raises: None
+    Args:
+        base_dict (dict): The existing dictionary to modify
+        key (string): The key to add or append to
+        value (string): The value to give that key
+        [Optional] conditional (bool): exclusion parameter
+
+    Returns (dict): 
+        New dictionary with the provided key/value pair added
     """
 
     new_dict = {x: base_dict[x] for x in base_dict}
@@ -243,14 +239,14 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
     """
     Apply a spelling correction to the entire text of an ingredient.
 
-    :param tags: List of tuples containing spelling-corrected tags
-    :param ingredient: The ingredient to replace
-    :param ingredient_phrase: The whole text of the ingredient to fix
-    :type tags: list
-    :type ingredient_phrase: string
-    :returns: A list of tuples containing the corrected phrases
-    :rtype: list
-    :raises: None
+    Args:
+        tags (list): List of tuples containing corrected tags
+        ingredient (string): The ingredient to replace
+        ingredient_phrase (string): The ingredient to fix
+
+    Returns (list): 
+        A list of tuples containing the corrected phrases
+
     """
 
     corrected_ingredients = []
@@ -280,6 +276,16 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
 
 
 def find_best(tags):
+    """
+    Find the category that the product matches best
+
+    Args:
+        tags (list): List of tags
+
+    Returns (list):
+        A new list containing the best matches
+
+    """
     products = set()
     product_map = {}
 
@@ -315,6 +321,17 @@ def find_best(tags):
 
 
 def put_in_category(tags, categories):
+    """
+    A function to convert an array of product-tag pairs into a dict with categories as keys.
+
+    Args:
+        tags (list): Categorized tags
+        categories (list): List of all available categories
+
+    Returns (dict):
+        A dictionary categories mapped to ingredients
+
+    """
     new_categories = {x: categories[x] for x in categories}
 
     for tag in tags:
