@@ -88,7 +88,14 @@ class SpellChecker:
         return self.words[word] / N
 
     def correct(self, word):
-        """Most probable spelling correction for word."""
+        """
+        Most probable spelling correction for a word.
+
+        Args:
+            word (string): A word to be corrected
+
+        Returns (string): The corrected word 
+        """
         return max(self.candidates(word), key=self.P)
 
     def known(self, words):
@@ -135,7 +142,7 @@ class SpellChecker:
             words: A list of words to change the case of.
             template: A template representing the desired casing.
 
-        Returns:
+        Returns (set):
             A set containing the re-cased words.
         """
 
@@ -171,8 +178,8 @@ class SpellChecker:
 
         Args:
             word: A word to use as an example.
-        Returns:
-            function: Either str.upper or str.lower based on most prevalent case.
+        Returns (function):
+            Either str.upper or str.lower based on most prevalent case.
 
         """
 

@@ -93,9 +93,7 @@ def closest_match(ingredient, category, categories):
         category (string): Matching category
         categories (dict): List of words in given category
 
-    Returns (list): 
-        The best matching word in the given category
-
+    Returns (list): The best matching word in the given category
     """
 
     if ingredient == None:
@@ -129,8 +127,7 @@ def categorize(ingredient_list):
     Args:
         ingredient_list (list): A list of ingredients to categorize
 
-    Returns (dict): 
-        A dictionary of categories containing lists of matches
+    Returns (dict): A dictionary of categories containing lists of matches
     """
 
     tokens = word_tokenize(ingredient_list)
@@ -217,8 +214,7 @@ def add_or_append(base_dict, key, value, conditional=True):
         value (string): The value to give that key
         [Optional] conditional (bool): exclusion parameter
 
-    Returns (dict): 
-        New dictionary with the provided key/value pair added
+    Returns (dict): A new dictionary with the provided key/value pair added
     """
 
     new_dict = {x: base_dict[x] for x in base_dict}
@@ -244,17 +240,15 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
         ingredient (string): The ingredient to replace
         ingredient_phrase (string): The ingredient to fix
 
-    Returns (list): 
-        A list of tuples containing the corrected phrases
-
+    Returns (list): A list of tuples containing the corrected phrases
     """
 
     corrected_ingredients = []
+    UNKNOWN_WORD = "???"
 
     for tag in tags:
         if debug:
             print("### Tag:", tag)
-        unknown_word = "???"
 
         category = tag[2]
         product = tag[1]
@@ -269,7 +263,7 @@ def correct_ingredient(tags, ingredient, ingredient_phrase):
             print("Correcting", product, "in", category)
 
         corrected_phrase = ingredient_phrase.replace(
-            ingredient, product+"("+(unknown_word, corrected_ingredient)[product != corrected_ingredient]+")")
+            ingredient, product+"("+(UNKNOWN_WORD, corrected_ingredient)[product != corrected_ingredient]+")")
         corrected_ingredients.append((tag[0], corrected_phrase, category))
 
     return corrected_ingredients
@@ -282,9 +276,7 @@ def find_best(tags):
     Args:
         tags (list): List of tags
 
-    Returns (list):
-        A new list containing the best matches
-
+    Returns (list): A new list containing the best matches
     """
     products = set()
     product_map = {}
@@ -322,15 +314,14 @@ def find_best(tags):
 
 def put_in_category(tags, categories):
     """
-    A function to convert an array of product-tag pairs into a dict with categories as keys.
+    A function to convert an array of product-tag pairs into a dict with categories
+    as keys.
 
     Args:
         tags (list): Categorized tags
         categories (list): List of all available categories
 
-    Returns (dict):
-        A dictionary categories mapped to ingredients
-
+    Returns (dict): A dictionary of categories mapped to ingredients
     """
     new_categories = {x: categories[x] for x in categories}
 
