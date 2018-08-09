@@ -46,6 +46,7 @@ octopus
 oyster
 oysters
 paralithodes
+snail
 pelagicus
 Penaeus
 penaeus

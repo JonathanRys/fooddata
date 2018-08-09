@@ -4,11 +4,10 @@ Saccharomyces carlsbergensis
 Saccharomyces cerevisiae
 torula
 yeast
+YEAST
 Cyberlindnera jadinii
 Candida utilis
 starter culture
-
-
 Aphanizomenon
 Lactobacillus
 bacterienne
@@ -16,8 +15,6 @@ paracasei
 rhamnosus
 helveticus
 salvarius
-
-
 brewers
 dried
 fresh

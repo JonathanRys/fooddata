@@ -29,6 +29,7 @@ fungal
 fungus
 kikurage
 king oyster
+truffle
 kingoyster
 lentinus
 lion mane

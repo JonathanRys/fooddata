@@ -1,16 +1,11 @@
 carrageen
 carrageenan
 caseinate
-===================
-Calcium
-Carbonate
 TBHQ
 alginate
 alkali
 annatto
 arabic
-aromas
-artificial
 aspartame
 beta
 bicarbonate
@@ -32,6 +27,8 @@ enzymes
 glaze
 glycerine
 glyceryl
+cappuccino
+decaf
 glycol
 guar
 gulaman

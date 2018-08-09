@@ -30,9 +30,20 @@ coriander
 crystalsalt
 cumin
 curcumin
+biloba
+ginkgo biloba
+Nutmeg
+nutmeg
+ginkgobiloba
+ginkgo
+passionflower
+Wintergreen
+wintergreen
 dijon
 dill
 dillweed
+Tarragon
+tarragon
 fennel
 fenuGreek
 fenugreek
@@ -102,3 +113,10 @@ whitepepper
 withania
 zaatar
 zeera
+thyme
+elderflower
+chickory
+Valerian
+valerian
+allspice
+Allspice

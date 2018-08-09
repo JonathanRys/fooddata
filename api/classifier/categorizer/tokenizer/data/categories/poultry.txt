@@ -12,6 +12,7 @@ drummettes
 Drumsticks
 drumsticks
 duck
+Duck
 foie
 FreeBird
 giblets

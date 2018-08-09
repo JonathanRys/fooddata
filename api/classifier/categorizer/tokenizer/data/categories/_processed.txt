@@ -1,5 +1,5 @@
-nixtamal
-
+crystalline
+dumplings
 abietate
 acacia
 acai
@@ -35,7 +35,6 @@ amaze
 amber
 American
 amla
-ammonia
 amylase
 Anaheim
 Anatolian
@@ -50,10 +49,7 @@ annatto
 anti
 antioxidant
 apocarotenal
-apple
-applecdervinegar
 applecider
-apricot
 aqueous
 Arabica
 arbol
@@ -72,12 +68,11 @@ Asian
 Assorted
 astragalus
 atmosphere
-AUTOLYZED
-autolyzed
 avocado
 baby
 backing
 Bagel
+bagel
 bakers
 baking
 bakingsoda
@@ -127,11 +122,7 @@ bittersweet
 Black
 BLACKBERRY
 blackcurrant
-Blackstrap
 BLE
-bleached
-bleachedwheatflour
-blended
 Blondie
 blood
 blue

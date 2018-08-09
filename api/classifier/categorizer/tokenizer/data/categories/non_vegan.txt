@@ -62,14 +62,13 @@ collagen
 collagen
 collagen
 collagen hydrolysate
-confectioner's glaze
+confectioners glaze
 confectioners
 coral
 dashi
 DiacetylTartaric
 diglyceride
 DIGLYCERIDES
-diglycerides
 diglycerides
 diglycerol
 duodenum substances
@@ -85,10 +84,7 @@ estrogen
 fish broth
 fluff
 gelatin
-gelatin
-gelatin
 GELATINE
-gelatine
 gelatine
 glaze
 glycerides
@@ -97,7 +93,6 @@ guanine
 hide
 honey
 ifsinglass
-katsuobushi
 katsuobushi
 keratin
 L-cysteine
@@ -110,26 +105,23 @@ lactic
 lactitol
 lactobacillus
 lactose
-lactose
-lactose
-lanolin
-lanolin
 lanolin
 lard
 leather
 lysozyme
+Marshmallow
+marshmallows
 marshmallow
 milk sugar
 mink oil
 mohair
 monoglyceride
-MONOGLYCERIDES
+MONOGLYCERIDE
 monoglycerides
 MONOGLYCERIDES
 monoglycerides
 monoglycerol
 NATRUAL
-natural
 natural
 natural flavors
 natural red 4
@@ -140,7 +132,6 @@ paracasein
 pearl
 pearl essence
 pepsin
-pepsin
 pharmaceutical glaze
 placenta
 polyglycerol
@@ -150,8 +141,6 @@ red 4
 rennet
 rennin
 resinous glaze
-resinous glaze
-resinous glaze
 reticulin
 retinol
 retinyl
@@ -160,11 +149,7 @@ roe
 royal jelly
 sable
 shellac
-shellac
-shellac
-shellac
 silk
-sodiumcaseinate
 sodiumcaseinate
 sperm oil
 spermaceti
@@ -181,3 +166,5 @@ volaise
 whey
 wool
 Worcestershire
+NATUREL
+naturel

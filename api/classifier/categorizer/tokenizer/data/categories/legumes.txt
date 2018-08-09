@@ -4,6 +4,7 @@ mayocoba
 Kitniyot
 habichuelas
 Beans
+beans
 Inga
 Kitniyot
 Peabutter
@@ -30,6 +31,9 @@ peanuts
 peaprotein
 peas
 chickpeas
+pinto
+tofu
+BEANS
 edamame
 fava
 haricot

@@ -28,8 +28,11 @@ bullion
 Burger
 Bushmeat
 Calf
+Tripe
+tripe
 camels
 casing
+caribou
 casings
 charbroiled
 cheesesteak

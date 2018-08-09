@@ -30,7 +30,9 @@ buttery
 Camembert
 camemberti
 casei
+mascarpone
 casein
+ricotta
 caseinate
 chai
 cheddar

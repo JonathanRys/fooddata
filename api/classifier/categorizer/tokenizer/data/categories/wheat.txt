@@ -32,6 +32,7 @@ crackers
 Crepe
 crepe
 croissant
+Bagel
 crouton
 crumb
 Crumbs
