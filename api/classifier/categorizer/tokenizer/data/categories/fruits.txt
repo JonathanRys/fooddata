@@ -19,6 +19,8 @@ areca
 aromalemon
 aroniaberry
 avocados
+Avocado
+avocado
 Banana
 banana
 bananacrisps
@@ -302,3 +304,8 @@ wildberry
 wolfberry
 yumberry
 yuzu
+citrus
+Raspberry
+Breadfruit
+raspberry
+breadfruit
