@@ -1,6 +1,7 @@
 aestivum
 Ale
 ale
+Amaranth
 amaranth
 Arborio
 bagels
@@ -8,6 +9,7 @@ barely
 barley
 barleyflour
 barleyv
+Basmati
 basmati
 Beer
 beer
@@ -27,6 +29,8 @@ bun
 buns
 Calmochi
 Carnaroli
+Buckwheat
+buckwheat
 Celosia
 cereal
 Chapati
@@ -43,6 +47,7 @@ crushed
 crust
 Dough
 dough
+enrichedflour
 Faluche
 faluche
 farina
@@ -55,6 +60,7 @@ flour
 foxtail
 Frybread
 frybread
+Germ
 germ
 gluten
 glutinous
@@ -106,6 +112,7 @@ quinoa
 Ramen
 Rava
 rava
+Rice
 rice
 riceflour
 ricemilk

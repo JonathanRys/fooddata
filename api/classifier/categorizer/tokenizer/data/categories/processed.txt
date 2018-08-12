@@ -6,67 +6,96 @@ aged
 amylase
 antioxidant
 Apple cider vinegar
+apple cider vinegar
 Applecider vinegar
+applecidervinegar
 autolyzed
 autolyzed
+baked
 Baked
 Baking soda
+baking soda
 blackstrap
 Blackstrap
 bleached
 bleached wheat flour
+bleachedwheatflour
 Bleachedwheatflour
 blended
-brewed
 brewed
 Brewed
 bromated
 buffered
 caffeinated
+caffeine
 Caffeine
 canesugar
 caramel
 Caramel
-Caramelized
+caramelized
 Caramelized
 carotenal
+catsup
+chip
 chipped
 Chips
+chips
 chlorinated
+choc
+choco
+chocolat
+Chocolate
+chocolate
+chocolate chips
 Chocolate chips
+chocolatechips
+chocolates
+chocolaty
+Chopped
+chops
 clarified
 clarified
 coasted
 coated
 Coated
-Coating
+coating
 Coating
 Coke
 color
+colorant
 Colorant
 Compound
 compound
+Concentrate
 concentrate
-Concentrate
-Concentrate
+concentrated
 Concentrated
-Concentrated
-Concentrates
 concentrates
+Concentrates
+corn dextrin
 Corn dextrin
+cornbread
+corndextrin
+cornflake
+cornflakes
+cornflour
 cornmeal
 cornstarch
+crumbled
+Crushed
+crushed
 crystal
 crystallized
 Crystallized
 crystallized
+cubed
+Cubed
 curls
 decaffeinated
 Decaffeinated
-decaffeinated
 defatted
-degermed
 Degermed
+degermed
 degerminated
 Degerminated
 Dehydrated
@@ -75,41 +104,49 @@ deionized
 derivative
 diced
 diluted
-Donuts
+donuts
 Donuts
 doughnuts
 Doughnuts
 Emulsifier
+emulsifier
 emulsify
 encapsulated
 Ester
+ester
 esters
 Evaporated
 evaporated
 expeller
-EXTRACT
 extract
 Extract
+EXTRACT
 extractive
 fillers
 filtered
 flabellifer
 flake
+flaked
 Flaked
+flakes
 Flakes
+flan
 Flan
 flavored
 Flavoring
 flavoring
-flavour
 Flavour
-flavouring
+flavour
 Flavouring
+flavouring
 flours
 Flours
 fructose
+fudge
 Fudge
 Fudge Ribbon
+fudge ribbon
+fudgeribbon
 fudgy
 gelatinized
 glucose
@@ -121,9 +158,9 @@ glycerine
 glycine
 granulate
 Granulated
-Granulated
 granulated
 granule
+granules
 Granules
 Guittard
 Heinz ketchup
@@ -131,11 +168,12 @@ histidine
 Hoisin
 hoisin
 humectant
-Hydrate
 hydrate
+Hydrate
 hydrated
 infuse
 Infused
+infused
 instant
 invert
 Inverted
@@ -143,6 +181,7 @@ inverted
 invertsugar
 iodize
 Iodized
+iodized
 Jell-o
 jellied
 jello
@@ -151,98 +190,121 @@ Jelly
 jimmies
 Jimmies
 juiced
+ketchup
 ketsup
 lecithins
 lecithins
 Lollipop
-Low Fat
+low fat
 Low fat
 Low-fat
+lowfat
 Lowfat
 mallo
 Mallo
 Mallo Cup
-Mallow
+mallow
 Mallow
 malt
+malt extract
 Malt Extract
 Malted
+malted
+maltextract
 maltodextrose
+maple
+Maple
 marshmallow
 Marshmallow
+marshmallows
 Marshmallows
 milled
 mince
+minced
 Minced
-MODIFIED
 modified
 Modified
-Modified 
+MODIFIED
+modified cornstarch
 Modified Cornstarch
-molasses
+modifiedcornstarch
+Molasses
 molasses
 MOLASSES
-Muscovado
 muscovado
+Muscovado
 nixtamal
-Nixtamalized
 nixtamalized
+Nixtamalized
 Palm Sugar
 palmolein
 par-boiled
-parboiled
 Parboiled
-Pasteurized
+parboiled
 pasteurized
-Pez
+Pasteurized
 pez
+Pez
+pigment
 Pigment
 pigmented
 plasticized
 plasticizer
 Potato Starch
+potato starch
+potatostarch
 powdered
 powered
+pre-cooked
 Pre-cooked
 Precooked
+precooked
 Preparation
+preparation
 prepared
 preservatives
 processes
 rebaudiana
 rebaudioside
+red hot
 Red Hot
+redhot
 Reduced
+reduced
 Reduction
-Reduction
+reduction
+refined
 Refined
 Refiners
 refiners
 Rehydrated
-Rehydrated
+rehydrated
 ribboned
 roasted
 saturate
+saturated
 Saturated
+semisweet
 Semisweet
 separate
 separated
 Sherbert
 sherbert
 Sherbet
+sherbet
 shirataki
 shredded
 Sixlets
 snickerdoodle
+solids
 Solids
-solids
-solids
 sorbet
 Sorbet
 Sparkling
 sparkling
 sprinkled
 Sprinkles
+sprinkles
 stabilizers
 starched
 SUCRE
@@ -251,25 +313,27 @@ sulfured
 sweet
 Sweetened
 sweetened
-Syrup
 syrup
+Syrup
 syrupy
-Taffy
 taffy
+Taffy
+tapioca starch
 Tapioca Starch
 tapioca Starch
 tapiocadextrin
+tapiocastarch
 thickened
 Thickener
 thickener
 toasted
-Toffee
 toffee
+Toffee
 tofu
 Tots
 tots
-treated
 Treated
+treated
 treatment
 Treatment
 Vanilla extract
@@ -278,11 +342,12 @@ Vanilla flavour
 vanilla flavour
 Vanilla powder
 vanilla powder
-Vanillin
+vanillaextract
 vanillin
+Vanillin
 vinegar
-wax
 Wax
+wax
 Waxed
 waxed
 Waxy

@@ -71,12 +71,14 @@ PORC
 pork
 porkbelly
 prosciutto
+rib
 Ribs
 ribs
 Rookworst
 salami
 saucisse
 sausage
+Sausage
 sheep
 shoulder
 sirloin
@@ -92,8 +94,10 @@ spleens
 steaks
 stomachs
 strips
+swine
 Teewurst
 tenderloin
 tongues
-Uncured
 uncured
+Uncured
+wieners

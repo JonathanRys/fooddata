@@ -116,7 +116,7 @@ class SpellChecker:
                           or [word])
 
         return corrected_word
-        return self.apply_signature(corrected_word, word)
+        # return self.apply_signature(corrected_word, word)
 
     def edits1(self, word):
         """All edits that are one edit away from `word`."""

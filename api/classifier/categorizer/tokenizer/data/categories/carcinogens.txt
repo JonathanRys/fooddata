@@ -1,389 +1,290 @@
- 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone 
- 5-AzaC
- Benzotrichloride
-1,1-Dimethylhydrazine
-1,2,3-Trichloropropane
-1,2-Dibromo-3-chloropropane
-1,2-Dibromoethane 
-1,2-Dichloroethane 
-1,3-Butadiene
-1,3-Dichloropropene
-1,3-Propane sultone
-1,3-Propane sultone
-1,4-Butanediol dimethylsulfonate (also known as busulfan)
-1,4-Dichlorobenzene
-1,4-Dioxane
-1,6-Dinitropyrene
-1,8-dihydroxyanthraquinone
-1,8-Dinitropyrene
-1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (MeCCNU)
-1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea
-1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea 
-1-Amino-2,4-dibromoanthraquinone
-1-Amino-2-methylanthraquinone
-1-Bromopropane
-1-Nitropyrene
-1-Nitropyrene
-2, 2-bis-(bromoethyl)-1,3-propanediol 
-2,3,4,7,8-Pentachlorodibenzofuran
-2,3,7,8-Tetrachlorodibenzo-p-dioxin 
-2,3,7,8-Tetrachlorodibenzo-para-dioxin
-2,3-Dibromo-1-propanol
-2,4,6-Trichlorophenol
-2,4-Diaminoanisole sulfate
-2,4-Diaminotoluene
-2,4-dichlorophenyl-p-nitrophenyl ether
-2-Acetylaminofluorene
-2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine 
-2-Amino-3,4-dimethylimidazo[4,5-f]quinoline 
-2-Amino-3,8-dimethylimidazo[4,5-f]quinoxaline 
-2-Amino-3-methylimidazo[4,5-f]quinoline
-2-Amino-3-methylimidazo[4,5-f]quinoline 
-2-Aminoanthraquinone
-2-Methylaziridine 
-2-Naphthylamine
-2-Naphthylamine
-2-Nitropropane
-2-Nitrotoluene
-3,3'-Dichlorobenzidine and 3,3'-dichlorobenzidine dihydrochloride
-3,3'-Dimethoxybenzidine
-3,3'-Dimethylbenzidine
-3,4,5,3',4'-Pentachlorobiphenyl (PCB-126)
-3-Chloro-2-methylpropene
-4,4'-Methylenebis(2-chloroaniline)
-4,4'-Methylenedianiline 
-4,4'-Oxydianiline
-4,4'-Thiodianaline
 4-(N-nitrosomethylamino)-1-(3-pyridyl)-1-butanone
-4-4'-Methylenebis(N,N-dimethyl)benzenamine
-4-Aminobiphenyl
-4-Aminobiphenyl
-4-Chloro-o-phenylenediamine
-4-Chloro-ortho-toluidine
-4-Dimethylaminoazobenzene
-4-Nitropyrene
-4-Vinyl-1-cyclohexene diepoxide
-5-Azacytidine®
-5-Methoxypsoralen
-5-Methylchrysene
-6-Nitrochrysene
-6-Nitrochrysene
-7H-Dibenzo[c,g]carbazole
+5-azaC
+benzotrichloride
+1,1-dimethylhydrazine
+1,2,3-trichloropropane
+1,2-dibromo-3-chloropropane
+1,2-dibromoethane
+1,2-dichloroethane
+1,3-butadiene
+1,3-dichloropropene
+1,3-propane sultone
+1,4-butanediol dimethylsulfonate
+1,4-dichlorobenzene
+1,4-dioxane
+1,6-dinitropyrene
+1,8-dihydroxyanthraquinone
+1,8-dinitropyrene
+1-(2-chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (meCCNU)
+1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea
+1-amino-2,4-dibromoanthraquinone
+1-amino-2-methylanthraquinone
+1-bromopropane
+1-nitropyrene
+1-nitropyrene
+2, 2-bis-(bromoethyl)-1,3-propanediol
+2,3,4,7,8-pentachlorodibenzofuran
+2,3,7,8-tetrachlorodibenzo-p-dioxin
+2,3,7,8-tetrachlorodibenzo-para-dioxin
+2,3-dibromo-1-propanol
+2,4,6-trichlorophenol
+2,4-diaminoanisole sulfate
+2,4-diaminotoluene
+2,4-dichlorophenyl-p-nitrophenyl ether
+2-acetylaminofluorene
+2-amino-1-methyl-6-phenylimidazopyridine
+2-amino-3,4-dimethylimidazoquinoline
+2-amino-3,8-dimethylimidazoquinoxaline
+2-amino-3-methylimidazoquinoline
+2-aminoanthraquinone
+2-methylaziridine
+2-naphthylamine
+2-naphthylamine
+2-nitropropane
+2-nitrotoluene
+3,3'-dichlorobenzidine and 3,3'-dichlorobenzidine dihydrochloride
+3,3'-dimethoxybenzidine
+3,3'-dimethylbenzidine
+3,4,5,3',4'-pentachlorobiphenyl (PCB-126)
+3-chloro-2-methylpropene
+4,4'-methylenebis(2-chloroaniline)
+4,4'-methylenedianiline
+4,4'-oxydianiline
+4,4'-thiodianaline
+4-(N-nitrosomethylamino)-1-(3-pyridyl)-1-butanone
+4-4'-methylenebis(N,N-dimethyl)benzenamine
+4-aminobiphenyl
+4-aminobiphenyl
+4-chloro-o-phenylenediamine
+4-chloro-ortho-toluidine
+4-dimethylaminoazobenzene
+4-nitropyrene
+4-vinyl-1-cyclohexene diepoxide
+5-azacytidine®
+5-methoxypsoralen
+5-methylchrysene
+6-nitrochrysene
+6-nitrochrysene
+7H-dibenzocarbazole
 8-methoxypsoralen
-Acetaldehyde
-Acetaldehyde
-Acheson process
-Acid mist
-Acrylamide
-Acrylamide
-Acrylonitrile
-Adriamycin (doxorubicin)
-Adriamycin® 
-Aflatoxins
-Aflatoxins
-Alcohol beverages
-Alcoholic beverage 
-alginate
-alkali
-Alkylating agents
-alpha-Chlorinated toluenes 
-Aluminum production
-Amitrole
-Analgesic mixtures containing phenacetin
-Androgenic (anabolic) steroids
-annatto
-arabic
-Areca Nut
-Aristolochic acid
-Aristolochic acids
-Arsenic
-Arsenic and inorganic arsenic compounds
-Art glass
-Asbestos
-Asbestos 
+acetaldehyde
+acetaldehyde
+acheson
+acrylamide
+acrylamide
+acrylonitrile
+adriamycin
+doxorubicin
+adriamycin®
+aflatoxins
+alkylating agents
+alpha-chlorinated toluenes
+aluminum
+amitrole
+analgesic mixtures containing phenacetin
+androgenic (anabolic) steroids
+arabic gum
+areca nut
+aristolochic acid
+arsenic
 aspartame
-Auramine 
-Azacitidine
-Azacitidine 
-Azathioprine
-Azathioprine
-Basic Red 9 Monohydrochloride
+auramine
+azacitidine
+azathioprine
+red #9
+red 9
+monohydrochloride
 BCNU
-Benz[a]anthracene
+benzanthracene
 benzal chloride
-Benzene
-Benzene
-Benzidine
-Benzidine 
-Benzo[a]pyrene
-Benzo[a]pyrene
-Benzo[b]fluoranthene
-Benzo[j]fluoranthene
-Benzo[k]fluoranthene
-Benzopyrene
-Benzotrichloride
-benzoyl chloride 
+benzene
+benzidine
+benzofluoranthene
+benzopyrene
+benzotrichloride
+benzoyl chloride
 benzyl chloride
-Beryllium
-Beryllium and beryllium compounds
+beryllium
 beta
-beta-Propiolactone
-Betel
+beta-propiolactone
+betel
 BHA
 bicarbonate
 bifidobacterium
-Biomass fuel (primarily wood)
-Bis(chloroethyl) nitrosourea
-Bis(chloromethyl) ether and technical-grade chloromethyl methyl ether
-Bis(chloromethyl)ether
-Bischloroethyl nitrosourea 
-Black tea
-bleached
-Bromodichloromethane
-Busulfan
-Butadiene
-Butylated hydroxyanisole 
+biomass fuel (primarily wood)
+bis(chloroethyl) nitrosourea
+bis(chloromethyl) ether
+chloromethyl methyl ether
+bis(chloromethyl)ether
+bischloroethyl nitrosourea
+black tea
+bleach
+bromodichloromethane
+busulfan
+butadiene
+butylated hydroxyanisole
 C12
-Cadmium
-Cadmium and cadmium compounds
-cappuccino
-Captafol
-Captafol
-Carbon electrode 
-Carbon tetrachloride
+cadmium
+captafol
+carbon electrode
+carbon tetrachloride
 carmustine
-carob
-carotene
 carrageen
 carrageenan
 caseinate
 CCNU
-Ceramic fibers 
-Chinese Liver Fluke
-Chinese Salted fish 
-Chloral
-Chloral hydrate
-Chlorambucil
-Chlorambucil
-Chloramphenicol
-Chloramphenicol
-Chlordecone
-Chlorendic acid
+chinese salted fish
+chloral
+chloral hydrate
+chlorambucil
+chloramphenicol
+chlordecone
+chlorendic acid
 chloride
-Chlorinated paraffins 
-Chlornaphazine
-Chloroform
+chlorinated
+paraffin
+chlornaphazine
+chloroform
 chloromethyl methyl ether
-Chloroprene
-Chlorozotocin
-Chlorozotocin
-Chromium hexavalent compounds
-Chromium VI
-Cisplatin
-Cisplatin
+chloroprene
+chlorozotocin
+chromium hexavalent
+chromium VI
+cisplatin
 citrate
 citric
-Clonorchis sinensis 
-Coal
-Coal gasification
-Coal-tar distillation
-Coal-tar pitch
-Cobalt 
-cobalt compounds 
-cobalt Ions 
-Cobalt metal with tungsten carbide
-Cobalt-tungsten carbide
-Coke oven 
-Coke production
-Combustion
-Creosotes
-Cristobalite
-Crystalline
-Cumene
-Cupferron
-Cyclopenta[cd]pyrene
-Cyclophosphamide
-Cyclophosphamide
-Cyclosporin A
-Cyclosporine
-Dacarbazine
-Danthron 
+clonorchis sinensis
+cobalt
+coke oven
+coke production
+creosotes
+cristobalite
+crystalline
+cumene
+cupferron
+cyclopentapyrene
+cyclophosphamide
+cyclophosphamide
+cyclosporin A
+cyclosporine
+dacarbazine
+danthron
 DDT
-DDT 
-decaf
 dextrose
 diacetate
-Diazinon
-Diazoaminobenzene
-Dibenz[a,h]acridine
-Dibenz[a,h]anthracene
-Dibenz[a,h]anthracene
-Dibenz[a,j]acridine
-Dibenz[a,j]acridine
-Dibenzo[a,e]pyrene
-Dibenzo[a,h]pyrene
-Dibenzo[a,i]pyrene
-Dibenzo[a,l]pyrene
-Dibenzo[a,l]pyrene
-Dichlorodiphenyltrichloroethane
-Dichlorodiphenyltrichloroethane 
-Dichloromethane 
-Dichloromethane 
-Dichloropropane
-Diepoxybutane
-Diesel
-Diethyl sulfate
-Diethyl sulfate
-Diethylstilbestrol
-Diethylstilbestrol (DES)
+diazinon
+diazoaminobenzene
+dibenzacridine
+dibenzanthracene
+dibenzacridine
+dibenzopyrene
+dichlorodiphenyltrichloroethane
+dichloromethane
+dichloropropane
+diepoxybutane
+diethyl sulfate
+diethylstilbestrol
+DES
 diglycerides
-Diglycidyl resorcinol ether
+diglycidyl resorcinol ether
 dihydrochloride salt
-Dimethyl sulfate
-Dimethyl sulfate
-Dimethylcarbamoyl chloride
-Dimethylcarbamoyl chloride
-Dimethylhydrazine-1
-Dimethylhydrazine-2
-Dimethylvinyl chloride
+dimethyl sulfate
+dimethylcarbamoyl chloride
+dimethylhydrazine-1
+dimethylhydrazine-2
+dimethylvinyl chloride
 dioxide
 dioxin
 dipotassium
 disodium
-Disperse blue 1
+disperse blue 1
 doxorubicin hydrochloride
-Dyes metabolized to 3,3'-dimethoxybenzidine
-Dyes metabolized to 3,3'-dimethylbenzidine
-Dyes metabolized to benzidine
-Engine exhaust
+dyes
+3,3'-dimethoxybenzidine
+3,3'-dimethylbenzidine
+benzidine
 enzymes
-Epichlorohydrin
-Epichlorohydrin
-Epstein-Barr
-Epstein-Barr virus (EBV)
-Erionite
-Erionite
-Estrogen postmenopausal therapy
-Estrogen-progestogen
-Estrogens, steroidal
-Ethanol
-Ethyl carbamate 
-Ethyl methanesulfonate
-Ethylene dibromide
+epichlorohydrin
+erionite
+estrogen-progestogen
+estrogens
+ethanol
+ethyl carbamate
+ethyl methanesulfonate
 ethylene dibromide
 ethylene dichloride
-Ethylene oxide
-Ethylene oxide
-Ethylene thiourea
-Etoposide
-Etoposide (in combination with cisplatin and bleomycin)
-Fluoro-edenite fibrous amphibole
-Formaldehyde
-Formaldehyde
-Frying
-Furan
-gamma 
-Gamma Ray
-Gamma-radiation
-Glass wool fibers 
-glaze
+ethylene oxide
+ethylene thiourea
+etoposide
+fluoro-edenite fibrous amphibole
+formaldehyde
+furan
 glycerine
 glyceryl
-Glycidol
-Glycidol
+glycidol
 glycol
-Glyphosate
+glyphosate
 guar
 gulaman
-Haematite 
-Helicobacter pylori
-Hepatitis B
-Hepatitis B virus
-Hepatitis C 
-Hepatitis C virus
-Herpes
-Hexachlorobenzene
-Hexachlorocyclohexane isomers
-Hexachloroethane
-Hexamethylphosphoramide
-HHV-8 
-HIV-1
-HPV
-HTLV-1
-human herpes virus 8 
-Human immunodeficiency virus type 1 
-Human immunodeficiency virus type 1 (HIV-1)
-Human papilloma virus 
-Human papilloma viruses: some genital-mucosal types
-Human T-cell lymphotropic virus type 1 (HTLV-1)
-Human T-cell lymphotropic virus type I
-Hydrazine and hydrazine sulfate
-Hydrazobenzene
-Hydrochloride
+haematite
+helicobacter pylori
+hexachlorobenzene
+hexachlorocyclohexane isomers
+hexachloroethane
+hexamethylphosphoramide
+HHV-8
+hydrazine and hydrazine sulfate
+hydrazobenzene
+hydrochloride
 hydroxide
-Indeno[1,2,3-cd]pyrene
-Indium phosphide
-Ionizing radiation 
-IQ
-IQ 
-Iron and steel founding
-Iron dextran complex
-Isoprene
-Isopropyl alcohol manufacture
-Kaposi sarcoma herpesvirus 
-Kaposi sarcoma-associated herpesvirus (KSHV) (also know as human herpesvirus 8, or HHV-8)
-Kepone® 
-KSHV
+indeno-pyrene
+indium phosphide
+iron dextran complex
+isoprene
 lactose
 lactylate
-Lead 
-Lead and lead compounds
-Leather dust
+lead
 lecithin
-Lindane
-Lindane, hexachlorocyclohexane
-Magenta production
-Malaria 
-Malathion
+lindane
+lindane, hexachlorocyclohexane
+magenta
+malaria
+malathion
 maltodextrin
 MCV
 MeIQ
 MeIQx
-Melphalan
-Melphalan
-Merkel cell polyomavirus 
-Merkel cell polyomavirus MC
-Methoxsalen 
+melphalan
+methoxsalen
 methyl
-Methyl methanesulfonate
-Methyl methanesulfonate
+methyl methanesulfonate
 methylene chloride
-methylene chloride
-Methylenebis(chloroaniline) 
-Methyleugenol
-Metronidazole
-Michler’s ketone [4,4'-(dimethylamino) benzophenone]
-Mineral oils
-Mirex
+methylenebis
+chloroaniline
+methyleugenol
+metronidazole
+michler’s ketone
+4,4'-(dimethylamino) benzophenone
+mineral oils
+mirex
 MNNG
 MOCA
 mono
 monosterate
-MOPP 
-Mustard gas
-N'-Nitrosonornicotine 
-N-Ethyl-N-nitrosourea
+MOPP
+N'-nitrosonornicotine
+N-ethyl-N-nitrosourea
 N-methyl-N'-nitro-N-nitrosoguanidine
-N-Methyl-N-nitrosourea
-N-Methyl-N´-nitro-N-nitrosoguanidine 
+N-methyl-N-nitrosourea
+N-methyl-N´-nitro-N-nitrosoguanidine
 N-nitroso-N-ethylurea
 N-nitroso-N-methylurea
 N-nitrosodi-n-butylamine
 N-nitrosodi-n-propylamine
 N-nitrosodiethanolamine
-N-Nitrosodiethylamine
 N-nitrosodiethylamine
-N-Nitrosodimethylamine
+N-nitrosodiethylamine
+N-nitrosodimethylamine
 N-nitrosodimethylamine
 N-nitrosomethylvinylamine
 N-nitrosomorpholine
@@ -391,176 +292,144 @@ N-nitrosonornicotine
 N-nitrosopiperidine
 N-nitrosopyrrolidine
 N-nitrososarcosine
-Naphthalene
-Neutron radiation
-Neutrons
-Nickel
-Nickel compounds
-Nickel compounds
-Nitrate
-Nitrilotriacetic acid
-nitrite 
-Nitrobenzene
-Nitrofen 
-Nitrogen mustard
-Nitrogen mustard hydrochloride
-Nitromethane
+naphthalene
+nickel compounds
+nitrate
+nitrilotriacetic acid
+nitrite
+nitrobenzene
+nitrofen
+nitrogen mustard
+nitrogen mustard hydrochloride
+nitromethane
 nitrous
 NNK
 NNN
-Non-arsenical insecticides
-Norethisterone
-o-Aminoazotoluene
-o-Anisidine and its hydrochloride
-o-Nitroanisole
-o-Nitrotoluene
-Ochratoxin A
-Opisthorchis viverrini 
-Oral tobacco products
-ortho-Toluidine
-Outdoor air pollution (and the particulate matter in it)
+norethisterone
+o-aminoazotoluene
+o-anisidine and its hydrochloride
+o-nitroanisole
+o-nitrotoluene
+ochratoxin A
+opisthorchis viverrini
+oral tobacco products
+ortho-toluidine
 oxide
-Oxymetholone
-o‑Toluidine
-p-Chloro-o-toluidine and p-chloro-o-toluidine hydrochloride
-p-Cresidine
+oxymetholone
+o‑toluidine
+p-chloro-o-toluidine and p-chloro-o-toluidine hydrochloride
+p-cresidine
 PAH
-Painter (workplace exposure as a)
 palmitate
 paraben
 PBB
 PBB
 PCB
-Pentachlorophenol 
-Petroleum refining 
-Phenacetin
-Phenacetin (and mixtures containing it)
-Phenazopyridine hydrochloride
-Phenolphthalein
-Phenoxybenzamine hydrochloride
-Phenytoin and phenytoin sodium
+pentachlorophenol
+petroleum refining
+phenacetin
+phenacetin
+phenazopyridine hydrochloride
+phenolphthalein
+phenoxybenzamine hydrochloride
+phenytoin
+phenytoin sodium
 PhIP
 phosphate
-Phosphorus-32
-Pioglitazone
-Plasmodium falciparum
-Plutonium
-Polybrominated biphenyls 
-Polybrominated biphenyls 
-Polychlorinated biphenyls 
-Polychlorinated biphenyls (PCBs), dioxin-like, with a Toxicity Equivalency Factor according to WHO (PCBs 77, 81, 105, 114, 118, 123, 126, 156, 157, 167, 169, 189)
-Polycyclic aromatic hydrocarbons 
+phosphorus-32
+pioglitazone
+plasmodium falciparum
+polybrominated biphenyls
+polychlorinated biphenyls
+polychlorinated biphenyls (PCBs)
+polycyclic aromatic hydrocarbons
 polyphosphate
 polysorbate
 potassium
 preservative
-preserve
-Procarbazine 
-Procarbazine hydrochloride
+procarbazine
+procarbazine hydrochloride
 processed
-Processed meat (consumption of)
-Progesterone
+processed meat
+progesterone
 propellant
 propyl
 propylene
-Propylene oxide
-Propylenimine
-Propylthiouracil
-protein
+propylene oxide
+propylenimine
+propylthiouracil
 PUVA
 pyrophosphate
-Radioiodines, including iodine-131
-Radionuclides
-Radium-224
-Radium-226
-Radium-228 
-Radon
-Radon-222 
-Red meat
-Reserpine
-Riddelliine
-Rubber manufacturing
-Safrole
-Schistosoma haematobium
-Selenium sulfide
-Semustine (methyl-CCNU)
-Shale oils
-Silica dust
-Silica, crystalline (respirable size)
+iodine-131
+radon
+radon-222
+red meat
+reserpine
+riddelliine
+safrole
+schistosoma haematobium
+selenium sulfide
+semustine
+methyl-CCNU
 silicon
-Silicon carbide whiskers
 sodium
-Solar radiation
-Solar radiation
-Soot (as found in workplace exposure of chimney sweeps)
-Soots
 sorbate
 sorbic
-Southeast Asian Liver Fluke
 stearoyl
-Streptozotocin
-Strong inorganic acid mists containing sulfuric acid
-Strontium-90
-Styrene
-Styrene-7,
-Styrene-7,8-oxide
-Styrene-8-oxide
+streptozotocin
+styrene
+styrene-7,
+styrene-7,8-oxide
+styrene-8-oxide
 sucrose
-Sulfallate
-Sulfur mustard
-Sunlamps or sunbeds, exposure to
-Talc
-Tamoxifen
-Tamoxifen
-Tanning
+sulfallate
+sulfur mustard
+talc
+tamoxifen
+tamoxifen
+tanning
 TBHQ
 TCDD
 tea
-Teniposide
+teniposide
 tetra
-Tetrachloroethylene (perchloroethylene)
-Tetrachloroethylene (perchloroethylene)
-Tetrafluoroethylene
-Tetrafluoroethylene
-Tetranitromethane
+tetrachloroethylene (perchloroethylene)
+tetrachloroethylene (perchloroethylene)
+tetrafluoroethylene
+tetrafluoroethylene
+tetranitromethane
 tetrasodium
-thickeners
-Thioacetamide
-Thiotepa
-Thiotepa
-Thiourea
-Thorium dioxide
-Thorium-232
-Tobacco smoke, environmental
-Tobacco smoke, secondhand
-Tobacco smoking
-Tobacco smoking
-Tobacco, smokeless
-Tobacco, smokeless
-Toluene diisocyanates
-Toxaphene
-Treosulfan
+thickener
+thioacetamide
+thiotepa
+thiotepa
+thiourea
+thorium dioxide
+thorium-232
+tobacco
+toluene diisocyanates
+toxaphene
+treosulfan
 tricalcium
-Trichloroethylene
-Trichloroethylene
-Trichloroethylene (TCE)
-Trichloropropane-1
-Trichloropropane-2
-Trichloropropane-3
+trichloroethylene
+TCE
+trichloropropane-1
+trichloropropane-2
+trichloropropane-3
 tripolyphosphate
-Tris (2,3-dibromopropyl) phosphate
-Tris(2,3-dibromopropyl) phosphate
-Tris(2,3-dibromopropyl) phosphate
-Urethane
-Urethane
+tris (2,3-dibromopropyl) phosphate
+tris(2,3-dibromopropyl) phosphate
+tris(2,3-dibromopropyl) phosphate
+urethane
+urethane
+UV
+UVA
+UVB
+UVC
 vanillin
-variegate
-Vermiculite
-Vinyl bromide
-Vinyl bromide 
-Vinyl Chloride
-Vinyl chloride
+vermiculite
+vinyl bromide
 vinyl chloride
-Vinyl fluoride
-Vinyl fluoride 
+vinyl chloride
+vinyl fluoride
 xanthan

@@ -1,6 +1,3 @@
-fructooligosaccharides
-ammonia
-Splenda
 abietate
 acesulfame
 acetate
@@ -28,6 +25,7 @@ alumino
 aluminophosphate
 aluminosilicate
 amide
+ammonia
 ammonia
 ammoniated
 ammonium
@@ -57,7 +55,6 @@ bhargoiour
 BHQ
 BHT
 BHT 
-preservative
 bicarb
 bicarbonate
 bifidobacterium
@@ -76,11 +73,11 @@ BTA
 butyl
 butylated
 butylhydroquinone
-calciumchloride
 Calcium chloride
-calciumcitrate
-Calcium lactate
 Calcium citrate
+Calcium lactate
+calciumchloride
+calciumcitrate
 calciumlactate
 calrose
 canthaxanthin
@@ -99,8 +96,8 @@ carnitine
 CarnoSyn
 carotenal
 caseinate
-Cerevisiae
 Cellulose
+Cerevisiae
 chelate
 chemical
 chitosan
@@ -215,15 +212,13 @@ ferro
 ferrocyanide
 ferrous
 Flavoring
-modified
 fluoridated
 fluoride
 folate
 folic
 fortified
 Fructo
-Oligo
-saccharide
+fructooligosaccharides
 fructose
 fumarate
 fumaric
@@ -273,11 +268,11 @@ hydro
 hydrochloric
 hydrochloride
 hydrogen
+Hydrogen carbonate
 hydrogenated
 Hydrogenated soybean
 Hydrogenatedsoybean
 hydrogencarbonate
-Hydrogen carbonate
 hydrolysate
 hydrolyzed
 hydroponic
@@ -368,8 +363,9 @@ methylparaben
 methylthiolate
 microcellulose
 microcrystalline
-Modified Tapioca
 Modified
+modified
+Modified Tapioca
 modifier
 molybdate
 molybdenum
@@ -414,6 +410,7 @@ olein
 oleo
 oleoresin
 oleyl
+Oligo
 oligofructose
 oligosaccharides
 Oreo
@@ -468,6 +465,7 @@ polysorbate
 polyvinylpyrrolidone
 potassium
 preservative
+preservative
 preservatives
 processed
 produced
@@ -504,6 +502,7 @@ ribose
 Ribotide
 Ribotide
 ricinoleic
+saccharide
 saccharin
 saccharine
 saccharomyces
@@ -516,11 +515,12 @@ silica
 silicate
 silicoaluminate
 silicon
-silicondioxide
 silicon dioxide
+silicondioxide
 silicone
 Smarties
 soda
+Sodium
 Sodium bicarbonate
 Sodium hydrogen
 Sodium phosphate
@@ -535,11 +535,12 @@ sorbitan
 sorbitol
 sorghum
 Splenda
+Splenda
 stearate
 stearic
 stearoyl
-Stevia
 stevia
+Stevia
 steviol
 stevioside
 struvite
@@ -579,7 +580,6 @@ thermoplastics
 thiamin
 thiamine
 Thiaminemononitrate
-Sodium
 thiosulfate
 threonine
 thymine

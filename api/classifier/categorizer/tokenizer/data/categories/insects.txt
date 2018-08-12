@@ -13,6 +13,7 @@ grasshopper
 grasshoppers
 hon
 hone
+Honey
 honey
 honeybaked
 honeybee
@@ -26,6 +27,7 @@ larva
 manuka
 meal
 Mealworm
+moth
 propolis
 royal jelly
 shellac
