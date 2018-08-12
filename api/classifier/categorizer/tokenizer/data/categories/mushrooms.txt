@@ -5,34 +5,48 @@ babybella
 bella
 bianchetti
 Bianchetto
+bianchetto
 bispora
 bisporus
 boletes
 boletus
 boletus edulis
+boletusedulis
 borchii
 Button
+button
 cantharellus
+campestris
 Chaga
+chaga
 CHAMPIGNONS
+champignons
 chanterelles
+chicken of the woods
+chickenofthewoods
 clecurotus
 cordyceps
-chicken of the woods
-hen of the woods
 cornucopioides
 corthellus
 Crimini
+crimini
 edodes
 edulis
 Enoki
+enoki
 enokidake
 fungal
 fungus
+grifola frondosa
+grifolafrondosa
+hen of the woods
+henofthewoods
+jelly ear
+jellyear
 kikurage
 king oyster
-truffle
 kingoyster
+lactarius
 lentinus
 lion mane
 lionmane
@@ -43,6 +57,7 @@ maitake
 morchella
 morel
 mushroom
+mushrooms
 Mushrooms
 nameko
 ostreatus
@@ -53,11 +68,15 @@ porcini
 portobello
 psalliota
 reishi
+russula
 scorzone
 shiitake
 shimeji
 SHITTAKE
+shittake
 Straw
+truffle
 truffles
 tuber
 Woodear
+woodear
