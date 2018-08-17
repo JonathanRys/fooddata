@@ -12,6 +12,7 @@ chowder
 chowders
 Chowders
 clam
+clams
 Clams
 claws
 cockles
@@ -28,7 +29,9 @@ duorarum
 escargot
 Escargot
 Gastropod
+gastropod
 Geoduck
+geoduck
 greenshell
 haanii
 halfshell
@@ -45,6 +48,7 @@ lobster
 lucorum
 magellanicus
 Mollusc
+mollusc
 mollusk
 mollusks
 mollusques

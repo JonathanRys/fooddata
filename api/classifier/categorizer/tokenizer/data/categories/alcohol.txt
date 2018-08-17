@@ -17,8 +17,8 @@ banyuls
 barolo
 beam
 beer
-Blanc
 blanc
+Blanc
 bock
 boilermaker
 Boilermaker
@@ -52,8 +52,8 @@ frangelico
 Frangelico
 GaraGuzu
 garaguzu
-gimlet
 Gimlet
+gimlet
 gin
 gregorio
 grenache
@@ -89,8 +89,8 @@ merlot
 Merlot
 Midori
 Miller
-mimosa
 Mimosa
+mimosa
 mirin
 modified
 monastrell
