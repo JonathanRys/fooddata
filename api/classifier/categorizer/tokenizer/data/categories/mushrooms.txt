@@ -8,6 +8,8 @@ Bianchetto
 bianchetto
 bispora
 bisporus
+Boletales
+boletales
 boletes
 boletus
 boletus edulis
@@ -15,12 +17,14 @@ boletusedulis
 borchii
 Button
 button
-cantharellus
 campestris
-Chaga
+cantharellus
 chaga
-CHAMPIGNONS
+Chaga
+champignon
 champignons
+CHAMPIGNONS
+chanterelle
 chanterelles
 chicken of the woods
 chickenofthewoods
@@ -28,8 +32,8 @@ clecurotus
 cordyceps
 cornucopioides
 corthellus
-Crimini
 crimini
+Crimini
 edodes
 edulis
 Enoki
@@ -74,9 +78,11 @@ shiitake
 shimeji
 SHITTAKE
 shittake
-Straw
+straw mushroom
+straw mushrooms
+strawmushroom
 truffle
 truffles
-tuber
+Tuber
 Woodear
 woodear

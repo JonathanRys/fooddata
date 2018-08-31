@@ -10,6 +10,7 @@ Beans
 besan
 Besan
 blackbean
+butterbean
 borlotti
 c. siliqua
 carob

@@ -11,6 +11,8 @@ chilensis
 chowder
 chowders
 Chowders
+calm
+calms
 clam
 clams
 Clams
